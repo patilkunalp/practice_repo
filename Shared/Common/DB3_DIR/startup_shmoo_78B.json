@@ -1,0 +1,66 @@
+{
+  "Main": [
+    {
+      "Level": "char_sleep_ltype_char_vcc_only_nom_lcat",
+      "Timing": "char_tim_char_DCTest_tcat",
+      "PList": "ru_bypass_loop_near_RU_78B_plist",
+      "LinearByFrequency": "",
+      "TimingSpecParam": "clk2out",
+      "LevelSpecParam": "",
+      "StartPeriod": "0.000000001",
+      "EndPeriod": "0.00000002",
+      "StartVoltage": "",
+      "EndVoltage": "",
+      "NumFreqSteps": "60",
+      "NumVoltageSteps": "",
+      "ShmooConfigTable": "RU3"
+    },
+    {
+      "Level": "char_sleep_ltype_char_vcc_only_nom_lcat",
+      "Timing": "char_tim_char_DCTest_tcat",
+      "PList": "ru_bypass_loop_far_RU_78B_plist",
+      "LinearByFrequency": "",
+      "TimingSpecParam": "clk2out",
+      "LevelSpecParam": "",
+      "StartPeriod": "0.000000001",
+      "EndPeriod": "0.00000002",
+      "StartVoltage": "",
+      "EndVoltage": "",
+      "NumFreqSteps": "60",
+      "NumVoltageSteps": "",
+      "ShmooConfigTable": "RU38"
+    }
+  ],
+  "RU3": [
+    {
+      "Pattern": "ru_bypass_loop_RU3",
+      "Pin": "apg_dataout_pins",
+      "MinLimitCounter": "",
+      "MaxLimitCounter": "",
+      "MinLimit": "",
+      "MaxLimit": "",
+      "CounterShmooHole": "",
+      "FrequencyMultiplier": "",
+      "ComputeStats": "Y",
+      "TestName": "ru_bypass_delay_shmoo_RU3",
+      "Skip": "",
+      "Bypass": ""
+    }
+  ],
+  "RU38": [
+    {
+      "Pattern": "ru_bypass_loop_RU38",
+      "Pin": "apg_dataout_pins",
+      "MinLimitCounter": "",
+      "MaxLimitCounter": "",
+      "MinLimit": "",
+      "MaxLimit": "",
+      "CounterShmooHole": "",
+      "FrequencyMultiplier": "",
+      "ComputeStats": "Y",
+      "TestName": "ru_bypass_delay_shmoo_RU38",
+      "Skip": "",
+      "Bypass": ""
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DieXYFlowFork</name>
+    </assembly>
+    <members>
+        <member name="T:DieXYFlowFork.DieXYFlowFork">
+            <summary>
+            Die XY FlowFork will branch (take exit port) based on value of a user-variable.
+            </summary>
+        </member>
+        <member name="M:DieXYFlowFork.DieXYFlowFork.#ctor">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="P:DieXYFlowFork.DieXYFlowFork.TableName">
+            <summary>
+            Die-coordinate and product configuration table name of the JSON file
+            </summary>
+        </member>
+        <member name="P:DieXYFlowFork.DieXYFlowFork.ConfigFile">
+            <summary>
+            Config file path for JSON file
+            </summary>
+        </member>
+        <member name="P:DieXYFlowFork.DieXYFlowFork.XLocationUserVariableName">
+            <summary>
+            User-variable that stores DUT location x-coordinate
+            </summary>
+        </member>
+        <member name="P:DieXYFlowFork.DieXYFlowFork.YLocationUserVariableName">
+            <summary>
+            User-variable that stores DUT location y-coordinate
+            </summary>
+        </member>
+        <member name="P:DieXYFlowFork.DieXYFlowFork.DieTypeUserVariableName">
+            <summary>
+            User-variable to set dieType
+            </summary>      
+        </member>
+        <member name="P:DieXYFlowFork.DieXYFlowFork.ProductTypeUserVariableName">
+            <summary>
+            User-variable that stores the product type
+            </summary>
+        </member>
+        <member name="P:DieXYFlowFork.DieXYFlowFork.ItuffName">
+            <summary>
+            ItuffName for printing testnames
+            </summary>
+        </member>
+        <member name="M:DieXYFlowFork.DieXYFlowFork.Verify">
+            <inheritdoc />
+        </member>
+        <member name="M:DieXYFlowFork.DieXYFlowFork.Execute">
+            <inheritdoc />
+        </member>
+        <member name="T:SRAMBase.EnableState">
+            <summary>
+            EnableState
+            </summary>
+            
+        </member>
+        <member name="F:SRAMBase.EnableState.Enable">
+            <summary>
+            Enable
+            </summary>
+            
+        </member>
+        <member name="F:SRAMBase.EnableState.Disable">
+            <summary>
+            Disable
+            </summary>
+            
+        </member>
+        <member name="T:SRAMBase.RandomUtils">
+            <summary>
+            A utility class for generating random numbers.
+            </summary>
+        </member>
+        <member name="M:SRAMBase.RandomUtils.GetRandomInt(System.Int32)">
+            <summary>
+            Generates a random integer between 0 (inclusive) and the specified maximum value (exclusive).
+            </summary>
+            <param name="max">The maximum value (exclusive) of the random integer to generate.</param>
+            <returns>A random integer between 0 (inclusive) and the specified maximum value (exclusive).</returns>
+        </member>
+        <member name="M:SRAMBase.RandomUtils.GetRandomInt">
+            <summary>
+            Similar to above, but no max limit
+            </summary>
+        </member>
+        <member name="M:SRAMBase.RandomUtils.GetRandomDouble">
+            <summary>
+            Generates a random double between 0.0 (inclusive) and 1.0 (exclusive).
+            </summary>
+            <returns>A random double between 0.0 (inclusive) and 1.0 (exclusive).</returns>
+        </member>
+        <member name="T:SRAMBase.TableHolder">
+            <summary>
+            A test class
+            </summary>
+        </member>
+        <member name="M:SRAMBase.TableHolder.#ctor(System.String,System.String,System.Collections.Generic.List{System.String})">
+            <summary>
+            Initializes a new instance of the <see cref="T:SRAMBase.TableHolder"/> class.
+            </summary>
+            <param name="filepath"></param>
+            <param name="tablename"></param>
+            <param name="requiredparams"></param>
+        </member>
+        <member name="M:SRAMBase.TableHolder.GetEnumerator">
+            <inheritdoc/>
+        </member>
+        <member name="T:SRAMBase.UserVariable">
+            <summary>
+            A test class
+            </summary>
+        </member>
+        <member name="F:SRAMBase.UserVariable.Isset">
+            <summary>
+            is the variable set or not
+            </summary>
+        </member>
+        <member name="M:SRAMBase.UserVariable.#ctor(System.String,System.Boolean)">
+            <summary>
+            Initializes a new instance of the <see cref="T:SRAMBase.UserVariable"/> class.
+            </summary>
+            <param name="name - format is UserVariableGroup.UserVariable-formatisUserVariableGroup.UserVariable"></param>
+            <param name="throwexceptionifnotexist - optional parameter, throw exception if user-variable does not exist-optionalparameter,throwexceptionifuser-variabledoesnotexist"></param>
+        </member>
+        <member name="M:SRAMBase.UserVariable.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:SRAMBase.UserVariable"/> class.
+            </summary>
+        </member>
+        <member name="M:SRAMBase.UserVariable.GetDoubleValue">
+            <summary>
+            Returns an double for a double type user-variable
+            </summary>
+        </member>
+        <member name="M:SRAMBase.UserVariable.GetStringValue">
+            <summary>
+            Returns a string for string type user-variable
+            </summary>
+        </member>
+        <member name="M:SRAMBase.UserVariable.GetIntegerValue">
+            <summary>
+            Returns an integer for an integer type user-variable
+            </summary>
+        </member>
+        <member name="M:SRAMBase.UserVariable.SetValue(System.String)">
+            <summary>
+            Sets string for string type user-variable
+            </summary>
+        </member>
+        <member name="M:SRAMBase.UserVariable.ToString">
+            <inheritdoc/>
+        </member>
+        <member name="M:SRAMBase.UserVariable.setIntValue(System.Int32)">
+            <summary>
+            Sets int for int type user-variable
+            </summary>
+        </member>
+        <member name="T:SRAMBase.UserVarTestInstanceParam">
+            <summary>
+            Initializes a new instance of the <see cref="T:SRAMBase.UserVariable"/> class.
+            </summary>
+        </member>
+        <member name="F:SRAMBase.UserVarTestInstanceParam.uservar">
+            <summary>
+            Initializes a new instance of the <see cref="T:SRAMBase.UserVariable"/> class.
+            </summary>
+        </member>
+        <member name="M:SRAMBase.UserVarTestInstanceParam.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:SRAMBase.UserVariable"/> class.
+            </summary>
+        </member>
+        <member name="M:SRAMBase.UserVarTestInstanceParam.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:SRAMBase.UserVariable"/> class.
+            </summary>
+        </member>
+        <member name="P:SRAMBase.UserVarTestInstanceParam.uvstring">
+            <summary>
+            Initializes a new instance of the <see cref="T:SRAMBase.UserVariable"/> class.
+            </summary>
+        </member>
+        <member name="T:SRAMBase.Utility">
+            <summary>
+            Generic utility functions
+            </summary>
+            
+        </member>
+        <member name="M:SRAMBase.Utility.shift32(System.UInt32)">
+            <summary>
+            This function is a simple implementation of a bitwise hash function which takes an input value and returns a random output value. 
+            </summary>
+            
+        </member>
+    </members>
+</doc>

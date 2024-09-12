@@ -1,0 +1,267 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FlowSearchTest</name>
+    </assembly>
+    <members>
+        <member name="T:FlowSearchTest.FlowSearchTest">
+            <summary>
+            Dummy description of this test method.
+            </summary>
+        </member>
+        <member name="T:FlowSearchTest.FlowSearchTest.SearchModeEnum">
+            <summary>
+            SearchMode
+            </summary>
+        </member>
+        <member name="F:FlowSearchTest.FlowSearchTest.SearchModeEnum.BestSetting">
+            <summary>BestSetting</summary>
+        </member>
+        <member name="F:FlowSearchTest.FlowSearchTest.SearchModeEnum.FirstSufficient">
+            <summary>FirstSufficient</summary>
+        </member>
+        <member name="T:FlowSearchTest.FlowSearchTest.OptimizationModeEnum">
+            <summary>
+            OptimizationMode
+            </summary>
+        </member>
+        <member name="F:FlowSearchTest.FlowSearchTest.OptimizationModeEnum.Maximize">
+            <summary>Maximize</summary>
+        </member>
+        <member name="F:FlowSearchTest.FlowSearchTest.OptimizationModeEnum.Minimize">
+            <summary>Minimize</summary>
+        </member>
+        <member name="T:FlowSearchTest.FlowSearchTest.OptimalSettingBiasEnum">
+            <summary>
+            OptimalSettingBias
+            </summary>
+        </member>
+        <member name="F:FlowSearchTest.FlowSearchTest.OptimalSettingBiasEnum.Maximize">
+            <summary>Maximize</summary>
+        </member>
+        <member name="F:FlowSearchTest.FlowSearchTest.OptimalSettingBiasEnum.Minimize">
+            <summary>Minimize</summary>
+        </member>
+        <member name="F:FlowSearchTest.FlowSearchTest.OptimalSettingBiasEnum.Midpoint">
+            <summary>Midpoint</summary>
+        </member>
+        <member name="P:FlowSearchTest.FlowSearchTest.ConfigFile">
+            <summary>
+            Filename for the database
+            </summary>
+        </member>
+        <member name="P:FlowSearchTest.FlowSearchTest.SettingTableName">
+            <summary>
+            JSON table name for specifying the condition settings.
+            </summary>
+        </member>
+        <member name="P:FlowSearchTest.FlowSearchTest.SearchMode">
+            <summary>
+            SearchMode parameter
+            </summary>
+            
+        </member>
+        <member name="P:FlowSearchTest.FlowSearchTest.EvaluationFlow">
+            <summary>
+            Evaluation composite (DUTFlow instance) flow name.
+            </summary>
+        </member>
+        <member name="P:FlowSearchTest.FlowSearchTest.ResultUserVar">
+            <summary>
+            Gets or sets user-variable that stores result of a flow execution
+            </summary>
+        </member>
+        <member name="P:FlowSearchTest.FlowSearchTest.IterationName">
+            <summary>
+            IterationName for printing
+            </summary>
+        </member>
+        <member name="P:FlowSearchTest.FlowSearchTest.OptimizationMode">
+            <summary>
+            OptimizationMode parameter
+            </summary>
+            
+        </member>
+        <member name="P:FlowSearchTest.FlowSearchTest.UserVarBackupTable">
+            <summary>
+            Table name for specifying the uservars to backup after evaluation.
+            </summary>
+        </member>
+        <member name="P:FlowSearchTest.FlowSearchTest.PassingThreshold">
+            <summary>
+            Passing threshold for printing
+            </summary>
+        </member>
+        <member name="P:FlowSearchTest.FlowSearchTest.EnabledTestNameGlobal">
+            <summary>
+            Global variable specifying which tests to enable.
+            </summary>
+        </member>
+        <member name="P:FlowSearchTest.FlowSearchTest.OptimalSettingBias">
+            <summary>
+            When multiple optimal settings are found, which index should be selected?  This setting allows bias towards min, max, or midpoint test condition index.
+            </summary>
+            
+        </member>
+        <member name="P:FlowSearchTest.FlowSearchTest.NoiseTolerance">
+            <summary>
+            Includes less optimal points up to tolerance, useful for midpoint bias mode
+            </summary>
+        </member>
+        <member name="M:FlowSearchTest.FlowSearchTest.#ctor">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:FlowSearchTest.FlowSearchTest.Verify">
+            <inheritdoc />
+        </member>
+        <member name="M:FlowSearchTest.FlowSearchTest.Execute">
+            <inheritdoc />
+        </member>
+        <member name="T:SRAMBase.EnableState">
+            <summary>
+            EnableState
+            </summary>
+            
+        </member>
+        <member name="F:SRAMBase.EnableState.Enable">
+            <summary>
+            Enable
+            </summary>
+            
+        </member>
+        <member name="F:SRAMBase.EnableState.Disable">
+            <summary>
+            Disable
+            </summary>
+            
+        </member>
+        <member name="T:SRAMBase.RandomUtils">
+            <summary>
+            A utility class for generating random numbers.
+            </summary>
+        </member>
+        <member name="M:SRAMBase.RandomUtils.GetRandomInt(System.Int32)">
+            <summary>
+            Generates a random integer between 0 (inclusive) and the specified maximum value (exclusive).
+            </summary>
+            <param name="max">The maximum value (exclusive) of the random integer to generate.</param>
+            <returns>A random integer between 0 (inclusive) and the specified maximum value (exclusive).</returns>
+        </member>
+        <member name="M:SRAMBase.RandomUtils.GetRandomInt">
+            <summary>
+            Similar to above, but no max limit
+            </summary>
+        </member>
+        <member name="M:SRAMBase.RandomUtils.GetRandomDouble">
+            <summary>
+            Generates a random double between 0.0 (inclusive) and 1.0 (exclusive).
+            </summary>
+            <returns>A random double between 0.0 (inclusive) and 1.0 (exclusive).</returns>
+        </member>
+        <member name="T:SRAMBase.TableHolder">
+            <summary>
+            A test class
+            </summary>
+        </member>
+        <member name="M:SRAMBase.TableHolder.#ctor(System.String,System.String,System.Collections.Generic.List{System.String})">
+            <summary>
+            Initializes a new instance of the <see cref="T:SRAMBase.TableHolder"/> class.
+            </summary>
+            <param name="filepath"></param>
+            <param name="tablename"></param>
+            <param name="requiredparams"></param>
+        </member>
+        <member name="M:SRAMBase.TableHolder.GetEnumerator">
+            <inheritdoc/>
+        </member>
+        <member name="T:SRAMBase.UserVariable">
+            <summary>
+            A test class
+            </summary>
+        </member>
+        <member name="F:SRAMBase.UserVariable.Isset">
+            <summary>
+            is the variable set or not
+            </summary>
+        </member>
+        <member name="M:SRAMBase.UserVariable.#ctor(System.String,System.Boolean)">
+            <summary>
+            Initializes a new instance of the <see cref="T:SRAMBase.UserVariable"/> class.
+            </summary>
+            <param name="name - format is UserVariableGroup.UserVariable-formatisUserVariableGroup.UserVariable"></param>
+            <param name="throwexceptionifnotexist - optional parameter, throw exception if user-variable does not exist-optionalparameter,throwexceptionifuser-variabledoesnotexist"></param>
+        </member>
+        <member name="M:SRAMBase.UserVariable.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:SRAMBase.UserVariable"/> class.
+            </summary>
+        </member>
+        <member name="M:SRAMBase.UserVariable.GetDoubleValue">
+            <summary>
+            Returns an double for a double type user-variable
+            </summary>
+        </member>
+        <member name="M:SRAMBase.UserVariable.GetStringValue">
+            <summary>
+            Returns a string for string type user-variable
+            </summary>
+        </member>
+        <member name="M:SRAMBase.UserVariable.GetIntegerValue">
+            <summary>
+            Returns an integer for an integer type user-variable
+            </summary>
+        </member>
+        <member name="M:SRAMBase.UserVariable.SetValue(System.String)">
+            <summary>
+            Sets string for string type user-variable
+            </summary>
+        </member>
+        <member name="M:SRAMBase.UserVariable.ToString">
+            <inheritdoc/>
+        </member>
+        <member name="M:SRAMBase.UserVariable.setIntValue(System.Int32)">
+            <summary>
+            Sets int for int type user-variable
+            </summary>
+        </member>
+        <member name="T:SRAMBase.UserVarTestInstanceParam">
+            <summary>
+            Initializes a new instance of the <see cref="T:SRAMBase.UserVariable"/> class.
+            </summary>
+        </member>
+        <member name="F:SRAMBase.UserVarTestInstanceParam.uservar">
+            <summary>
+            Initializes a new instance of the <see cref="T:SRAMBase.UserVariable"/> class.
+            </summary>
+        </member>
+        <member name="M:SRAMBase.UserVarTestInstanceParam.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:SRAMBase.UserVariable"/> class.
+            </summary>
+        </member>
+        <member name="M:SRAMBase.UserVarTestInstanceParam.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:SRAMBase.UserVariable"/> class.
+            </summary>
+        </member>
+        <member name="P:SRAMBase.UserVarTestInstanceParam.uvstring">
+            <summary>
+            Initializes a new instance of the <see cref="T:SRAMBase.UserVariable"/> class.
+            </summary>
+        </member>
+        <member name="T:SRAMBase.Utility">
+            <summary>
+            Generic utility functions
+            </summary>
+            
+        </member>
+        <member name="M:SRAMBase.Utility.shift32(System.UInt32)">
+            <summary>
+            This function is a simple implementation of a bitwise hash function which takes an input value and returns a random output value. 
+            </summary>
+            
+        </member>
+    </members>
+</doc>

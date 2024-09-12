@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestLibraryInterfaces xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://vtsm.intel.com/2009/TestLibraryInterfaces file:///C:/Intel/hdmt/hdmtOS_3.9.0.1_Release/TOSRelease/bin/release/TestLibraryInterfaces.xsd" xmlns="http://vtsm.intel.com/2009/TestLibraryInterfaces">
+  <TestLibrary name="PrimeTestInstance">
+    <TestClass name="FlowSearchTest" MetaData="dll=FlowSearchTest" />
+    <Imports>
+      <FileName>TestMethodBase.xml</FileName>
+      <FileName>FlowSearchTestCommonParams.xml</FileName>
+    </Imports>
+    <PublicBases>
+      <BaseName>TestMethodBase</BaseName>
+    </PublicBases>
+    <Parameters>
+      <Parameter name="ConfigFile" descriptions="Filename for the database">
+        <Type>
+          <Tester>String</Tester>
+          <TestProgram>File</TestProgram>
+        </Type>
+        <AlwaysRequired />
+      </Parameter>
+      <Parameter name="SettingTableName" descriptions="JSON table name for specifying the condition settings.">
+        <Type>
+          <Tester>String</Tester>
+          <TestProgram>String</TestProgram>
+        </Type>
+        <AlwaysRequired />
+      </Parameter>
+      <Parameter name="SearchMode" descriptions="SearchMode parameter">
+        <Type>
+          <Tester>String</Tester>
+          <TestProgram>String</TestProgram>
+        </Type>
+        <Choices>
+          <Choice>BestSetting</Choice>
+          <Choice>FirstSufficient</Choice>
+        </Choices>
+        <Default>BestSetting</Default>
+        <Optional />
+      </Parameter>
+      <Parameter name="EvaluationFlow" descriptions="Evaluation composite (DUTFlow instance) flow name.">
+        <Type>
+          <Tester>String</Tester>
+          <TestProgram>String</TestProgram>
+        </Type>
+        <AlwaysRequired />
+      </Parameter>
+      <Parameter name="ResultUserVar" descriptions="Gets or sets user-variable that stores result of a flow execution">
+        <Type>
+          <Tester>String</Tester>
+          <TestProgram>String</TestProgram>
+        </Type>
+        <Default />
+        <Optional />
+      </Parameter>
+      <Parameter name="IterationName" descriptions="IterationName for printing">
+        <Type>
+          <Tester>String</Tester>
+          <TestProgram>String</TestProgram>
+        </Type>
+        <Default />
+        <Optional />
+      </Parameter>
+      <Parameter name="OptimizationMode" descriptions="OptimizationMode parameter">
+        <Type>
+          <Tester>String</Tester>
+          <TestProgram>String</TestProgram>
+        </Type>
+        <Choices>
+          <Choice>Maximize</Choice>
+          <Choice>Minimize</Choice>
+        </Choices>
+        <Default>Maximize</Default>
+        <Optional />
+      </Parameter>
+      <Parameter name="UserVarBackupTable" descriptions="Table name for specifying the uservars to backup after evaluation.">
+        <Type>
+          <Tester>String</Tester>
+          <TestProgram>String</TestProgram>
+        </Type>
+        <Default />
+        <Optional />
+      </Parameter>
+      <Parameter name="PassingThreshold" descriptions="Passing threshold for printing">
+        <Type>
+          <Tester>String</Tester>
+          <TestProgram>String</TestProgram>
+        </Type>
+        <Default>0.0</Default>
+        <Optional />
+      </Parameter>
+      <Parameter name="EnabledTestNameGlobal" descriptions="Global variable specifying which tests to enable.">
+        <Type>
+          <Tester>String</Tester>
+          <TestProgram>String</TestProgram>
+        </Type>
+        <Default />
+        <Optional />
+      </Parameter>
+      <Parameter name="OptimalSettingBias" descriptions="When multiple optimal settings are found, which index should be selected?  This setting allows bias towards min, max, or midpoint test condition index.">
+        <Type>
+          <Tester>String</Tester>
+          <TestProgram>String</TestProgram>
+        </Type>
+        <Choices>
+          <Choice>Maximize</Choice>
+          <Choice>Minimize</Choice>
+          <Choice>Midpoint</Choice>
+        </Choices>
+        <Default>Maximize</Default>
+        <Optional />
+      </Parameter>
+      <Parameter name="NoiseTolerance" descriptions="Includes less optimal points up to tolerance, useful for midpoint bias mode">
+        <Type>
+          <Tester>String</Tester>
+          <TestProgram>String</TestProgram>
+        </Type>
+        <Default>0.0</Default>
+        <Optional />
+      </Parameter>
+    </Parameters>
+    <ExitPorts>
+      <ExitPort>
+        <PortNumber>1</PortNumber>
+        <PortType>Pass</PortType>
+        <PortDescriptions>Pass!</PortDescriptions>
+      </ExitPort>
+      <ExitPort>
+        <PortNumber>0</PortNumber>
+        <PortType>Fail</PortType>
+        <PortDescriptions>Fail!</PortDescriptions>
+      </ExitPort>
+      <ExitPort>
+        <PortNumber>-1</PortNumber>
+        <PortType>Error</PortType>
+        <PortDescriptions>PORT FAIL FOR SW ERROR CONDITION</PortDescriptions>
+      </ExitPort>
+      <ExitPort>
+        <PortNumber>-2</PortNumber>
+        <PortType>Fail</PortType>
+        <PortDescriptions>PORT FAIL FOR HW ALARM CONDITION</PortDescriptions>
+      </ExitPort>
+    </ExitPorts>
+  </TestLibrary>
+</TestLibraryInterfaces>

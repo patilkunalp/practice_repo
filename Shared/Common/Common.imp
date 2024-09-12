@@ -1,0 +1,16 @@
+Version 1.0;
+TestPlan BASE;
+
+#USER TODO: Add Import statement here (files required for the test plan: TCG, PH xml etc.)
+#Import "<file name>";
+
+Import "x802a_sram_Base.pin";
+Import "x802a_sram_Base.lvl";
+Import "x802a_sram_Base.tim";
+Import "BaseLevels.tcg";
+Import "BaseTiming.tcg";
+Import "x802a_sram_Base.usrv";
+Import "x802a_sram_Base.bdefs";
+Import "Thermal.tcg";
+Import "x802a_sram_Base.ptm";
+#Import "HdmtOSAlarmBins_CLASS.sbdefs";

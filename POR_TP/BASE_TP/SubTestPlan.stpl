@@ -1,0 +1,10 @@
+Version 1.0;
+
+SubTestPlans
+{
+	#Add reference to your modules here 
+	"..\\..\\Modules\\XCHIP_BASE\\XCHIP_BASE.mtpl";
+	"..\\..\\Modules\\XSRAM_STARTUP\\XSRAM_STARTUP.mtpl";
+		
+	Final ".\\ProgramFlowsTestPlan\\ProgramFlows.mtpl"; #Add reference to final flow here
+}

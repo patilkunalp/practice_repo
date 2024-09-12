@@ -1,0 +1,27 @@
+{
+  "STOKL_CHECK": [
+    {
+      "BypassFailValue": "2",
+      "BypassPassValue": "-1",
+      "BypassVariable": "BYPASSVars.BYPASS_BFNR_HCC_test",
+      "Counter": "4601",
+      "Plist": "hcc_stokl_check_plist"
+    },
+    {
+      "BypassFailValue": "2",
+      "BypassPassValue": "-1",
+      "BypassVariable": "BYPASSVars.BYPASS_BFNR_HDC_test",
+      "Counter": "4602",
+      "Plist": "hdc_stokl_check_plist"
+    }
+  ],
+  "STICKYBIT_CHECK": [
+    {
+      "BypassFailValue": "2",
+      "BypassPassValue": "-1",
+      "BypassVariable": "",
+      "Counter": "4621",
+      "Plist": "hcc_stickybit_check_78B_plist"
+    }
+  ]
+}

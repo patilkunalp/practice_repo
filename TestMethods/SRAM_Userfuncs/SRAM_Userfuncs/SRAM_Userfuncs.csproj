@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Platforms>AnyCPU;x64</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="HdmtOs.Sdk" Version="1.0.0-rc.0.84107" />
+    <PackageReference Include="HdmtOs.Sdk.TestClass.BaseTypes" Version="1.0.0" />
+    <PackageReference Include="HdmtOs.Sdk.TestClass.BaseTypes.Attributes" Version="1.0.0-rc.0.84107" />
+    <PackageReference Include="HdmtOs.Sdk.Uei" Version="1.0.0-rc.0.84107" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="SRAMBase">
+      <HintPath>..\..\SRAM\lib\net6.0\SRAMBase.dll</HintPath>
+    </Reference>
+    <Reference Include="UserFuncTest">
+      <HintPath>..\..\SRAM\lib\net6.0\UserFuncTest.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

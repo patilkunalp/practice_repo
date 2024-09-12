@@ -1,0 +1,431 @@
+{
+  "HCC2_NR_RIGHT": [
+    {
+      "ParallelID": "0",
+      "IO": "0",
+      "RUType": "HCC2",
+      "Level": "main_ltype_main_nom_lcat",
+      "Timing": "main_tim_main_nom_tcat",
+      "PreconditionTable": "Precondition",
+      "PList": "hcc2_nr_raster_right_plist",
+      "RasterReduceConfigTableName": "RasterReduceConfig",
+      "LYASweepTableName": "LYASetup",
+      "LYAInterfaceTable": "LYAInterface",
+      "LYASamplingParamTable": "LYASampling",
+      "IOMapTable": "IOMap",
+      "RowMap": "",
+      "ColumnMap": "",
+      "ZAddrMap": "",
+      "NumLocalCols": "8",
+      "GoodBitCoordinateTable": "GoodBitCoordinateTable",
+      "DieCellTable": "",
+      "RedundancyTable": "Redundancy",
+      "AddressPinTable": "AddressPinTable",
+      "BaseNumber": "35087"
+    },
+    {
+      "ParallelID": "0",
+      "IO": "5",
+      "RUType": "HCC2",
+      "Level": "main_ltype_main_nom_lcat",
+      "Timing": "main_tim_main_nom_tcat",
+      "PreconditionTable": "Precondition",
+      "PList": "hcc2_nr_raster_right_plist",
+      "RasterReduceConfigTableName": "RasterReduceConfig",
+      "LYASweepTableName": "LYASetup",
+      "LYAInterfaceTable": "LYAInterface",
+      "LYASamplingParamTable": "LYASampling",
+      "IOMapTable": "IOMap",
+      "RowMap": "",
+      "ColumnMap": "",
+      "ZAddrMap": "",
+      "NumLocalCols": "8",
+      "GoodBitCoordinateTable": "GoodBitCoordinateTable",
+      "DieCellTable": "",
+      "RedundancyTable": "Redundancy",
+      "AddressPinTable": "AddressPinTable",
+      "BaseNumber": "35087"
+    },
+    {
+      "ParallelID": "0",
+      "IO": "8",
+      "RUType": "HCC2",
+      "Level": "main_ltype_main_nom_lcat",
+      "Timing": "main_tim_main_nom_tcat",
+      "PreconditionTable": "Precondition",
+      "PList": "hcc2_nr_raster_right_plist",
+      "RasterReduceConfigTableName": "RasterReduceConfig",
+      "LYASweepTableName": "LYASetup",
+      "LYAInterfaceTable": "LYAInterface",
+      "LYASamplingParamTable": "LYASampling",
+      "IOMapTable": "IOMap",
+      "RowMap": "",
+      "ColumnMap": "",
+      "ZAddrMap": "",
+      "NumLocalCols": "8",
+      "GoodBitCoordinateTable": "GoodBitCoordinateTable",
+      "DieCellTable": "",
+      "RedundancyTable": "Redundancy",
+      "AddressPinTable": "AddressPinTable",
+      "BaseNumber": "35087"
+    }
+  ],
+  "Precondition": [
+    {
+      "Level": "main_ltype_main_nom_lcat",
+      "Timing": "main_tim_main_nom_tcat",
+      "PreconditionPList": "hcc2_nr_precond_plist"
+    }
+  ],
+  "Redundancy": [
+    {
+      "Mode": "RowAndCol",
+      "RowPeriod": "512"
+    }
+  ],
+  "GoodBitCoordinateTable": [
+    {
+      "IO": "0",
+      "Row": "427",
+      "Col": "17"
+    },
+    {
+      "IO": "5",
+      "Row": "427",
+      "Col": "17"
+    },
+    {
+      "IO": "8",
+      "Row": "427",
+      "Col": "17"
+    }
+  ],
+  "IOMap": [
+    {
+      "PinName": "dataout0_r",
+      "Channel": "0"
+    },
+    {
+      "PinName": "dataout1_r",
+      "Channel": "1"
+    },
+    {
+      "PinName": "dataout2_r",
+      "Channel": "2"
+    },
+    {
+      "PinName": "dataout3_r",
+      "Channel": "3"
+    },
+    {
+      "PinName": "dataout4_r",
+      "Channel": "4"
+    },
+    {
+      "PinName": "dataout5_r",
+      "Channel": "5"
+    },
+    {
+      "PinName": "dataout6_r",
+      "Channel": "6"
+    },
+    {
+      "PinName": "dataout7_r",
+      "Channel": "7"
+    },
+    {
+      "PinName": "dataout8_r",
+      "Channel": "8"
+    },
+    {
+      "PinName": "dataout9_r",
+      "Channel": "9"
+    },
+    {
+      "PinName": "dataout10_r",
+      "Channel": "10"
+    },
+    {
+      "PinName": "dataout11_r",
+      "Channel": "11"
+    },
+    {
+      "PinName": "dataout12_r",
+      "Channel": "12"
+    },
+    {
+      "PinName": "dataout13_r",
+      "Channel": "13"
+    },
+    {
+      "PinName": "dataout14_r",
+      "Channel": "14"
+    },
+    {
+      "PinName": "dataout15_r",
+      "Channel": "15"
+    },
+    {
+      "PinName": "dataout16_r",
+      "Channel": "16"
+    },
+    {
+      "PinName": "dataout17_r",
+      "Channel": "17"
+    },
+    {
+      "PinName": "dataout18_r",
+      "Channel": "18"
+    },
+    {
+      "PinName": "dataout19_r",
+      "Channel": "20"
+    },
+    {
+      "PinName": "dataout20_r",
+      "Channel": "19"
+    },
+    {
+      "PinName": "dataout21_r",
+      "Channel": "21"
+    },
+    {
+      "PinName": "dataout22_r",
+      "Channel": "22"
+    },
+    {
+      "PinName": "dataout23_r",
+      "Channel": "23"
+    },
+    {
+      "PinName": "dataout24_r",
+      "Channel": "24"
+    },
+    {
+      "PinName": "dataout25_r",
+      "Channel": "25"
+    },
+    {
+      "PinName": "dataout26_r",
+      "Channel": "26"
+    },
+    {
+      "PinName": "dataout27_r",
+      "Channel": "27"
+    },
+    {
+      "PinName": "dataout28_r",
+      "Channel": "28"
+    },
+    {
+      "PinName": "dataout29_r",
+      "Channel": "30"
+    },
+    {
+      "PinName": "dataout30_r",
+      "Channel": "29"
+    },
+    {
+      "PinName": "dataout31_r",
+      "Channel": "31"
+    }
+  ],
+  "RasterReduceConfig": [
+    {
+      "NumRows": "45056",
+      "NumCols": "224",
+      "NumRowDiv": "176",
+      "NumColDiv": "1",
+      "RowBits": "20",
+      "ColBits": "20",
+      "MAFBits": "12000000"
+    }
+  ],
+  "LYASetup": [
+    {
+      "Mode": "default",
+      "LYATestSetupTable": "DefaultLYATestSetup",
+      "BaseNumberOverride": "35087",
+      "Stuck0_Plist": "",
+      "Stuck1_Plist": ""
+    },
+    {
+      "Mode": "default_RWA",
+      "LYATestSetupTable": "RwaLYATestSetup",
+      "BaseNumberOverride": "35070",
+      "Stuck0_Plist": "",
+      "Stuck1_Plist": ""
+    },
+    {
+      "Mode": "goodbit_default",
+      "LYATestSetupTable": "DefaultLYATestSetup",
+      "BaseNumberOverride": "30001",
+      "Stuck0_Plist": "",
+      "Stuck1_Plist": ""
+    },
+    {
+      "Mode": "goodbit_RWA",
+      "LYATestSetupTable": "RwaLYATestSetup",
+      "BaseNumberOverride": "30070",
+      "Stuck0_Plist": "",
+      "Stuck1_Plist": ""
+    }
+  ],
+  "RwaLYATestSetup": [
+    {
+      "LatencyAndPListTable": "Lyalatency_RWALYA_plist",
+      "PlistCol": "RWA_all_sweep_Plist",
+      "BaseNumber": "15070",
+      "Multiplier": "10000000",
+      "LYASweepName": "BLR,BlbR,PCR,PCbR,BLINT,BLbINT,BLYSE,BLbYSE",
+      "NumMeasurements": "11,11,11,11,11,11,11,11",
+      "NumExpectedMeasurements": "11,11,11,11,0,0,0,0"
+    }
+  ],
+  "Lyalatency_RWALYA_plist": [
+    {
+      "ParallelID": "0",
+      "StartRow": "0",
+      "EndRow": "11263",
+      "StartCol": "0",
+      "EndCol": "255",
+      "RWA_all_sweep_Plist": "LYA_4_sweep_rwa_srl_nr_LYAzone_1_EXTTrigger_plist",
+      "Level": "LYA_ltype_lya_nom_lcat",
+      "Timing": "main_tim_main_nom_tcat",
+      "TriggerMap": "LYATriggerMap"
+    },
+    {
+      "ParallelID": "0",
+      "StartRow": "11264",
+      "EndRow": "22527",
+      "StartCol": "0",
+      "EndCol": "255",
+      "RWA_all_sweep_Plist": "LYA_4_sweep_rwa_srl_nr_LYAzone_2_EXTTrigger_plist",
+      "Level": "LYA_ltype_lya_nom_lcat",
+      "Timing": "main_tim_main_nom_tcat",
+      "TriggerMap": "LYATriggerMap"
+    },
+    {
+      "ParallelID": "0",
+      "StartRow": "22528",
+      "EndRow": "33791",
+      "StartCol": "0",
+      "EndCol": "255",
+      "RWA_all_sweep_Plist": "LYA_4_sweep_rwa_srl_nr_LYAzone_3_EXTTrigger_plist",
+      "Level": "LYA_ltype_lya_nom_lcat",
+      "Timing": "main_tim_main_nom_tcat",
+      "TriggerMap": "LYATriggerMap"
+    },
+    {
+      "ParallelID": "0",
+      "StartRow": "33792",
+      "EndRow": "45055",
+      "StartCol": "0",
+      "EndCol": "255",
+      "RWA_all_sweep_Plist": "LYA_4_sweep_rwa_srl_nr_LYAzone_4_EXTTrigger_plist",
+      "Level": "LYA_ltype_lya_nom_lcat",
+      "Timing": "main_tim_main_nom_tcat",
+      "TriggerMap": "LYATriggerMap"
+    }
+  ],
+  "DefaultLYATestSetup": [
+    {
+      "LatencyAndPListTable": "Lyalatency_defaultLYA_plist",
+      "PlistCol": "default_all_sweep_Plist",
+      "BaseNumber": "35087",
+      "Multiplier": "10000000",
+      "LYASweepName": "BLR,BlbR,PCR,PCbR,BLINT,BLbINT,BLYSE,BLbYSE",
+      "NumMeasurements": "11,11,11,11,11,11,11,11",
+      "NumExpectedMeasurements": "11,11,11,11,11,11,11,11"
+    }
+  ],
+  "Lyalatency_defaultLYA_plist": [
+    {
+      "ParallelID": "0",
+      "StartRow": "0",
+      "EndRow": "11263",
+      "StartCol": "0",
+      "EndCol": "223",
+      "default_all_sweep_Plist": "LYA_8_sweep_default_srl_nr_LYAzone_1_EXTTrigger_plist",
+      "Level": "LYA_ltype_lya_nom_lcat",
+      "Timing": "main_tim_main_nom_tcat",
+      "TriggerMap": "LYATriggerMap",
+      "": ""
+    },
+    {
+      "ParallelID": "0",
+      "StartRow": "11264",
+      "EndRow": "22527",
+      "StartCol": "0",
+      "EndCol": "223",
+      "default_all_sweep_Plist": "LYA_8_sweep_default_srl_nr_LYAzone_2_EXTTrigger_plist",
+      "Level": "LYA_ltype_lya_nom_lcat",
+      "Timing": "main_tim_main_nom_tcat",
+      "TriggerMap": "LYATriggerMap",
+      "": ""
+    },
+    {
+      "ParallelID": "0",
+      "StartRow": "22528",
+      "EndRow": "33791",
+      "StartCol": "0",
+      "EndCol": "223",
+      "default_all_sweep_Plist": "LYA_8_sweep_default_srl_nr_LYAzone_3_EXTTrigger_plist",
+      "Level": "LYA_ltype_lya_nom_lcat",
+      "Timing": "main_tim_main_nom_tcat",
+      "TriggerMap": "LYATriggerMap",
+      "": ""
+    },
+    {
+      "ParallelID": "0",
+      "StartRow": "33792",
+      "EndRow": "45055",
+      "StartCol": "0",
+      "EndCol": "223",
+      "default_all_sweep_Plist": "LYA_8_sweep_default_srl_nr_LYAzone_4_EXTTrigger_plist",
+      "Level": "LYA_ltype_lya_nom_lcat",
+      "Timing": "main_tim_main_nom_tcat",
+      "TriggerMap": "LYATriggerMap",
+      "": ""
+    }
+  ],
+  "LYASampling": [
+    {
+      "MaxSamplesPerTest": "100",
+      "RowQuota": "3",
+      "ColQuota": "7",
+      "SBQuota": "50",
+      "DBHQuota": "18",
+      "DBVQuota": "18",
+      "MBQuota": "4"
+    }
+  ],
+  "LYAInterface": [
+    {
+      "StartArray": "0",
+      "EndArray": "4",
+      "StartCol": "0",
+      "EndCol": "223",
+      "BLPin": "lyapad0_r",
+      "BLBarPin": "lyapad0_b_r",
+      "Boundary": ""
+    },
+    {
+      "StartArray": "5",
+      "EndArray": "9",
+      "StartCol": "0",
+      "EndCol": "223",
+      "BLPin": "lyapad1_r",
+      "BLBarPin": "lyapad1_b_r",
+      "Boundary": ""
+    }
+  ],
+  "AddressPinTable": [
+    {
+      "RowAddressPins": "xadd15_r,xadd14_r,xadd13_r,xadd8_r,xadd10_r,xadd9_r,xadd12_r,xadd11_r,xadd7_r,xadd6_r,xadd5_r,xadd4_r,xadd3_r,xadd2_r,xadd1_r,xadd0_r",
+      "ColAddressPins": "yadd3_r,yadd2_r,yadd2_r,yadd0_r",
+      "GlobalColAddressPins": "lyagcol4_r,lyagcol3_r,lyagcol2_r,lyagcol1_r,lyagcol0_r",
+      "IOAddressPins": "zadd3_r,zadd2_r,zadd1_r,zadd0_r"
+    }
+  ]
+}

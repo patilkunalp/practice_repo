@@ -1,0 +1,1160 @@
+{
+  "RU_BYPASS": [
+    {
+      "": "",
+      "Counter": "",
+      "IO": "3",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "ru_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "ru_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "5",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "ru_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "ru_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "6",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "ru_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "ru_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "8",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "ru_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "ru_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "9",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "ru_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "ru_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "12",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "ru_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "ru_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "14",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "ru_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "ru_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "15",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "ru_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "ru_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "16",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "ru_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "ru_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "18",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "ru_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "ru_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "20",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "ru_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "ru_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "22",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "ru_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "ru_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "24",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "ru_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "ru_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "30",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "ru_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "ru_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "32",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "ru_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "ru_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "33",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "ru_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "ru_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "35",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "ru_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "ru_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "37",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "ru_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "ru_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "38",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "ru_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "ru_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "39",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "ru_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "ru_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "40",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "ru_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "ru_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "42",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "ru_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "ru_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "43",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "ru_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "ru_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "46",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "ru_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "ru_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "48",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "ru_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "ru_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "49",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "ru_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "ru_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "52",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "ru_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "ru_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "54",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "ru_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "ru_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "55",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "ru_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "ru_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "59",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "ru_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "ru_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "62",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "ru_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "ru_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "63",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "ru_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "ru_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "70",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "ru_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "ru_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "72",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "ru_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "ru_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "73",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "ru_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "ru_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "75",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "ru_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "ru_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "77",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "ru_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "ru_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "78",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "ru_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "ru_bypass_loop_plist"
+    }
+  ],
+  "MIDLOGIC_BYPASS": [
+    {
+      "": "",
+      "Counter": "",
+      "IO": "3",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "midlogic_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "midlogic_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "5",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "midlogic_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111181111111111111118",
+      "PList": "midlogic_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "6",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "midlogic_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "midlogic_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "8",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "midlogic_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "midlogic_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "9",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "midlogic_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111181111111111111118",
+      "PList": "midlogic_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "12",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "midlogic_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "midlogic_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "14",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "midlogic_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "midlogic_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "15",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "midlogic_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111181111111111111118",
+      "PList": "midlogic_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "16",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "midlogic_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "midlogic_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "18",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "midlogic_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "midlogic_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "20",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "midlogic_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "midlogic_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "22",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "midlogic_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "midlogic_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "24",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "midlogic_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111181111111111111118",
+      "PList": "midlogic_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "30",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "midlogic_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "midlogic_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "32",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "midlogic_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111181111111111111118",
+      "PList": "midlogic_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "33",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "midlogic_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "midlogic_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "35",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "midlogic_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "midlogic_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "37",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "midlogic_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111181111111111111118",
+      "PList": "midlogic_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "38",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "midlogic_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "midlogic_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "39",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "midlogic_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "midlogic_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "40",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "midlogic_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "midlogic_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "42",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "midlogic_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111181111111111111118",
+      "PList": "midlogic_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "43",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "midlogic_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "midlogic_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "46",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "midlogic_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "midlogic_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "48",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "midlogic_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "midlogic_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "49",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "midlogic_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111181111111111111118",
+      "PList": "midlogic_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "52",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "midlogic_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "midlogic_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "54",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "midlogic_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "midlogic_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "55",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "midlogic_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111181111111111111118",
+      "PList": "midlogic_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "59",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "midlogic_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "midlogic_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "62",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "midlogic_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "midlogic_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "63",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "midlogic_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111181111111111111118",
+      "PList": "midlogic_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "70",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "midlogic_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "midlogic_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "72",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "midlogic_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "midlogic_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "73",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "midlogic_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111181111111111111118",
+      "PList": "midlogic_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "75",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "midlogic_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "midlogic_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "77",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "midlogic_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111181111111111111118",
+      "PList": "midlogic_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "78",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "midlogic_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "midlogic_bypass_loop_plist"
+    }
+  ],
+  "ARYTOP_BYPASS": [
+    {
+      "": "",
+      "Counter": "",
+      "IO": "3",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "arytop_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "arytop_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "5",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "arytop_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "arytop_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "6",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "arytop_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "arytop_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "8",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "arytop_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "arytop_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "9",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "arytop_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "arytop_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "12",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "arytop_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "arytop_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "14",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "arytop_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "arytop_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "15",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "arytop_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "arytop_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "16",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "arytop_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "arytop_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "18",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "arytop_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "arytop_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "20",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "arytop_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "arytop_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "22",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "arytop_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "arytop_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "24",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "arytop_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "arytop_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "30",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "arytop_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "arytop_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "32",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "arytop_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "arytop_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "33",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "arytop_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "arytop_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "35",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "arytop_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "arytop_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "37",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "arytop_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "arytop_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "38",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "arytop_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "arytop_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "39",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "arytop_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "arytop_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "40",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "arytop_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "arytop_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "42",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "arytop_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "arytop_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "43",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "arytop_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "arytop_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "46",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "arytop_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "arytop_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "48",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "arytop_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "arytop_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "49",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "arytop_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "arytop_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "52",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "arytop_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "arytop_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "54",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "arytop_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "arytop_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "55",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "arytop_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "arytop_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "59",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "arytop_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "arytop_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "62",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "arytop_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "arytop_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "63",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "arytop_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "arytop_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "70",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "arytop_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "arytop_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "72",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "arytop_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "arytop_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "73",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "arytop_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "arytop_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "75",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "arytop_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "arytop_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "77",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "arytop_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "arytop_bypass_loop_plist"
+    },
+    {
+      "": "",
+      "Counter": "",
+      "IO": "78",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "arytop_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "arytop_bypass_loop_plist"
+    }
+  ],
+  "ARYTOP_BYPASS_RU3": [
+    {
+      "": "",
+      "Counter": "",
+      "IO": "3",
+      "IOPatModify-Label": "ZADDR",
+      "IOPatModify-Pattern": "arytop_bypass_loop",
+      "IOPatModify-PinGroup": "zaddrs",
+      "MaskDataout": "11111111111111111111111111111111",
+      "PList": "arytop_bypass_loop_plist"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--File is auto-generated, any manual edits can be overwritten.-->
+<!DOCTYPE HDMTFlowItemCoor []>
+<HDMTFlowItemCoor>
+  <FlowItem name="XCHIP_BASE::XCHIP_BASE_INIT.PrimeInitializeLibrary" X="25" Y="25" />
+  <FlowItem name="XCHIP_BASE::XCHIP_BASE_INIT.XIU_Check" X="35" Y="45" />
+  <FlowItem name="XCHIP_BASE::XCHIP_BASE_INIT.Powerdown_test" X="45" Y="65" />
+  <FlowItem name="XCHIP_BASE::XCHIP_BASE_INIT.PrimeInitializeServices" X="55" Y="85" />
+  <FlowItem name="XCHIP_BASE::XCHIP_BASE_INIT.PrimeInitializeInstances" X="65" Y="105" />
+  <FlowItem name="XCHIP_BASE::XCHIP_BASE_INIT.PrimeTiuIdenty" X="75" Y="125" />
+  <FlowItem name="XCHIP_BASE::XCHIP_BASE_INIT.FlowControlStart_Class" X="85" Y="145" />
+  <FlowItem name="XCHIP_BASE::XCHIP_BASE_INIT.FlowControlStart_Sort" X="95" Y="165" />
+  <FlowItem name="XCHIP_BASE::XCHIP_BASE_INIT.SwitchFlow" X="105" Y="185" />
+  <FlowItem name="XCHIP_BASE::XCHIP_BASE_INIT.TiuPowerSupplyCont" X="115" Y="205" />
+  <FlowItem name="XCHIP_BASE::XCHIP_BASE_INIT.TiuIOLeakage" X="125" Y="225" />
+  <FlowItem name="XCHIP_BASE::XCHIP_BASE_LOTENDFLOW.SramEndLot" X="25" Y="25" />
+  <FlowItem name="XCHIP_BASE::XCHIP_BASE_LOTSTARTFLOW.StartDatalog" X="25" Y="25" />
+  <FlowItem name="XCHIP_BASE::XCHIP_BASE_MAIN.Sample_Shops" X="25" Y="25" />
+  <FlowItem name="XCHIP_BASE::XCHIP_BASE_MAIN.Powerdown_test_copy" X="25" Y="25" />
+  <FlowItem name="XCHIP_BASE::XCHIP_BASE_POWERDOWN.Powerdown_test_flowitem" X="25" Y="25" />
+  <FlowItem name="XCHIP_BASE::XCHIP_BASE_POWERDOWN.endtimer_full_flow" X="25" Y="25" />
+  <FlowItem name="XCHIP_BASE::XCHIP_BASE_TESTPLANENDFLOW.Binning_CSharpTest" X="25" Y="25" />
+  <FlowItem name="XCHIP_BASE::XCHIP_BASE_TESTPLANENDFLOW.FlowTimer_Stop" X="25" Y="25" />
+  <FlowItem name="XCHIP_BASE::XCHIP_BASE_TESTPLANSTARTFLOW.DeviceStartDatalog" X="25" Y="25" />
+  <FlowItem name="XCHIP_BASE::XCHIP_BASE_TESTPLANSTARTFLOW.SmartTCEnable" X="25" Y="25" />
+  <FlowItem name="XCHIP_BASE::XCHIP_BASE_TESTPLANSTARTFLOW.FlowTimer_Start" X="25" Y="25" />
+  <FlowItem name="XCHIP_BASE::XCHIP_BASE_DUTCHANGEFLOW.PrimeElectricalZAlignment" X="25" Y="25" />
+</HDMTFlowItemCoor>

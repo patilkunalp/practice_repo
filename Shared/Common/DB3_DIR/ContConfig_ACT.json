@@ -1,0 +1,46 @@
+{
+  "ACTblock_Continuity": [
+    {
+      "AlarmCounter": "9131",
+      "BypassVariables": "",
+      "Conditionals": "",
+      "ID": "vccgact_cont_900mV",
+      "JudgeHigh": "0.49",
+      "JudgeLow": "-0.1",
+      "Level": "vccgact_HC_cont_lvl_force_900mV",
+      "PList": "",
+      "PatternTriggerMap": "",
+      "Pin": "vccgact",
+      "PreReq": "",
+      "RunOnlyForTestFlow": "SORT",
+      "SetBypassValue": "2",
+      "SetBypassVariable": "BYPASS_vccgact_tests",
+      "SetConditional": "vccgact_cont_900mV",
+      "TestFailCounter": "1831",
+      "TestName": "cont_900mV_test",
+      "TestPassCounter": "1831",
+      "Timing": ""
+    },
+    {
+      "AlarmCounter": "9132",
+      "BypassVariables": "",
+      "Conditionals": "",
+      "ID": "vccpll1_cont_900mV",
+      "JudgeHigh": "0.25",
+      "JudgeLow": "-0.1",
+      "Level": "vccpll1_HC_cont_lvl_force_900mV",
+      "PList": "",
+      "PatternTriggerMap": "",
+      "Pin": "vccpll1",
+      "PreReq": "",
+      "RunOnlyForTestFlow": "SORT",
+      "SetBypassValue": "2",
+      "SetBypassVariable": "BYPASS_pll_tests",
+      "SetConditional": "vccpll1_cont_900mV",
+      "TestFailCounter": "1832",
+      "TestName": "cont_900mV_test",
+      "TestPassCounter": "1832",
+      "Timing": ""
+    }
+  ]
+}

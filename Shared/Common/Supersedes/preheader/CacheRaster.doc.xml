@@ -1,0 +1,170 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CacheRaster</name>
+    </assembly>
+    <members>
+        <member name="T:CacheRaster.CacheRaster">
+            <summary>
+            Dummy description of this test method.
+            </summary>
+        </member>
+        <member name="T:CacheRaster.CacheRaster.ExecutionMode">
+            <summary>
+            ExecutionMode
+            </summary>
+        </member>
+        <member name="F:CacheRaster.CacheRaster.ExecutionMode.Raster">
+            <summary>Raster</summary>
+        </member>
+        <member name="F:CacheRaster.CacheRaster.ExecutionMode.GoodBit">
+            <summary>FirstSufficient</summary>
+        </member>
+        <member name="F:CacheRaster.CacheRaster.ExecutionMode.Simulation">
+            <summary>Simulation</summary>
+        </member>
+        <member name="P:CacheRaster.CacheRaster.TableName">
+            <summary>
+            Name of the binning table of the JSON file
+            </summary>
+        </member>
+        <member name="P:CacheRaster.CacheRaster.ConfigFile">
+            <summary>
+            Config file path for JSON file
+            </summary>
+        </member>
+        <member name="P:CacheRaster.CacheRaster.ExecMode">
+            <summary>
+            Mode parameter
+            </summary>
+            
+        </member>
+        <member name="P:CacheRaster.CacheRaster.LYA">
+            <summary>
+            LYA Enable Parameter - disable to skip LYA collection
+            </summary>
+            
+        </member>
+        <member name="P:CacheRaster.CacheRaster.SimulationModeSeed">
+            <summary>
+            SimulationModeSeed Parameter
+            </summary>
+            
+        </member>
+        <member name="P:CacheRaster.CacheRaster.NumberOfSimulationDefects">
+            <summary>
+            Number of simulation defects to generate
+            </summary>
+            
+        </member>
+        <member name="P:CacheRaster.CacheRaster.SimulationDefectFile">
+            <summary>
+            Simulation defect file
+            </summary>
+            
+        </member>
+        <member name="M:CacheRaster.CacheRaster.getCacheRasterTestTableParams">
+            <summary>
+            Initializes a new instance of the <see cref="T:CacheRaster.CacheRaster"/> class.
+            </summary>
+            
+        </member>
+        <member name="M:CacheRaster.CacheRaster.Verify">
+            <inheritdoc />
+        </member>
+        <member name="M:CacheRaster.CacheRaster.Execute">
+            <inheritdoc />
+        </member>
+        <member name="T:SRAMBase.EnableState">
+            <summary>
+            EnableState
+            </summary>
+            
+        </member>
+        <member name="F:SRAMBase.EnableState.Enable">
+            <summary>
+            Enable
+            </summary>
+            
+        </member>
+        <member name="F:SRAMBase.EnableState.Disable">
+            <summary>
+            Disable
+            </summary>
+            
+        </member>
+        <member name="T:SRAMBase.TableHolder">
+            <summary>
+            A test class
+            </summary>
+        </member>
+        <member name="M:SRAMBase.TableHolder.#ctor(System.String,System.String,System.Collections.Generic.List{System.String})">
+            <summary>
+            Initializes a new instance of the <see cref="T:SRAMBase.TableHolder"/> class.
+            </summary>
+            <param name="filepath"></param>
+            <param name="tablename"></param>
+            <param name="requiredparams"></param>
+        </member>
+        <member name="M:SRAMBase.TableHolder.GetEnumerator">
+            <inheritdoc/>
+        </member>
+        <member name="T:SRAMBase.UserVariable">
+            <summary>
+            A test class
+            </summary>
+        </member>
+        <member name="F:SRAMBase.UserVariable.Isset">
+            <summary>
+            is the variable set or not
+            </summary>
+        </member>
+        <member name="M:SRAMBase.UserVariable.#ctor(System.String,System.Boolean)">
+            <summary>
+            Initializes a new instance of the <see cref="T:SRAMBase.UserVariable"/> class.
+            </summary>
+            <param name="name - format is UserVariableGroup.UserVariable-formatisUserVariableGroup.UserVariable"></param>
+            <param name="throwexceptionifnotexist - optional parameter, throw exception if user-variable does not exist-optionalparameter,throwexceptionifuser-variabledoesnotexist"></param>
+        </member>
+        <member name="M:SRAMBase.UserVariable.GetDoubleValue">
+            <summary>
+            Returns an double for a double type user-variable
+            </summary>
+        </member>
+        <member name="M:SRAMBase.UserVariable.GetStringValue">
+            <summary>
+            Returns a string for string type user-variable
+            </summary>
+        </member>
+        <member name="M:SRAMBase.UserVariable.GetIntegerValue">
+            <summary>
+            Returns an integer for an integer type user-variable
+            </summary>
+        </member>
+        <member name="M:SRAMBase.UserVariable.SetValue(System.String)">
+            <summary>
+            Sets string for string type user-variable
+            </summary>
+        </member>
+        <member name="M:SRAMBase.UserVariable.ToString">
+            <inheritdoc/>
+        </member>
+        <member name="M:SRAMBase.UserVariable.setIntValue(System.Int32)">
+            <summary>
+            Sets int for int type user-variable
+            </summary>
+        </member>
+        <member name="T:SRAMBase.Utility">
+            <summary>
+            Generic utility functions
+            </summary>
+            
+        </member>
+        <member name="M:SRAMBase.Utility.Shift32(System.UInt32)">
+            <summary>
+            Quick psuedo random number generator
+            </summary>
+            
+        </member>
+    </members>
+</doc>

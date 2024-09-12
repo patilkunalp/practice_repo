@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestLibraryInterfaces xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://vtsm.intel.com/2009/TestLibraryInterfaces file:///C:/Intel/hdmt/hdmtOS_3.9.0.1_Release/TOSRelease/bin/release/TestLibraryInterfaces.xsd" xmlns="http://vtsm.intel.com/2009/TestLibraryInterfaces">
+  <TestLibrary name="PrimeTestInstance">
+    <TestClass name="DieXYFlowFork" MetaData="dll=DieXYFlowFork" />
+    <Imports>
+      <FileName>TestMethodBase.xml</FileName>
+      <FileName>DieXYFlowForkCommonParams.xml</FileName>
+    </Imports>
+    <PublicBases>
+      <BaseName>TestMethodBase</BaseName>
+    </PublicBases>
+    <Parameters>
+      <Parameter name="TableName" descriptions="Die-coordinate and product configuration table name of the JSON file">
+        <Type>
+          <Tester>String</Tester>
+          <TestProgram>String</TestProgram>
+        </Type>
+        <Default />
+        <Optional />
+      </Parameter>
+      <Parameter name="ConfigFile" descriptions="Config file path for JSON file">
+        <Type>
+          <Tester>String</Tester>
+          <TestProgram>File</TestProgram>
+        </Type>
+        <AlwaysRequired />
+      </Parameter>
+      <Parameter name="XLocationUserVariableName" descriptions="User-variable that stores DUT location x-coordinate">
+        <Type>
+          <Tester>String</Tester>
+          <TestProgram>String</TestProgram>
+        </Type>
+        <AlwaysRequired />
+      </Parameter>
+      <Parameter name="YLocationUserVariableName" descriptions="User-variable that stores DUT location y-coordinate">
+        <Type>
+          <Tester>String</Tester>
+          <TestProgram>String</TestProgram>
+        </Type>
+        <AlwaysRequired />
+      </Parameter>
+      <Parameter name="DieTypeUserVariableName" descriptions="User-variable to set dieType">
+        <Type>
+          <Tester>String</Tester>
+          <TestProgram>String</TestProgram>
+        </Type>
+        <AlwaysRequired />
+      </Parameter>
+      <Parameter name="ProductTypeUserVariableName" descriptions="User-variable that stores the product type">
+        <Type>
+          <Tester>String</Tester>
+          <TestProgram>String</TestProgram>
+        </Type>
+        <AlwaysRequired />
+      </Parameter>
+      <Parameter name="ItuffName" descriptions="ItuffName for printing testnames">
+        <Type>
+          <Tester>String</Tester>
+          <TestProgram>String</TestProgram>
+        </Type>
+        <AlwaysRequired />
+      </Parameter>
+    </Parameters>
+    <ExitPorts>
+      <ExitPort>
+        <PortNumber>4</PortNumber>
+        <PortType>Pass</PortType>
+        <PortDescriptions>PASS PORT</PortDescriptions>
+      </ExitPort>
+      <ExitPort>
+        <PortNumber>3</PortNumber>
+        <PortType>Pass</PortType>
+        <PortDescriptions>PASS PORT</PortDescriptions>
+      </ExitPort>
+      <ExitPort>
+        <PortNumber>2</PortNumber>
+        <PortType>Pass</PortType>
+        <PortDescriptions>PASS PORT</PortDescriptions>
+      </ExitPort>
+      <ExitPort>
+        <PortNumber>1</PortNumber>
+        <PortType>Pass</PortType>
+        <PortDescriptions>PASS PORT</PortDescriptions>
+      </ExitPort>
+      <ExitPort>
+        <PortNumber>0</PortNumber>
+        <PortType>Fail</PortType>
+        <PortDescriptions>FAIL PORT</PortDescriptions>
+      </ExitPort>
+      <ExitPort>
+        <PortNumber>-1</PortNumber>
+        <PortType>Error</PortType>
+        <PortDescriptions>PORT FAIL FOR SW ERROR CONDITION</PortDescriptions>
+      </ExitPort>
+      <ExitPort>
+        <PortNumber>-2</PortNumber>
+        <PortType>Fail</PortType>
+        <PortDescriptions>PORT FAIL FOR HW ALARM CONDITION</PortDescriptions>
+      </ExitPort>
+    </ExitPorts>
+  </TestLibrary>
+</TestLibraryInterfaces>

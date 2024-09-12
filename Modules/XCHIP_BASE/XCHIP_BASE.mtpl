@@ -1,0 +1,844 @@
+Version 1.0;
+
+ProgramStyle = Modular;
+
+TestPlan XCHIP_BASE;
+
+#CSharpTest Counter Definition
+Counters
+{
+	n90100001_fail_sram_shops_4	
+}
+
+CSharpTest DeviceStartDatalog DeviceStartDatalog
+{
+}
+CSharpTest SmartTCEnable SmartTCEnable
+{
+	SmartTC = "Enable";
+}
+CSharpTest FlowTimer endtimer_full_flow
+{
+	TimerName = "TT_TOTAL_FULL_FLOW" ; #USER TODO: define value
+	mode = "Stop";
+}
+
+CSharpTest PrimeTdrCalibrationTestMethod XIU_Check
+{
+	LogLevel = "Enabled";
+	TdrHiLimit = "12.0e-09";
+	TdrLoLimit = "7.5e-09";
+	AlwaysExecute = "TRUE";
+	PinGroups = "sram_pat_Dpins";
+}
+CSharpTest ApplyEndSequence Powerdown_test
+{
+}
+CSharpTest FlowTimer FlowTimer_Start
+{
+	mode = "Start";
+}
+CSharpTest FlowTimer FlowTimer_Stop
+{
+	mode = "Stop";
+}
+CSharpTest ApplyEndSequence Powerdown_test_copy
+{
+}
+CSharpTest PrimeDcTestMethod Sample_Shops
+{
+	LevelsTc ="BASE::sram_shops_dpin_level_LD_selector"; #USER TODO: define value
+	Pins = "sram_shops_dpin"; #USER TODO: define value
+	AlarmPortRedirect = "ENABLED";
+	DatalogLevel = "ALL";
+	EnableFlushSmartTc = "Disabled";
+	HighLimits = "2.0V";
+	LowLimits = "0.1V";
+	MeasurementTypes = "Voltage";
+}
+CSharpTest BinningTest Binning_Test
+{
+	ConfigFile = GetEnvironmentVariable("DB3_DIR")+"\\binning.json"; #USER TODO: define value
+	BinningUserFunction = "SRAM_Userfuncs.BinningUserfunc.doBinning";
+	CounterTableName = "counter_table";
+}
+CSharpTest PrimeInitializeLibraryTestMethod PrimeInitializeLibrary
+{
+	LogLevel = "Enabled";
+	PerformanceCounterLogLevel = "None";
+}
+CSharpTest PrimeInitializeServicesTestMethod PrimeInitializeServices
+{
+	LogLevel = "Enabled";
+	ForceValidateAlephFiles = "False";
+}
+CSharpTest PrimeInitializeInstancesTestMethod PrimeInitializeInstances
+{
+	LogLevel = "Enabled";
+	VerifyAll = "True";
+}
+CSharpTest PrimeTiuIdentityTestMethod PrimeTiuIdentity
+{
+	ValidTiuRegex = "78B*"; #USER TODO: define value
+}
+CSharpTest PrimeFlowControlStartTestMethod FlowControlStart_Class
+{
+	DomainName = "CLASS"; #USER TODO: define value
+	DefaultValue = 1; #USER TODO: define value
+	DffTokenName = "";
+	UseDffToken = "FALSE";
+	LogLevel = "Enabled";
+}
+CSharpTest PrimeFlowControlStartTestMethod FlowControlStart_Sort
+{
+	DomainName = "SORT"; #USER TODO: define value
+	DefaultValue = 2; #USER TODO: define value
+	DffTokenName = "";
+	UseDffToken = "FALSE";
+	LogLevel = "Enabled";
+}
+CSharpTest PrimeFlowControlForkTestMethod SwitchFlow
+{
+	DomainName = DOMAIN; #USER TODO: define value
+}
+CSharpTest PrimeTiuPowerSupplyContinuityTestMethod TiuPowerSupllyCont
+{
+	LevelsTc = "BASE::TIUvalidationDPs_lvl_cat0" ; #USER TODO: define value
+	Pins = "all_HC,all_LC"; #USER TODO: define value
+	HighLimit = "0.25,0.25";
+	LowLimit = "-0.25,-0.25";
+	LogLevel = "Enabled"; #USER TODO: define value
+}
+CSharpTest PrimeTiuSignalPinLeakageTestMethod TiuIOLeakage
+{
+	LevelsTc ="BASE::TiuValidationDpin_level_cat0"; #USER TODO: define value
+	Pins = "sram_pat_low_Dpins"; #USER TODO: define value
+	LogLevel = "Enabled"; #USER TODO: define value
+	HighLimit = "0.2";
+	LowLimit = "-0.1";
+
+}
+CSharpTest PrimeElectricalZAlignmentTestMethod PrimeElectricalZAlignment
+{
+	LevelsTc = "BASE::ezalvl_ezalvl_TC";								#USER TODO: define value
+	SetupFilePath = GetEnvironmentVariable("DB3_DIR")+"\\EzaConfig.json";
+	LogLevel = "Enabled";
+	ItuffDataloggingEnabled = "FALSE";
+}
+CSharpTest SramEndLot SramEndLot
+{
+}
+CSharpTest StartDatalog StartDatalog
+{
+    FileStream = "Enable"; 
+}
+
+
+Flow XCHIP_BASE_INIT
+{
+	FlowItem PrimeInitializeLibrary PrimeInitializeLibrary
+	{
+		Result -2
+		{
+			Property PassFail = "Fail";
+			SetBin b90999901_fail_FAIL_DPS_ALARM;
+			Return -2;
+		}
+		Result -1
+		{
+			Property PassFail = "Fail";
+			SetBin b90989806_fail_FAIL_SYSTEM_SOFTWARE;
+			Return -1;
+		}
+		Result 0
+		{
+			Property PassFail = "Fail";
+			Return 0;
+		}
+		Result 1
+		{
+			Property PassFail = "Pass";
+			GoTo PrimeInitializeServices;
+		}
+	}	
+	FlowItem XIU_Check XIU_Check
+	{
+		Result -2
+		{
+			Property PassFail = "Fail";
+			SetBin b90999901_fail_FAIL_DPS_ALARM;
+			Return -2;
+		}
+		Result -1
+		{
+			Property PassFail = "Fail";
+			SetBin b90989806_fail_FAIL_SYSTEM_SOFTWARE;
+			Return -1;
+		}
+		Result 0
+		{
+			Property PassFail = "Fail";
+			Return 0;
+		}
+		Result 1
+		{
+			Property PassFail = "Pass";
+			GoTo FlowControlStart_Class;
+		}
+	}
+	FlowItem Powerdown_test Powerdown_test
+	{
+		Result -2
+		{
+			Property PassFail = "Fail";
+			SetBin b90999901_fail_FAIL_DPS_ALARM;
+			Return -2;
+		}
+		Result -1
+		{
+			Property PassFail = "Fail";
+			SetBin b90989806_fail_FAIL_SYSTEM_SOFTWARE;
+			Return -1;
+		}
+		Result 0
+		{
+			Property PassFail = "Fail";
+			Return 0;
+		}
+		Result 1
+		{
+			Property PassFail = "Pass";
+			Return 1;
+		}
+		Result 2
+		{
+			Property PassFail = "Fail";
+			Return 0;
+		}
+	}
+	FlowItem PrimeInitializeServices PrimeInitializeServices
+	{
+		Result -2
+		{
+			Property PassFail = "Fail";
+			SetBin b90999901_fail_FAIL_DPS_ALARM;
+			Return -2;
+		}
+		Result -1
+		{
+			Property PassFail = "Fail";
+			SetBin b90989806_fail_FAIL_SYSTEM_SOFTWARE;
+			Return -1;
+		}
+		Result 0
+		{
+			Property PassFail = "Fail";
+			Return 0;
+		}
+		Result 1
+		{
+			Property PassFail = "Pass";
+			GoTo PrimeInitializeInstances;
+		}
+	}
+	FlowItem PrimeInitializeInstances PrimeInitializeInstances
+	{
+		Result -2
+		{
+			Property PassFail = "Fail";
+			SetBin b90999901_fail_FAIL_DPS_ALARM;
+			Return -2;
+		}
+		Result -1
+		{
+			Property PassFail = "Fail";
+			SetBin b90989806_fail_FAIL_SYSTEM_SOFTWARE;
+			Return -1;
+		}
+		Result 0
+		{
+			Property PassFail = "Fail";
+			Return 0;
+		}
+		Result 1
+		{
+			Property PassFail = "Pass";
+			GoTo PrimeTiuIdenty;
+		}
+	}
+	FlowItem PrimeTiuIdenty PrimeTiuIdentity
+	{
+		Result -2
+		{
+			Property PassFail = "Fail";
+			SetBin b90999901_fail_FAIL_DPS_ALARM;
+			Return -2;
+		}
+		Result -1
+		{
+			Property PassFail = "Fail";
+			SetBin b90989806_fail_FAIL_SYSTEM_SOFTWARE;
+			Return -1;
+		}
+		Result 0
+		{
+			Property PassFail = "Fail";
+			Return 1;
+		}
+		Result 1
+		{
+			Property PassFail = "Pass";
+			GoTo XIU_Check;
+		}
+	}
+	FlowItem FlowControlStart_Class FlowControlStart_Class
+	{
+		Result -2
+		{
+			Property PassFail = "Fail";
+			SetBin b90999901_fail_FAIL_DPS_ALARM;
+			Return -2;
+		}
+		Result -1
+		{
+			Property PassFail = "Fail";
+			SetBin b90989806_fail_FAIL_SYSTEM_SOFTWARE;
+			Return -1;
+		}
+		Result 0
+		{
+			Property PassFail = "Fail";
+			GoTo FlowControlStart_Sort;
+		}
+		Result 1
+		{
+			Property PassFail = "Pass";
+			GoTo FlowControlStart_Sort;
+		}
+	}
+	FlowItem FlowControlStart_Sort FlowControlStart_Sort
+	{
+		Result -2
+		{
+			Property PassFail = "Fail";
+			SetBin b90999901_fail_FAIL_DPS_ALARM;
+			Return -2;
+		}
+		Result -1
+		{
+			Property PassFail = "Fail";
+			SetBin b90989806_fail_FAIL_SYSTEM_SOFTWARE;
+			Return -1;
+		}
+		Result 0
+		{
+			Property PassFail = "Fail";
+			GoTo SwitchFlow;
+		}
+		Result 1
+		{
+			Property PassFail = "Pass";
+			GoTo SwitchFlow;
+		}
+	}
+	FlowItem SwitchFlow SwitchFlow
+	{
+		Result -2
+		{
+			Property PassFail = "Fail";
+			SetBin b90999901_fail_FAIL_DPS_ALARM;
+			Return -2;
+		}
+		Result -1
+		{
+			Property PassFail = "Fail";
+			SetBin b90989806_fail_FAIL_SYSTEM_SOFTWARE;
+			Return -1;
+		}
+		Result 0
+		{
+			Property PassFail = "Fail";
+			Return 1;
+		}
+		Result 1
+		{
+			Property PassFail = "Pass";
+			GoTo TiuPowerSupplyCont;
+		}
+		Result 2
+		{
+			Property PassFail = "Pass";
+			GoTo Powerdown_test;
+		}
+		Result 3
+		{
+			Property PassFail = "Pass";
+			GoTo Powerdown_test;
+		}
+		Result 4
+		{
+			Property PassFail = "Pass";
+			GoTo Powerdown_test;
+		}
+		Result 5
+		{
+			Property PassFail = "Pass";
+			GoTo Powerdown_test;
+		}
+		Result 6
+		{
+			Property PassFail = "Pass";
+			GoTo Powerdown_test;
+		}
+		Result 7
+		{
+			Property PassFail = "Pass";
+			GoTo Powerdown_test;
+		}
+		Result 8
+		{
+			Property PassFail = "Pass";
+			GoTo Powerdown_test;
+		}
+		Result 9
+		{
+			Property PassFail = "Pass";
+			GoTo Powerdown_test;
+		}
+	}
+	FlowItem TiuPowerSupplyCont TiuPowerSupllyCont
+	{
+		Result -2
+		{
+			Property PassFail = "Fail";
+			SetBin b90999901_fail_FAIL_DPS_ALARM;
+			Return -2;
+		}
+		Result -1
+		{
+			Property PassFail = "Fail";
+			SetBin b90989806_fail_FAIL_SYSTEM_SOFTWARE;
+			Return -1;
+		}
+		Result 0
+		{
+			Property PassFail = "Fail";
+			Return 0;
+		}
+		Result 1
+		{
+			Property PassFail = "Pass";
+			GoTo TiuIOLeakage;
+		}
+	}
+	FlowItem TiuIOLeakage TiuIOLeakage
+	{
+		Result -2
+		{
+			Property PassFail = "Fail";
+			SetBin b90999901_fail_FAIL_DPS_ALARM;
+			Return -2;
+		}
+		Result -1
+		{
+			Property PassFail = "Fail";
+			SetBin b90989806_fail_FAIL_SYSTEM_SOFTWARE;
+			Return -1;
+		}
+		Result 0
+		{
+			Property PassFail = "Fail";
+			Return 0;
+		}
+		Result 1
+		{
+			Property PassFail = "Pass";
+			GoTo Powerdown_test;
+		}
+	}
+	
+	
+}
+
+Flow XCHIP_BASE_LOTENDFLOW
+{
+	FlowItem SramEndLot SramEndLot
+	{
+		Result -2
+		{
+			Property PassFail = "Fail";
+			SetBin b90999901_fail_FAIL_DPS_ALARM;
+			Return -2;
+		}
+		Result -1
+		{
+			Property PassFail = "Fail";
+			SetBin b90989806_fail_FAIL_SYSTEM_SOFTWARE;
+			Return -1;
+		}
+		Result 0
+		{
+			Property PassFail = "Fail";
+			Return 0;
+			#SetBin 
+			#IncrementCounters 
+		}
+		Result 1
+		{
+			Property PassFail = "Pass";
+			Return 1;
+			#SetBin 
+			#IncrementCounters 
+		}
+	}
+		
+}
+
+Flow XCHIP_BASE_LOTSTARTFLOW
+{
+
+	FlowItem StartDatalog StartDatalog
+	{
+		Result -2
+		{
+			Property PassFail = "Fail";
+			SetBin b90999901_fail_FAIL_DPS_ALARM;
+			Return -2;
+		}
+		Result -1
+		{
+			Property PassFail = "Fail";
+			SetBin b90989806_fail_FAIL_SYSTEM_SOFTWARE;
+			Return -1;
+		}
+		Result 0
+		{
+			Property PassFail = "Fail";
+			Return 0;
+			#SetBin 
+			#IncrementCounters 
+		}
+		Result 1
+		{
+			Property PassFail = "Pass";
+			Return 1;
+			#SetBin 
+			#IncrementCounters 
+		}
+	}
+}
+
+Flow XCHIP_BASE_MAIN
+{
+
+	FlowItem Sample_Shops Sample_Shops
+	{
+		Result -2
+		{
+			Property PassFail = "Fail";
+			SetBin b90999901_fail_FAIL_DPS_ALARM;
+			Return -2;
+		}
+		Result -1
+		{
+			Property PassFail = "Fail";
+			SetBin b90989806_fail_FAIL_SYSTEM_SOFTWARE;
+			Return -1;
+		}
+		Result 0
+		{
+			Property PassFail = "Fail";
+			IncrementCounters XCHIP_BASE::n90100001_fail_sram_shops_4;
+			#SetBin b90101001_fail_XSRAM_STARTUP_X78C_sram_shops_4;
+			GoTo Powerdown_test_copy;
+		}
+		Result 1
+		{
+			Property PassFail = "Pass";
+			GoTo Powerdown_test_copy;
+			#SetBin 
+			#IncrementCounters 
+		}
+		Result 2
+		{
+			Property PassFail = "Fail";
+			GoTo Powerdown_test_copy;
+			#SetBin 
+			#IncrementCounters 
+		}
+	}	
+	FlowItem Powerdown_test_copy Powerdown_test_copy
+	{
+		Result -2
+		{
+			Property PassFail = "Fail";
+			SetBin b90999901_fail_FAIL_DPS_ALARM;
+			Return -2;
+		}
+		Result -1
+		{
+			Property PassFail = "Fail";
+			SetBin b90989806_fail_FAIL_SYSTEM_SOFTWARE;
+			Return -1;
+		}
+		Result 0
+		{
+			Property PassFail = "Fail";
+			Return 0;
+			#SetBin 
+			#IncrementCounters 
+		}
+		Result 1
+		{
+			Property PassFail = "Pass";
+			Return 1;
+			#SetBin 
+			#IncrementCounters 
+		}
+		Result 2
+		{
+			Property PassFail = "Fail";
+			Return 0;
+			#SetBin 
+			#IncrementCounters 
+		}
+	}	
+	
+}
+
+
+Flow XCHIP_BASE_POWERDOWN
+{
+
+	FlowItem Powerdown_test_flowitem Powerdown_test_copy
+	{
+		Result -2
+		{
+			Property PassFail = "Fail";
+			SetBin b90999901_fail_FAIL_DPS_ALARM;
+			Return -2;
+		}
+		Result -1
+		{
+			Property PassFail = "Fail";
+			SetBin b90989806_fail_FAIL_SYSTEM_SOFTWARE;
+			Return -1;
+		}
+		Result 0
+		{
+			Property PassFail = "Fail";
+			GoTo endtimer_full_flow;
+		}
+		Result 1
+		{
+			Property PassFail = "Pass";
+			GoTo endtimer_full_flow;
+		}
+	}	
+	FlowItem endtimer_full_flow endtimer_full_flow
+	{
+		Result -2
+		{
+			Property PassFail = "Fail";
+			SetBin b90999901_fail_FAIL_DPS_ALARM;
+			Return -2;
+		}
+		Result -1
+		{
+			Property PassFail = "Fail";
+			SetBin b90989806_fail_FAIL_SYSTEM_SOFTWARE;
+			Return -1;
+		}
+		Result 0
+		{
+			Property PassFail = "Fail";
+			Return 0;
+		}
+		Result 1
+		{
+			Property PassFail = "Pass";
+			Return 1;
+		}
+		Result 2
+		{
+			Property PassFail = "Fail";
+			Return 0;
+		}
+	}	
+	
+}
+
+
+Flow XCHIP_BASE_TESTPLANENDFLOW
+{
+	FlowItem Binning_CSharpTest Binning_Test
+	{
+		Result -2
+		{
+			Property PassFail = "Fail";
+			SetBin b90999901_fail_FAIL_DPS_ALARM;
+			Return -2;
+		}
+		Result -1
+		{
+			Property PassFail = "Fail";
+			SetBin b90989806_fail_FAIL_SYSTEM_SOFTWARE;
+			Return -1;
+		}
+		Result 0
+		{
+			Property PassFail = "Fail";
+			Return 0;
+			#SetBin 
+			#IncrementCounters 
+		}
+		Result 1
+		{
+			Property PassFail = "Pass";
+			GoTo FlowTimer_Stop;
+			#SetBin 
+			#IncrementCounters 
+		}
+	}
+
+	FlowItem FlowTimer_Stop FlowTimer_Stop
+	{
+		Result -2
+		{
+			Property PassFail = "Fail";
+			SetBin b90999901_fail_FAIL_DPS_ALARM;
+			Return -2;
+		}
+		Result -1
+		{
+			Property PassFail = "Fail";
+			SetBin b90989806_fail_FAIL_SYSTEM_SOFTWARE;
+			Return -1;
+		}
+		Result 0
+		{
+			Property PassFail = "Fail";
+			Return 0;
+			#SetBin 
+			#IncrementCounters 
+		}
+		Result 1
+		{
+			Property PassFail = "Pass";
+			Return 1;
+			#SetBin 
+			#IncrementCounters 
+		}
+	}		
+	
+	
+}
+
+Flow XCHIP_BASE_TESTPLANSTARTFLOW
+{
+	FlowItem DeviceStartDatalog DeviceStartDatalog
+	{
+		Result -2
+		{
+			Property PassFail = "Fail";
+			SetBin b90999901_fail_FAIL_DPS_ALARM;
+			Return -2;
+		}
+		Result -1
+		{
+			Property PassFail = "Fail";
+ 		    SetBin b90989806_fail_FAIL_SYSTEM_SOFTWARE;
+			Return -1;
+		}
+		Result 0
+		{
+			Property PassFail = "Fail";
+			Return 0;
+		}
+		Result 1
+		{
+			Property PassFail = "Pass";
+            GoTo SmartTCEnable;
+		}
+	}
+    FlowItem SmartTCEnable SmartTCEnable
+	{
+		Result -2
+		{
+			Property PassFail = "Fail";
+			SetBin b90999901_fail_FAIL_DPS_ALARM;
+			Return -2;
+		}
+		Result -1
+		{
+			Property PassFail = "Fail";
+			SetBin b90989806_fail_FAIL_SYSTEM_SOFTWARE;
+			Return -1;
+		}
+		Result 0
+		{
+			Property PassFail = "Fail";
+			Return 0;
+		}
+		Result 1
+		{
+			Property PassFail = "Pass";
+			GoTo FlowTimer_Start;
+		}
+	}	
+
+    FlowItem FlowTimer_Start FlowTimer_Start
+	{
+		Result -2
+		{
+			Property PassFail = "Fail";
+			SetBin b90999901_fail_FAIL_DPS_ALARM;
+			Return -2;
+		}
+		Result -1
+		{
+			Property PassFail = "Fail";
+			SetBin b90989806_fail_FAIL_SYSTEM_SOFTWARE;
+			Return -1;
+		}
+		Result 0
+		{
+			Property PassFail = "Fail";
+			Return 0;
+		}
+		Result 1
+		{
+			Property PassFail = "Pass";
+			Return 1;
+		}
+	}	
+}
+
+Flow XCHIP_BASE_DUTCHANGEFLOW
+{
+	FlowItem PrimeElectricalZAlignment PrimeElectricalZAlignment
+	{
+		Result -2 
+        {
+            Property PassFail = "Fail"; 
+            SetBin b90999901_fail_FAIL_DPS_ALARM; 
+            Return -2;
+        }
+		Result -1 
+        { 
+            Property PassFail = "Fail"; 
+            SetBin b90989806_fail_FAIL_SYSTEM_SOFTWARE; 
+            Return -1; 
+        }
+		Result 0
+		{
+			Property PassFail = "Fail";
+            Return 0;
+		}
+		Result 1
+		{
+			Property PassFail = "Pass";
+            Return 1;
+		}
+	}
+}

@@ -1,0 +1,46 @@
+{
+  "Shutoff_Cache_Repair_top": [
+    {
+      "Pattern": "hdmt_Shutoff_Cache_Repair_using_direct_fuse_loading_edited",
+      "Label": "RU01_Shutoff",
+      "LabelOffset": "0",
+      "Pins": "xlyamode2,xlyamode1,xlyamode0",
+      "Values": "100",
+      "VectorsToModify": "1"
+    },
+    {
+      "Pattern": "hdmt_Shutoff_Cache_Repair_using_direct_fuse_loading_edited",
+      "Label": "RU54_Shutoff",
+      "LabelOffset": "0",
+      "Pins": "xlyamode2,xlyamode1,xlyamode0",
+      "Values": "100",
+      "VectorsToModify": "1"
+    }
+  ],
+  "Shutoff_Cache_Repair_bot": [
+    {
+      "Pattern": "hdmt_Shutoff_Cache_Repair_using_direct_fuse_loading_edited",
+      "Label": "RU04_Shutoff",
+      "LabelOffset": "0",
+      "Pins": "xlyamode2,xlyamode1,xlyamode0",
+      "Values": "100",
+      "VectorsToModify": "1"
+    },
+    {
+      "Pattern": "hdmt_Shutoff_Cache_Repair_using_direct_fuse_loading_edited",
+      "Label": "RU23_Shutoff",
+      "LabelOffset": "0",
+      "Pins": "xlyamode2,xlyamode1,xlyamode0",
+      "Values": "100",
+      "VectorsToModify": "1"
+    },
+    {
+      "Pattern": "hdmt_Shutoff_Cache_Repair_using_direct_fuse_loading_edited",
+      "Label": "RU67_Shutoff",
+      "LabelOffset": "0",
+      "Pins": "xlyamode2,xlyamode1,xlyamode0",
+      "Values": "100",
+      "VectorsToModify": "1"
+    }
+  ]
+}

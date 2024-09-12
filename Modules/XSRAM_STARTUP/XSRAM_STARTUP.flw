@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--File is auto-generated, any manual edits can be overwritten.-->
+<!DOCTYPE HDMTFlowItemCoor []>
+<HDMTFlowItemCoor>
+  <FlowItem name="XSRAM_STARTUP::shops_comp.shops" X="25" Y="25" />
+  <FlowItem name="XSRAM_STARTUP::cont_comp.primary_supply_continuity_test" X="25" Y="25" />
+  <FlowItem name="XSRAM_STARTUP::Initialize_repair_and_shutoff_pattern.CacheRepair_Initialization_Test_top" X="25" Y="25" />
+  <FlowItem name="XSRAM_STARTUP::Initialize_repair_and_shutoff_pattern.CacheRepair_Initialization_Test_classhot_top" X="25" Y="25" />
+  <FlowItem name="XSRAM_STARTUP::Initialize_repair_and_shutoff_pattern.CacheRepair_Initialization_Test_bot" X="25" Y="25" />
+  <FlowItem name="XSRAM_STARTUP::Initialize_repair_and_shutoff_pattern.CacheRepair_Initialization_Test_classhot_bot" X="25" Y="25" />
+  <FlowItem name="XSRAM_STARTUP::initialize_shops_cont.starttimer_intialize_shops_cont" X="25" Y="25" />
+  <FlowItem name="XSRAM_STARTUP::initialize_shops_cont.PrintSiteID" X="25" Y="25" />
+  <FlowItem name="XSRAM_STARTUP::initialize_shops_cont.VisualID_uf" X="25" Y="25" />
+  <FlowItem name="XSRAM_STARTUP::initialize_shops_cont.SortClassFlowFork" X="25" Y="25" />
+  <FlowItem name="XSRAM_STARTUP::initialize_shops_cont.Die_type_select" X="25" Y="25" />
+  <FlowItem name="XSRAM_STARTUP::initialize_shops_cont.CRES" X="25" Y="25" />
+  <FlowItem name="XSRAM_STARTUP::initialize_shops_cont.shops_comp" X="25" Y="25" />
+  <FlowItem name="XSRAM_STARTUP::initialize_shops_cont.cont_comp" X="25" Y="25" />
+  <FlowItem name="XSRAM_STARTUP::initialize_shops_cont.endtimer_intialize_shops_cont" X="25" Y="25" />
+  <FlowItem name="XSRAM_STARTUP::initialize_shops_cont.Initialize_repair_and_shutoff_pattern" X="25" Y="25" />
+  <FlowItem name="XSRAM_STARTUP::initialize_shops_cont.initialize_globals" X="25" Y="25" />
+  <FlowItem name="XSRAM_STARTUP::initialize_shops_cont.initialize_ICC_results" X="25" Y="25" />
+  <FlowItem name="XSRAM_STARTUP::XSRAM_STARTUP_MAIN.starttimer_total" X="25" Y="25" />
+  <FlowItem name="XSRAM_STARTUP::XSRAM_STARTUP_MAIN.starttimer_total_startup" X="35" Y="45" />
+  <FlowItem name="XSRAM_STARTUP::XSRAM_STARTUP_MAIN.initialize_shops_cont" X="45" Y="65" />
+  <FlowItem name="XSRAM_STARTUP::XSRAM_STARTUP_MAIN.endtimer_total_startup" X="55" Y="85" />
+  <FlowItem name="XSRAM_STARTUP::shops_comp.starttimer_shops" X="25" Y="25" />
+  <FlowItem name="XSRAM_STARTUP::shops_comp.endtimer_shops" X="25" Y="25" />
+</HDMTFlowItemCoor>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<TMMRuntimeLibrary enabled="true">
+		<RootPath>H:\tpapps\tmmlibs\prime</RootPath>
+		<Revision>
+			<!-- define EVG/PRIME revision -->
+		</Revision>
+		<EnvironmentFileName>EnvironmentFile_t72slt.env</EnvironmentFileName>
+	</TMMRuntimeLibrary >
+
+	<!-- Use Idut section to configure IP and IP Test plans for Intradut Test Programs -->
+	<!--<Idut>
+    <IP name="" TestPlan="" />
+  </Idut>-->
+
+	<TestProgramFiles>
+		<RootPath> ..\..\</RootPath>
+	</TestProgramFiles>
+
+	<!-- Use BinConvention section to configure your binning strategy.  
+  Supported strategies: SORT_2_DIGIT_SOFTBIN , SORT_FULL_8_DIGITS , CLASS_2_DIGIT_SOFTBIN , CLASS_FULL_8_DIGITS
+  More info: http://goto/TorchBinCounter  
+  -->
+	<BinConvention>SORT_FULL_8_DIGITS</BinConvention>
+</Configuration>

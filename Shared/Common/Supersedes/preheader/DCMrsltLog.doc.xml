@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DCMrsltLog</name>
+    </assembly>
+    <members>
+        <member name="T:DCMrsltLog.DCMrsltLog">
+            <summary>
+            This class is intended to overwrite the test method PrimeDcTestMethod.
+            </summary>
+        </member>
+    </members>
+</doc>

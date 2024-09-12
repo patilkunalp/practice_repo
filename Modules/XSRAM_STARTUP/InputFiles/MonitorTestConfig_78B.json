@@ -1,0 +1,38 @@
+{
+  "MonitorSetup": [
+     {
+      "TestName": "xvccmon0_test_z40,xvssmon0_test_z40",
+      "PatternModifyKeys": "RU40",
+      "MeasurePin": "xvccmon0,xvssmon0",
+      "PList": "monitor0_test_plist",
+      "PatternTriggerMap": "MonitorTriggerMap",
+      "Level": "main_ltype_main_nom_lcat",
+      "Timing": "char_tim_char_DCTest_tcat"
+    },
+    {
+      "TestName": "xvccmon1_test_z3,xvssmon1_test_z3",
+      "PatternModifyKeys": "RU3",
+      "MeasurePin": "xvccmon1,xvssmon1",
+      "PList": "monitor1_test_plist",
+      "PatternTriggerMap": "MonitorTriggerMap",
+      "Level": "main_ltype_main_nom_lcat",
+      "Timing": "char_tim_char_DCTest_tcat"
+    }
+  ],
+  "PatternModify": [
+    {
+      "Key": "RU3",
+      "Pattern": "monitor1_regular_sleep_reset_setZ_seq",
+      "Label": "ZADDR",
+      "Pin": "xzadd6,xzadd5,xzadd4,xzadd3,xzadd2,xzadd1,xzadd0",
+      "ModifyString": "0000011"
+    },
+    {
+      "Key": "RU40",
+      "Pattern": "monitor0_regular_sleep_reset_setZ_seq",
+      "Label": "ZADDR",
+      "Pin": "xzadd6,xzadd5,xzadd4,xzadd3,xzadd2,xzadd1,xzadd0",
+      "ModifyString": "0101000"
+    }
+  ]
+}

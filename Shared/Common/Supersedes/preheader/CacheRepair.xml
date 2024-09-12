@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestLibraryInterfaces xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://vtsm.intel.com/2009/TestLibraryInterfaces file:///C:/Intel/hdmt/hdmtOS_3.9.0.1_Release/TOSRelease/bin/release/TestLibraryInterfaces.xsd" xmlns="http://vtsm.intel.com/2009/TestLibraryInterfaces">
+  <TestLibrary name="PrimeTestInstance">
+    <TestClass name="CacheRepair" MetaData="dll=CacheRepair" />
+    <Imports>
+      <FileName>TestMethodBase.xml</FileName>
+      <FileName>CacheRepairCommonParams.xml</FileName>
+    </Imports>
+    <PublicBases>
+      <BaseName>TestMethodBase</BaseName>
+    </PublicBases>
+    <Parameters>
+      <Parameter name="ElementLayoutTableName" descriptions="Element Layout Table Name">
+        <Type>
+          <Tester>String</Tester>
+          <TestProgram>String</TestProgram>
+        </Type>
+        <AlwaysRequired />
+      </Parameter>
+      <Parameter name="ConfigFile" descriptions="Config file path for JSON file">
+        <Type>
+          <Tester>String</Tester>
+          <TestProgram>File</TestProgram>
+        </Type>
+        <AlwaysRequired />
+      </Parameter>
+      <Parameter name="LabelTableName" descriptions="IO to pattern label table name">
+        <Type>
+          <Tester>String</Tester>
+          <TestProgram>String</TestProgram>
+        </Type>
+        <AlwaysRequired />
+      </Parameter>
+		<Parameter name="FlavorName" descriptions="Flavor name of RUs">
+        <Type>
+          <Tester>String</Tester>
+          <TestProgram>String</TestProgram>
+        </Type>
+        <AlwaysRequired />
+      </Parameter>
+		<Parameter name="RepairType" descriptions="Repair Type">
+        <Type>
+          <Tester>String</Tester>
+          <TestProgram>String</TestProgram>
+        </Type>
+        <AlwaysRequired />
+      </Parameter>
+		<Parameter name="DFFString" descriptions="DFF User-Variable">
+        <Type>
+          <Tester>String</Tester>
+          <TestProgram>String</TestProgram>
+        </Type>
+        <AlwaysRequired />
+      </Parameter>
+		<Parameter name="RUstoProcess" descriptions="Comma-separated list of RUs, or user-variable containing a comma-separated list of RUs to process for printing and pattern update -- applicable to Raster RepairMode only">
+        <Type>
+          <Tester>String</Tester>
+          <TestProgram>String</TestProgram>
+        </Type>
+        <AlwaysRequired />
+      </Parameter>
+		<Parameter name="RepairMode" descriptions="Should settings be loaded from raster redundancy or DFF?">
+        <Type>
+          <Tester>String</Tester>
+          <TestProgram>String</TestProgram>
+        </Type>
+        <Choices>
+          <Choice>Raster</Choice>
+          <Choice>DFF</Choice>
+		 <Choice>Init</Choice>
+        </Choices>
+        <Default>Raster</Default>
+        <Optional />
+		</Parameter>
+		<Parameter name="UpdateDFFStringOnly" descriptions="If enabled, will only update the DFF string">
+        <Type>
+          <Tester>String</Tester>
+          <TestProgram>String</TestProgram>
+        </Type>
+        <Choices>
+          <Choice>Enable</Choice>
+          <Choice>Disable</Choice>
+        </Choices>
+        <Default>Disable</Default>
+        <Optional />
+		</Parameter>
+    </Parameters>
+    <ExitPorts>
+      <ExitPort>
+        <PortNumber>1</PortNumber>
+        <PortType>Pass</PortType>
+        <PortDescriptions>Pass!</PortDescriptions>
+      </ExitPort>
+      <ExitPort>
+        <PortNumber>0</PortNumber>
+        <PortType>Fail</PortType>
+        <PortDescriptions>Fail!</PortDescriptions>
+      </ExitPort>
+      <ExitPort>
+        <PortNumber>-1</PortNumber>
+        <PortType>Error</PortType>
+        <PortDescriptions>PORT FAIL FOR SW ERROR CONDITION</PortDescriptions>
+      </ExitPort>
+      <ExitPort>
+        <PortNumber>-2</PortNumber>
+        <PortType>Fail</PortType>
+        <PortDescriptions>PORT FAIL FOR HW ALARM CONDITION</PortDescriptions>
+      </ExitPort>
+    </ExitPorts>
+  </TestLibrary>
+</TestLibraryInterfaces>

@@ -1,0 +1,32 @@
+{
+	"PinNames": [
+		"uvs_ch_100"
+	],
+    "TCCTempSet":[{ 
+		"name": "tci_init",
+        "ControlSetMapping": {
+			"DIODESOT":"1",
+			"DESOAK":"2",
+			"SOAK":"3",
+			"IDLE":"4",
+			"DISPENSE":"5",
+			"SDT_POWER_FOLLOWING":"6",
+			"CS_7":"7",
+			"SDS_POWER_FOLLOWING":"8",
+			"CS_9":"9",
+			"CS_10":"10",
+			"CS_11":"11",
+			"CS_12":"12",
+			"CS_13":"13",
+			"CS_14":"14",
+			"CS_15":"15",
+			"CS_16":"16",
+			"CS_17":"17",
+			"CS_18":"18",
+			"CS_19":"19",
+			"CS_20":"20",
+			"CS_21":"21",
+			"CS_22":"22",
+		}
+	}]
+}

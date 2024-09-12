@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestLibraryInterfaces xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://vtsm.intel.com/2009/TestLibraryInterfaces file:///C:/Intel/hdmt/hdmtOS_3.9.0.1_Release/TOSRelease/bin/release/TestLibraryInterfaces.xsd" xmlns="http://vtsm.intel.com/2009/TestLibraryInterfaces">
+  <TestLibrary name="PrimeTestInstance">
+    <TestClass name="StartDatalog" MetaData="dll=StartDatalog" />
+    <Imports>
+      <FileName>TestMethodBase.xml</FileName>
+      <FileName>StartDatalogCommonParams.xml</FileName>
+    </Imports>
+    <PublicBases>
+      <BaseName>TestMethodBase</BaseName>
+    </PublicBases>
+    <Parameters>
+      <Parameter name="ItuffPath" descriptions="Ituff Path - Leave blank to run without Ituff.  Will overwrite existing ITuff file if it exists.">
+        <Type>
+          <Tester>String</Tester>
+          <TestProgram>File</TestProgram>
+        </Type>
+        <Default>"C:/intel/hdmtprogs/logs/ituff.txt"</Default>
+        <Optional />
+		</Parameter>
+	        <Parameter name="RasterPath" descriptions="Raster Path - Leave blank to run without raster file logging.  Will overwrite existing raster file if it exists.">
+        <Type>
+          <Tester>String</Tester>
+          <TestProgram>File</TestProgram>
+        </Type>
+        <Default>"C:/intel/hdmtprogs/logs/raster.txt"</Default>
+        <Optional />
+		</Parameter>
+		<Parameter name="ScanPath" descriptions="ScanFi Path - Leave blank to run without scan file logging.  Will overwrite existing scan file if it exists.">
+        <Type>
+          <Tester>String</Tester>
+          <TestProgram>File</TestProgram>
+        </Type>
+        <Default>"C:/intel/hdmtprogs/logs/scan.txt"</Default>
+        <Optional />
+		</Parameter>
+    </Parameters>
+    <ExitPorts>
+      <ExitPort>
+        <PortNumber>1</PortNumber>
+        <PortType>Pass</PortType>
+        <PortDescriptions>Pass!</PortDescriptions>
+      </ExitPort>
+      <ExitPort>
+        <PortNumber>0</PortNumber>
+        <PortType>Fail</PortType>
+        <PortDescriptions>Fail!</PortDescriptions>
+      </ExitPort>
+      <ExitPort>
+        <PortNumber>-1</PortNumber>
+        <PortType>Error</PortType>
+        <PortDescriptions>PORT FAIL FOR SW ERROR CONDITION</PortDescriptions>
+      </ExitPort>
+      <ExitPort>
+        <PortNumber>-2</PortNumber>
+        <PortType>Fail</PortType>
+        <PortDescriptions>PORT FAIL FOR HW ALARM CONDITION</PortDescriptions>
+      </ExitPort>
+    </ExitPorts>
+  </TestLibrary>
+</TestLibraryInterfaces>

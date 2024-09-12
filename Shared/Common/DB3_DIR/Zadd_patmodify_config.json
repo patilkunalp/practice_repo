@@ -1,0 +1,12 @@
+{
+  "Zadd_pat_modify": [
+    {
+      "Label": "set_ZADD",
+      "LabelOffset": "0",
+      "Pattern": "setz_nrst",
+      "Pins": "zaddrs",
+      "Values": "TPGL_1stPassRU_HDC_D3",
+      "VectorsToModify": "1"
+    }
+  ]
+}

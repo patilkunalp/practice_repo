@@ -1,0 +1,28 @@
+{
+  "Main": [
+    {
+      "Voltage": "0.8",
+      "Pin": "xedm1_0",
+      "TargetResistance": "",
+      "Counter": ""
+    },
+    {
+      "Voltage": "0.3",
+      "Pin": "xedm1_0",
+      "TargetResistance": "",
+      "Counter": ""
+    },
+    {
+      "Voltage": "0.8",
+      "Pin": "xedm2_0",
+      "TargetResistance": "",
+      "Counter": ""
+    },
+    {
+      "Voltage": "0.3",
+      "Pin": "xedm2_0",
+      "TargetResistance": "",
+      "Counter": ""
+    }
+  ]
+}

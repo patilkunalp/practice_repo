@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CGlobalExp</name>
+    </assembly>
+    <members>
+        <member name="T:CGlobalExp.CGlobalExp">
+            <summary>
+            Dummy description of this test method.
+            </summary>
+        </member>
+        <member name="P:CGlobalExp.CGlobalExp.TableName">
+            <summary>
+            Die-coordinate and product configuration table name of the JSON file
+            </summary>
+        </member>
+        <member name="P:CGlobalExp.CGlobalExp.ConfigFile">
+            <summary>
+            Config file path for JSON file
+            </summary>
+        </member>
+        <member name="P:CGlobalExp.CGlobalExp.OperationUserVariableName">
+            <summary>
+            User-variable that stores the current operation
+            </summary>
+        </member>
+        <member name="M:CGlobalExp.CGlobalExp.Verify">
+            <inheritdoc />
+        </member>
+        <member name="M:CGlobalExp.CGlobalExp.Execute">
+            <inheritdoc />
+        </member>
+        <member name="T:SRAMBase.TableHolder">
+            <summary>
+            A test class
+            </summary>
+        </member>
+        <member name="M:SRAMBase.TableHolder.#ctor(System.String,System.String,System.Collections.Generic.List{System.String})">
+            <summary>
+            Initializes a new instance of the <see cref="T:SRAMBase.TableHolder"/> class.
+            </summary>
+            <param name="filepath"></param>
+            <param name="tablename"></param>
+            <param name="requiredparams"></param>
+        </member>
+        <member name="M:SRAMBase.TableHolder.GetEnumerator">
+            <inheritdoc/>
+        </member>
+        <member name="T:SRAMBase.UserVariable">
+            <summary>
+            A test class
+            </summary>
+        </member>
+        <member name="F:SRAMBase.UserVariable.Isset">
+            <summary>
+            is the variable set or not
+            </summary>
+        </member>
+        <member name="M:SRAMBase.UserVariable.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:SRAMBase.UserVariable"/> class.
+            </summary>
+            <param name="s"></param>
+        </member>
+        <member name="M:SRAMBase.UserVariable.GetDoubleValue">
+            <summary>
+            Returns an double for a double type user-variable
+            </summary>
+        </member>
+        <member name="M:SRAMBase.UserVariable.GetStringValue">
+            <summary>
+            Returns a string for string type user-variable
+            </summary>
+        </member>
+        <member name="M:SRAMBase.UserVariable.GetIntegerValue">
+            <summary>
+            Returns an integer for an integer type user-variable
+            </summary>
+        </member>
+        <member name="M:SRAMBase.UserVariable.SetValue(System.String)">
+            <summary>
+            Sets string for string type user-variable
+            </summary>
+        </member>
+        <member name="M:SRAMBase.UserVariable.ToString">
+            <inheritdoc/>
+        </member>
+    </members>
+</doc>

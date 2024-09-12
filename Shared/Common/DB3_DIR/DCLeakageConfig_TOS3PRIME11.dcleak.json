@@ -1,0 +1,28 @@
+{
+  "ConfigurationSets": [
+	{
+      "ConfigurationName": "ilih_test",
+      "Measurements": [
+        {
+          "MeasurementGroup": "ilih_test_inlkg_pins",
+          "MeasurementPinGroup": "inlkg_pins",
+          "Settings": [
+            {
+              "Pins": [
+                "inlkg_pins"
+              ],
+              "PinSetting": {
+                "LimitHigh": 0.0094, 
+                "LimitLow": -0.0094, 
+                "ForceHigh": 0.9,
+                "ClampHigh": 0.02,
+                "ClampLow": -0.02,
+                "IRange": "IR40mA"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

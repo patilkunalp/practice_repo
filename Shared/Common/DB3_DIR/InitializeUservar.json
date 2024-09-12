@@ -1,0 +1,3394 @@
+{
+  "UservarTable": [
+    {
+      "UserVariableCollection": "BYPASSVars",
+      "UserVariableName": "BYPASS_PinCont_Test",
+      "Value": "-1"
+    },
+    {
+      "UserVariableCollection": "BYPASSVars",
+      "UserVariableName": "BYPASS_pbist_test",
+      "Value": "-1"
+    },
+    {
+      "UserVariableCollection": "BYPASSVars",
+      "UserVariableName": "BYPASS_hdc_d3_b19",
+      "Value": "2"
+    },
+    {
+      "UserVariableCollection": "BYPASSVars",
+      "UserVariableName": "BYPASS_ddr_PinCont_Test",
+      "Value": "2"
+    },
+    {
+      "UserVariableCollection": "BYPASSVars",
+      "UserVariableName": "BYPASS_PinCont_Open_Test",
+      "Value": "-1"
+    },
+    {
+      "UserVariableCollection": "BYPASSVars",
+      "UserVariableName": "BYPASS_FusePinCont_Test",
+      "Value": "-1"
+    },
+    {
+      "UserVariableCollection": "BYPASSVars",
+      "UserVariableName": "BYPASS_EDM_PinCont_Test",
+      "Value": "-1"
+    },
+    {
+      "UserVariableCollection": "BYPASSVars",
+      "UserVariableName": "BYPASS_lowkild_PinCont_Test",
+      "Value": "-1"
+    },
+    {
+      "UserVariableCollection": "BYPASSVars",
+      "UserVariableName": "BYPASS_pll_PinCont_Test",
+      "Value": "-1"
+    },
+    {
+      "UserVariableCollection": "BYPASSVars",
+      "UserVariableName": "BYPASS_Vccgio_Test",
+      "Value": "-1"
+    },
+    {
+      "UserVariableCollection": "BYPASSVars",
+      "UserVariableName": "BYPASS_Vccg_Test",
+      "Value": "-1"
+    },
+    {
+      "UserVariableCollection": "BYPASSVars",
+      "UserVariableName": "BYPASS_Vcc_Test",
+      "Value": "-1"
+    },
+    {
+      "UserVariableCollection": "BYPASSVars",
+      "UserVariableName": "BYPASS_Vcc_non_sleep_Test",
+      "Value": "-1"
+    },
+    {
+      "UserVariableCollection": "BYPASSVars",
+      "UserVariableName": "BYPASS_Vcc2_Test",
+      "Value": "2"
+    },
+    {
+      "UserVariableCollection": "BYPASSVars",
+      "UserVariableName": "BYPASS_Vcc2_Sleep_Test",
+      "Value": "-1"
+    },
+    {
+      "UserVariableCollection": "BYPASSVars",
+      "UserVariableName": "BYPASS_Vcc2_non_Sleep_Test",
+      "Value": "-1"
+    },
+    {
+      "UserVariableCollection": "BYPASSVars",
+      "UserVariableName": "BYPASS_vccg_Vhi_Test",
+      "Value": "-1"
+    },
+    {
+      "UserVariableCollection": "BYPASSVars",
+      "UserVariableName": "BYPASS_Vcc_hv_Test",
+      "Value": "-1"
+    },
+    {
+      "UserVariableCollection": "BYPASSVars",
+      "UserVariableName": "BYPASS_Vhi_Test",
+      "Value": "-1"
+    },
+    {
+      "UserVariableCollection": "BYPASSVars",
+      "UserVariableName": "BYPASS_Vcc_Vhi_Test",
+      "Value": "-1"
+    },
+    {
+      "UserVariableCollection": "BYPASSVars",
+      "UserVariableName": "BYPASS_Vcc_sleep_Test",
+      "Value": "-1"
+    },
+    {
+      "UserVariableCollection": "BYPASSVars",
+      "UserVariableName": "BYPASS_Tap_Pass_Flow",
+      "Value": "-1"
+    },
+    {
+      "UserVariableCollection": "BYPASSVars",
+      "UserVariableName": "BYPASS_vccfhv_1V_tests",
+      "Value": "-1"
+    },
+    {
+      "UserVariableCollection": "BYPASSVars",
+      "UserVariableName": "BYPASS_vccfhv_1p5V_tests",
+      "Value": "-1"
+    },
+    {
+      "UserVariableCollection": "BYPASSVars",
+      "UserVariableName": "BYPASS_vccfhv_1p8V_tests",
+      "Value": "-1"
+    },
+    {
+      "UserVariableCollection": "BYPASSVars",
+      "UserVariableName": "BYPASS_vccflv_1V_tests",
+      "Value": "-1"
+    },
+    {
+      "UserVariableCollection": "BYPASSVars",
+      "UserVariableName": "BYPASS_vccflv_1p5V_tests",
+      "Value": "-1"
+    },
+    {
+      "UserVariableCollection": "BYPASSVars",
+      "UserVariableName": "BYPASS_vccflv_1p8V_tests",
+      "Value": "-1"
+    },
+    {
+      "UserVariableCollection": "BYPASSVars",
+      "UserVariableName": "BYPASS_vccgact_tests",
+      "Value": "-1"
+    },
+    {
+      "UserVariableCollection": "BYPASSVars",
+      "UserVariableName": "BYPASS_vccgact_950mV_tests",
+      "Value": "-1"
+    },
+    {
+      "UserVariableCollection": "BYPASSVars",
+      "UserVariableName": "BYPASS_vccgact_1100mV_tests",
+      "Value": "-1"
+    },
+    {
+      "UserVariableCollection": "BYPASSVars",
+      "UserVariableName": "BYPASS_vccidv_tests",
+      "Value": "-1"
+    },
+    {
+      "UserVariableCollection": "BYPASSVars",
+      "UserVariableName": "BYPASS_vccidv_950mV_tests",
+      "Value": "-1"
+    },
+    {
+      "UserVariableCollection": "BYPASSVars",
+      "UserVariableName": "BYPASS_vccidv_1100mV_tests",
+      "Value": "-1"
+    },
+    {
+      "UserVariableCollection": "BYPASSVars",
+      "UserVariableName": "BYPASS_vccg_domain_IDV_testing",
+      "Value": "2"
+    },
+    {
+      "UserVariableCollection": "BYPASSVars",
+      "UserVariableName": "BYPASS_fuse_tests",
+      "Value": "-1"
+    },
+    {
+      "UserVariableCollection": "BYPASSVars",
+      "UserVariableName": "BYPASS_fuse_tests_Vccflv",
+      "Value": "-1"
+    },
+    {
+      "UserVariableCollection": "BYPASSVars",
+      "UserVariableName": "BYPASS_Vccg_950mV_Test",
+      "Value": "-1"
+    },
+    {
+      "UserVariableCollection": "BYPASSVars",
+      "UserVariableName": "BYPASS_Vccg_1100mV_Test",
+      "Value": "-1"
+    },
+    {
+      "UserVariableCollection": "BYPASSVars",
+      "UserVariableName": "BYPASS_Vccgio_950mV_Test",
+      "Value": "-1"
+    },
+    {
+      "UserVariableCollection": "BYPASSVars",
+      "UserVariableName": "BYPASS_Vccgio_1100mV_Test",
+      "Value": "-1"
+    },
+    {
+      "UserVariableCollection": "BYPASSVars",
+      "UserVariableName": "BYPASS_pll_tests",
+      "Value": "-1"
+    },
+    {
+      "UserVariableCollection": "BYPASSVars",
+      "UserVariableName": "BYPASS_vccddq_tests",
+      "Value": "-1"
+    },
+    {
+      "UserVariableCollection": "BYPASSVars",
+      "UserVariableName": "BYPASS_vsshi_tests",
+      "Value": "-1"
+    },
+    {
+      "UserVariableCollection": "BYPASSVars",
+      "UserVariableName": "BYPASS_HCDPS_POWER_SUPPLY",
+      "Value": "2"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RTD_RESISTANCE_SORT",
+      "Value": "999"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RTD_RESISTANCE_CLASS",
+      "Value": "999"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "DFF_REDUN_HIGH",
+      "Value": ""
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "DFF_REDUN_LOW",
+      "Value": ""
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "DFF_REDUN_REPAIR",
+      "Value": "NULL"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "DFF_REDUN_REPAIR_CLASSHOT_RC",
+      "Value": "NULL"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_RasterNumberBitFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_RasterNumberRawDumpFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_RasterNumberColumnFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_RasterNumberRowFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_RasterNumberUnknownFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_RasterTotalNumberOfBits",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_RasterFirstPassingRU",
+      "Value": "999"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "GL_SteppingID",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "TPG_post_hvqk_switch",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "GL_fail_count_setup1",
+      "Value": "999"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "GL_fail_count_setup2",
+      "Value": "999"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "GL_fail_count_setup3",
+      "Value": "999"
+    },
+    {
+      "UserVariableCollection": "BYPASSVars",
+      "UserVariableName": "BYPASS_BFNR_test",
+      "Value": "2"
+    },
+    {
+      "UserVariableCollection": "BYPASSVars",
+      "UserVariableName": "BYPASS_BFNR_HCC_D2_test",
+      "Value": "2"
+    },
+    {
+      "UserVariableCollection": "BYPASSVars",
+      "UserVariableName": "BYPASS_BFNR_HDC_test",
+      "Value": "2"
+    },
+    {
+      "UserVariableCollection": "BYPASSVars",
+      "UserVariableName": "BYPASS_BFNR_HPRF_SLL_test",
+      "Value": "2"
+    },
+    {
+      "UserVariableCollection": "BYPASSVars",
+      "UserVariableName": "BYPASS_BFNR_HPRF_HSS_SS_test",
+      "Value": "2"
+    },
+    {
+      "UserVariableCollection": "BYPASSVars",
+      "UserVariableName": "BYPASS_BFNR_HDC_D3_test",
+      "Value": "2"
+    },
+    {
+      "UserVariableCollection": "BYPASSVars",
+      "UserVariableName": "BYPASS_BFNR_HCC_D3_test",
+      "Value": "2"
+    },
+    {
+      "UserVariableCollection": "BYPASSVars",
+      "UserVariableName": "BYPASS_BFNR_HDC_D3CON_test",
+      "Value": "2"
+    },
+    {
+      "UserVariableCollection": "BYPASSVars",
+      "UserVariableName": "BYPASS_BFNR_HCC_D2VID_test",
+      "Value": "2"
+    },
+    {
+      "UserVariableCollection": "BYPASSVars",
+      "UserVariableName": "BYPASS_BFNR_HCC_D3VID_test",
+      "Value": "2"
+    },
+    {
+      "UserVariableCollection": "BYPASSVars",
+      "UserVariableName": "BYPASS_BFNR_HCC_D4VID_test",
+      "Value": "2"
+    },
+    {
+      "UserVariableCollection": "BYPASSVars",
+      "UserVariableName": "BYPASS_BFNR_HDC_D4_test",
+      "Value": "2"
+    },
+    {
+      "UserVariableCollection": "BYPASSVars",
+      "UserVariableName": "BYPASS_BFNR_HCC_D3CON_test",
+      "Value": "2"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU6_GT_CRU_LOOPBACK",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU17_GT_CRU_LOOPBACK",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU25_GT_CRU_LOOPBACK",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU36_GT_CRU_LOOPBACK",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU37_GT_CRU_LOOPBACK",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU44_GT_CRU_LOOPBACK",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU55_GT_CRU_LOOPBACK",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU56_GT_CRU_LOOPBACK",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU63_GT_CRU_LOOPBACK",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU74_GT_CRU_LOOPBACK",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU75_GT_CRU_LOOPBACK",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "GT_CRU_LOOPBACK",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU74_GT_CRU_SI_CHAIN_PREHVQK",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU74_GT_CRU_D1_CHAIN_PREHVQK",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU6_GT_CRU_SI_CHAIN_PREHVQK",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU6_GT_CRU_D1_CHAIN_PREHVQK",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU63_GT_CRU_SI_CHAIN_PREHVQK",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU63_GT_CRU_D1_CHAIN_PREHVQK",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU55_GT_CRU_SI_CHAIN_PREHVQK",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU55_GT_CRU_D1_CHAIN_PREHVQK",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU44_GT_CRU_SI_CHAIN_PREHVQK",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU44_GT_CRU_D1_CHAIN_PREHVQK",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU36_GT_CRU_SI_CHAIN_PREHVQK",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU36_GT_CRU_D1_CHAIN_PREHVQK",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU25_GT_CRU_SI_CHAIN_PREHVQK",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU25_GT_CRU_D1_CHAIN_PREHVQK",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU17_GT_CRU_SI_CHAIN_PREHVQK",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU17_GT_CRU_D1_CHAIN_PREHVQK",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU18_GT_CRU_SI_CHAIN_PREHVQK",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU18_GT_CRU_D1_CHAIN_PREHVQK",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU37_GT_CRU_SI_CHAIN_PREHVQK",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU37_GT_CRU_D1_CHAIN_PREHVQK",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU56_GT_CRU_SI_CHAIN_PREHVQK",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU56_GT_CRU_D1_CHAIN_PREHVQK",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU75_GT_CRU_SI_CHAIN_PREHVQK",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU75_GT_CRU_D1_CHAIN_PREHVQK",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "GT_CRU_SI_CHAIN_PREHVQK",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "GT_CRU_PREHVQK",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "GT_CRU_D1_CHAIN_PREHVQK",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU74_GT_CRU_SI_CAPTURE_PREHVQK",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU6_GT_CRU_SI_CAPTURE_PREHVQK",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU63_GT_CRU_SI_CAPTURE_PREHVQK",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU55_GT_CRU_SI_CAPTURE_PREHVQK",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU44_GT_CRU_SI_CAPTURE_PREHVQK",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU36_GT_CRU_SI_CAPTURE_PREHVQK",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU25_GT_CRU_SI_CAPTURE_PREHVQK",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU17_GT_CRU_SI_CAPTURE_PREHVQK",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "GT_CRU_SI_CAPTURE_PREHVQK",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU6_GT_EU_LOOPBACK",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU17_GT_EU_LOOPBACK",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU25_GT_EU_LOOPBACK",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU36_GT_EU_LOOPBACK",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU44_GT_EU_LOOPBACK",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU55_GT_EU_LOOPBACK",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU63_GT_EU_LOOPBACK",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU74_GT_EU_LOOPBACK",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "GT_EU_LOOPBACK",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU6_GT_EU_CHAIN_PREHVQK",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU17_GT_EU_CHAIN_PREHVQK",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU25_GT_EU_CHAIN_PREHVQK",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU36_GT_EU_CHAIN_PREHVQK",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU44_GT_EU_CHAIN_PREHVQK",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU55_GT_EU_CHAIN_PREHVQK",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU63_GT_EU_CHAIN_PREHVQK",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU74_GT_EU_CHAIN_PREHVQK",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU18_GT_EU_CHAIN_PREHVQK",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU37_GT_EU_CHAIN_PREHVQK",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU56_GT_EU_CHAIN_PREHVQK",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU75_GT_EU_CHAIN_PREHVQK",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "GT_EU_CHAIN_PREHVQK",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "GT_EU_CAPTURE_PREHVQK",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "BYPASS_GT_EU_CHAIN_PREHVQK",
+      "Value": "33333333"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "BYPASS_GT_EU_CAPTURE_PREHVQK",
+      "Value": "33333333"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "BYPASS_GT_CAPTURE_PREHVQK",
+      "Value": "33333333"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "BYPASS_GT_CHAIN_EXCLUDE",
+      "Value": "33333333"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "BYPASS_GT_CAPTURE_EXCLUDE",
+      "Value": "33333333"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "BYPASS_GT_EU_CHAIN_EXCLUDE",
+      "Value": "33333333"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "BYPASS_GT_EU_CAPTURE_EXCLUDE",
+      "Value": "33333333"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "GT_CRU_RU17_EXCLUDE4_GOOD",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "GT_CRU_RU18_EXCLUDE4_GOOD",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "GT_CRU_RU33_EXCLUDE4_GOOD",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "GT_CRU_RU34_EXCLUDE4_GOOD",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "GT_CRU_RU55_EXCLUDE4_GOOD",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "GT_CRU_RU56_EXCLUDE4_GOOD",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "GT_CRU_RU71_EXCLUDE4_GOOD",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "GT_CRU_RU72_EXCLUDE4_GOOD",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU18_GT_EU7TO9_CHAIN_PREHVQK",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU33_GT_EU_CHAIN_PREHVQK",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU34_GT_EU_CHAIN_PREHVQK",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU71_GT_EU_CHAIN_PREHVQK",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU72_GT_EU_CHAIN_PREHVQK",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU17_GT_EU_CAPTURE_PREHVQK",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU18_GT_EU7TO9_CAPTURE_PREHVQK",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU33_GT_EU_CAPTURE_PREHVQK",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU34_GT_EU_CAPTURE_PREHVQK",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU55_GT_EU_CAPTURE_PREHVQK",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU56_GT_EU_CAPTURE_PREHVQK",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU71_GT_EU_CAPTURE_PREHVQK",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU72_GT_EU_CAPTURE_PREHVQK",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "BYPASS_IA_CRU_PREHVQK",
+      "Value": "333333"
+    },
+    {
+      "UserVariableCollection": "BYPASSVars",
+      "UserVariableName": "BYPASS_hprf_sll_posthvqk_nom",
+      "Value": "-1"
+    },
+    {
+      "UserVariableCollection": "BYPASSVars",
+      "UserVariableName": "BYPASS_hprf_sll_posthvqk_ks",
+      "Value": "-1"
+    },
+    {
+      "UserVariableCollection": "BYPASSVars",
+      "UserVariableName": "BYPASS_hprf_sll_b16",
+      "Value": "2"
+    },
+    {
+      "UserVariableCollection": "BYPASSVars",
+      "UserVariableName": "BYPASS_hprf_sll_b19",
+      "Value": "2"
+    },
+    {
+      "UserVariableCollection": "BYPASSVars",
+      "UserVariableName": "BYPASS_hprf_sll_b24",
+      "Value": "2"
+    },
+    {
+      "UserVariableCollection": "BYPASSVars",
+      "UserVariableName": "BYPASS_hprf_sll_b34",
+      "Value": "2"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "BYPASS_LCV_CRU_PREHVQK",
+      "Value": "33"
+    },
+    {
+      "UserVariableCollection": "BYPASSVars",
+      "UserVariableName": "BYPASS_LCV_RU23",
+      "Value": "3"
+    },
+    {
+      "UserVariableCollection": "BYPASSVars",
+      "UserVariableName": "BYPASS_LCV_RU49",
+      "Value": "3"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "LOGICVMIN_SCAN_PREHVQK_NOM",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "BYPASS_LOGICVMIN_VMOB",
+      "Value": "3"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "BYPASS_LOGICVMIN_PREHVQK",
+      "Value": "3"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "BYPASS_SCANRU_PREHVQK",
+      "Value": "33333333333333300000"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "BYPASS_SCANRU_PREHVQK_5SCY",
+      "Value": "3333"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "BYPASS_SCANRU_PREHVQK_45SCY",
+      "Value": "33333333"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "BYPASS_SCANRU_PREHVQK_50SCY",
+      "Value": "33333333"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "BYPASS_SCANRU_POSTHVQK",
+      "Value": "33333333333333300000"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "BYPASS_SCANRU_POSTHVQK_5SCY",
+      "Value": "3333"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "BYPASS_SCANRU_POSTHVQK_45SCY",
+      "Value": "33333333"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "BYPASS_SCANRU_POSTHVQK_50SCY",
+      "Value": "33333333"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "SCAN_PREH_TOP_240_50",
+      "Value": "333333333333"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "SCAN_PREH_BOT_240_50",
+      "Value": "3,333,333,333"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "SCAN_PREH_240_50LL",
+      "Value": "33"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "SCAN_PREH_DENSITY",
+      "Value": "3"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "SCAN_PREH_TOP_180_50",
+      "Value": "333"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "SCAN_PREH_BOT_180_50",
+      "Value": "33"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "SCAN_PREH_A53",
+      "Value": "3"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "A53_FUNC_LF_CORE1",
+      "Value": "8"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "A53_FUNC_LF_CORE2",
+      "Value": "8"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "A53_FUNC_LF_CORE3",
+      "Value": "8"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "A53_FUNC_LF_CORE4",
+      "Value": "8"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "SCAN_POSTH_TOP_240_50",
+      "Value": "333333333333"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "SCAN_POSTH_BOT_240_50",
+      "Value": "3,333,333,333"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "SCAN_POSTH_240_50LL",
+      "Value": "33"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "SCAN_POSTH_DENSITY",
+      "Value": "3"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "SCAN_POSTH_TOP_180_50",
+      "Value": "333"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "SCAN_POSTH_BOT_180_50",
+      "Value": "33"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "SCANRU_PREHVQK",
+      "Value": "8"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "SCANRU_CHAIN_PREHVQK",
+      "Value": "8"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU1_SCANRU_CHAIN_PREHVQK",
+      "Value": "8"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU3_SCANRU_CHAIN_PREHVQK",
+      "Value": "8"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU8_SCANRU_CHAIN_PREHVQK",
+      "Value": "8"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU11_SCANRU_CHAIN_PREHVQK",
+      "Value": "8"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU13_SCANRU_CHAIN_PREHVQK",
+      "Value": "8"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU15_SCANRU_CHAIN_PREHVQK",
+      "Value": "8"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU20_SCANRU_CHAIN_PREHVQK",
+      "Value": "8"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU22_SCANRU_CHAIN_PREHVQK",
+      "Value": "8"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU27_SCANRU_CHAIN_PREHVQK",
+      "Value": "8"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU30_SCANRU_CHAIN_PREHVQK",
+      "Value": "8"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU32_SCANRU_CHAIN_PREHVQK",
+      "Value": "8"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU34_SCANRU_CHAIN_PREHVQK",
+      "Value": "8"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU39_SCANRU_CHAIN_PREHVQK",
+      "Value": "8"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU41_SCANRU_CHAIN_PREHVQK",
+      "Value": "8"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU46_SCANRU_CHAIN_PREHVQK",
+      "Value": "8"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU49_SCANRU_CHAIN_PREHVQK",
+      "Value": "8"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU51_SCANRU_CHAIN_PREHVQK",
+      "Value": "8"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU53_SCANRU_CHAIN_PREHVQK",
+      "Value": "8"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU58_SCANRU_CHAIN_PREHVQK",
+      "Value": "8"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU60_SCANRU_CHAIN_PREHVQK",
+      "Value": "8"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU65_SCANRU_CHAIN_PREHVQK",
+      "Value": "8"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU68_SCANRU_CHAIN_PREHVQK",
+      "Value": "8"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU70_SCANRU_CHAIN_PREHVQK",
+      "Value": "8"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU72_SCANRU_CHAIN_PREHVQK",
+      "Value": "8"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HCC_D2NONREDUNNumberBitFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HCC_D2NONREDUNNumberColumnFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HCC_D2NONREDUNNumberRowFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HCC_D2NONREDUNNumberRawDumpFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HCC_D2NONREDUNNumberUnknownFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HCC_D2NONREDUNTotalNumberOfBits",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HCC_D2STMNumberBitFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HCC_D2STMNumberColumnFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HCC_D2STMNumberRowFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HCC_D2STMNumberRawDumpFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HCC_D2STMNumberUnknownFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HCC_D2STMTotalNumberOfBits",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HCC_D2HVQKNumberBitFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HCC_D2HVQKNumberColumnFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HCC_D2HVQKNumberRowFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HCC_D2HVQKNumberRawDumpFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HCC_D2HVQKNumberUnknownFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HCC_D2HVQKTotalNumberOfBits",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HDC_D3NONREDUNNumberBitFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HDC_D3NONREDUNNumberColumnFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HDC_D3NONREDUNNumberRowFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HDC_D3NONREDUNNumberRawDumpFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HDC_D3NONREDUNNumberUnknownFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HDC_D3NONREDUNTotalNumberOfBits",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HDC_D3STMNumberBitFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HDC_D3STMNumberColumnFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HDC_D3STMNumberRowFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HDC_D3STMNumberRawDumpFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HDC_D3STMNumberUnknownFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HDC_D3STMTotalNumberOfBits",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HDC_D3HVQKNumberBitFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HDC_D3HVQKNumberColumnFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HDC_D3HVQKNumberRowFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HDC_D3HVQKNumberRawDumpFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HDC_D3HVQKNumberUnknownFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HDC_D3HVQKTotalNumberOfBits",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HCC_D3NONREDUNNumberBitFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HCC_D3NONREDUNNumberColumnFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HCC_D3NONREDUNNumberRowFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HCC_D3NONREDUNNumberRawDumpFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HCC_D3NONREDUNNumberUnknownFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HCC_D3NONREDUNTotalNumberOfBits",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HCC_D3STMNumberBitFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HCC_D3STMNumberColumnFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HCC_D3STMNumberRowFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HCC_D3STMNumberRawDumpFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HCC_D3STMNumberUnknownFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HCC_D3STMTotalNumberOfBits",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HCC_D3HVQKNumberBitFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HCC_D3HVQKNumberColumnFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HCC_D3HVQKNumberRowFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HCC_D3HVQKNumberRawDumpFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HCC_D3HVQKNumberUnknownFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HCC_D3HVQKTotalNumberOfBits",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HDROM_LVTNONREDUNNumberBitFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HDROM_LVTNONREDUNNumberColumnFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HDROM_LVTNONREDUNNumberRowFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HDROM_LVTNONREDUNNumberRawDumpFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HDROM_LVTNONREDUNNumberUnknownFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HDROM_LVTNONREDUNTotalNumberOfBits",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HDROM_LVTSTMNumberBitFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HDROM_LVTSTMNumberColumnFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HDROM_LVTSTMNumberRowFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HDROM_LVTSTMNumberRawDumpFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HDROM_LVTSTMNumberUnknownFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HDROM_LVTSTMTotalNumberOfBits",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HDROM_LVTHVQKNumberBitFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HDROM_LVTHVQKNumberColumnFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HDROM_LVTHVQKNumberRowFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HDROM_LVTHVQKNumberRawDumpFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HDROM_LVTHVQKNumberUnknownFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HDROM_LVTHVQKTotalNumberOfBits",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HDROM_SVTNONREDUNNumberBitFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HDROM_SVTNONREDUNNumberColumnFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HDROM_SVTNONREDUNNumberRowFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HDROM_SVTNONREDUNNumberRawDumpFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HDROM_SVTNONREDUNNumberUnknownFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HDROM_SVTNONREDUNTotalNumberOfBits",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HDROM_SVTSTMNumberBitFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HDROM_SVTSTMNumberColumnFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HDROM_SVTSTMNumberRowFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HDROM_SVTSTMNumberRawDumpFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HDROM_SVTSTMNumberUnknownFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HDROM_SVTSTMTotalNumberOfBits",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HDROM_SVTHVQKNumberBitFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HDROM_SVTHVQKNumberColumnFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HDROM_SVTHVQKNumberRowFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HDROM_SVTHVQKNumberRawDumpFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HDROM_SVTHVQKNumberUnknownFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HDROM_SVTHVQKTotalNumberOfBits",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_HSS_SLNONREDUNNumberBitFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_HSS_SLNONREDUNNumberColumnFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_HSS_SLNONREDUNNumberRawDumpFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_HSS_SLNONREDUNNumberRowFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_HSS_SLNONREDUNNumberUnknownFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_HSS_SLNONREDUNTotalNumberOfBits",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_HSSHVQKNumberBitFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_HSSHVQKNumberColumnFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_HSSHVQKNumberRawDumpFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_HSSHVQKNumberRowFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_HSSHVQKNumberUnknownFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_HSSHVQKTotalNumberOfBits",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_HSSNONREDUNNumberBitFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_HSSNONREDUNNumberColumnFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_HSSNONREDUNNumberRawDumpFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_HSSNONREDUNNumberRowFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_HSSNONREDUNNumberUnknownFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_HSSNONREDUNTotalNumberOfBits",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_HSSSTMNumberBitFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_HSSSTMNumberColumnFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_HSSSTMNumberRawDumpFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_HSSSTMNumberRowFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_HSSSTMNumberUnknownFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_HSSSTMTotalNumberOfBits",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_SLL_SLNONREDUNNumberBitFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_SLL_SLNONREDUNNumberColumnFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_SLL_SLNONREDUNNumberRawDumpFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_SLL_SLNONREDUNNumberRowFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_SLL_SLNONREDUNNumberUnknownFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_SLL_SLNONREDUNTotalNumberOfBits",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_SLLHVQKNumberBitFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_SLLHVQKNumberColumnFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_SLLHVQKNumberRawDumpFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_SLLHVQKNumberRowFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_SLLHVQKNumberUnknownFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_SLLHVQKTotalNumberOfBits",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_SLLNONREDUNNumberBitFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_SLLNONREDUNNumberColumnFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_SLLNONREDUNNumberRawDumpFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_SLLNONREDUNNumberRowFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_SLLNONREDUNNumberUnknownFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_SLLNONREDUNTotalNumberOfBits",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_SLLSTMNumberBitFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_SLLSTMNumberColumnFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_SLLSTMNumberRawDumpFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_SLLSTMNumberRowFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_SLLSTMNumberUnknownFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_SLLSTMTotalNumberOfBits",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_DOT2_SLL_VID_SLNONREDUNNumberBitFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_DOT2_SLL_VID_SLNONREDUNNumberColumnFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_DOT2_SLL_VID_SLNONREDUNNumberRawDumpFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_DOT2_SLL_VID_SLNONREDUNNumberRowFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_DOT2_SLL_VID_SLNONREDUNNumberUnknownFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_DOT2_SLL_VID_SLNONREDUNTotalNumberOfBits",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_DOT2_SLL_VIDHVQKNumberBitFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_DOT2_SLL_VIDHVQKNumberColumnFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_DOT2_SLL_VIDHVQKNumberRawDumpFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_DOT2_SLL_VIDHVQKNumberRowFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_DOT2_SLL_VIDHVQKNumberUnknownFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_DOT2_SLL_VIDHVQKTotalNumberOfBits",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_DOT2_SLL_VIDNONREDUNNumberBitFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_DOT2_SLL_VIDNONREDUNNumberColumnFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_DOT2_SLL_VIDNONREDUNNumberRawDumpFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_DOT2_SLL_VIDNONREDUNNumberRowFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_DOT2_SLL_VIDNONREDUNNumberUnknownFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_DOT2_SLL_VIDNONREDUNTotalNumberOfBits",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_DOT2_SLL_VIDSTMNumberBitFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_DOT2_SLL_VIDSTMNumberColumnFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_DOT2_SLL_VIDSTMNumberRawDumpFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_DOT2_SLL_VIDSTMNumberRowFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_DOT2_SLL_VIDSTMNumberUnknownFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_DOT2_SLL_VIDSTMTotalNumberOfBits",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_HHS_SLNONREDUNNumberBitFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_HHS_SLNONREDUNNumberColumnFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_HHS_SLNONREDUNNumberRawDumpFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_HHS_SLNONREDUNNumberRowFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_HHS_SLNONREDUNNumberUnknownFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_HHS_SLNONREDUNTotalNumberOfBits",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_HHSHVQKNumberBitFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_HHSHVQKNumberColumnFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_HHSHVQKNumberRawDumpFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_HHSHVQKNumberRowFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_HHSHVQKNumberUnknownFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_HHSHVQKTotalNumberOfBits",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_HHSNONREDUNNumberBitFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_HHSNONREDUNNumberColumnFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_HHSNONREDUNNumberRawDumpFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_HHSNONREDUNNumberRowFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_HHSNONREDUNNumberUnknownFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_HHSNONREDUNTotalNumberOfBits",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_HHSSTMNumberBitFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_HHSSTMNumberColumnFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_HHSSTMNumberRawDumpFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_HHSSTMNumberRowFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_HHSSTMNumberUnknownFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_HHSSTMTotalNumberOfBits",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_SN_SLNONREDUNNumberBitFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_SN_SLNONREDUNNumberColumnFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_SN_SLNONREDUNNumberRawDumpFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_SN_SLNONREDUNNumberRowFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_SN_SLNONREDUNNumberUnknownFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_SN_SLNONREDUNTotalNumberOfBits",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_SNHVQKNumberBitFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_SNHVQKNumberColumnFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_SNHVQKNumberRawDumpFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_SNHVQKNumberRowFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_SNHVQKNumberUnknownFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_SNHVQKTotalNumberOfBits",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_SNNONREDUNNumberBitFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_SNNONREDUNNumberColumnFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_SNNONREDUNNumberRawDumpFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_SNNONREDUNNumberRowFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_SNNONREDUNNumberUnknownFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_SNNONREDUNTotalNumberOfBits",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_SNSTMNumberBitFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_SNSTMNumberColumnFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_SNSTMNumberRawDumpFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_SNSTMNumberRowFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_SNSTMNumberUnknownFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_SNSTMTotalNumberOfBits",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_HHH_LL_SLNONREDUNNumberBitFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_HHH_LL_SLNONREDUNNumberColumnFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_HHH_LL_SLNONREDUNNumberRawDumpFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_HHH_LL_SLNONREDUNNumberRowFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_HHH_LL_SLNONREDUNNumberUnknownFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_HHH_LL_SLNONREDUNTotalNumberOfBits",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_HHH_LLHVQKNumberBitFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_HHH_LLHVQKNumberColumnFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_HHH_LLHVQKNumberRawDumpFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_HHH_LLHVQKNumberRowFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_HHH_LLHVQKNumberUnknownFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_HHH_LLHVQKTotalNumberOfBits",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_HHH_LLNONREDUNNumberBitFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_HHH_LLNONREDUNNumberColumnFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_HHH_LLNONREDUNNumberRawDumpFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_HHH_LLNONREDUNNumberRowFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_HHH_LLNONREDUNNumberUnknownFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_HHH_LLNONREDUNTotalNumberOfBits",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_HHH_LLSTMNumberBitFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_HHH_LLSTMNumberColumnFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_HHH_LLSTMNumberRawDumpFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_HHH_LLSTMNumberRowFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_HHH_LLSTMNumberUnknownFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_HHH_LLSTMTotalNumberOfBits",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "TPGL_1stPassRU_HPRF_HHH_LL_TOP",
+      "Value": "999"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "TPGL_1stPassRU_HPRF_HHH_LL_BOT",
+      "Value": "999"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_SLL_LL_SLNONREDUNNumberBitFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_SLL_LL_SLNONREDUNNumberColumnFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_SLL_LL_SLNONREDUNNumberRawDumpFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_SLL_LL_SLNONREDUNNumberRowFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_SLL_LL_SLNONREDUNNumberUnknownFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_SLL_LL_SLNONREDUNTotalNumberOfBits",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_SLL_LLHVQKNumberBitFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_SLL_LLHVQKNumberColumnFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_SLL_LLHVQKNumberRawDumpFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_SLL_LLHVQKNumberRowFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_SLL_LLHVQKNumberUnknownFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_SLL_LLHVQKTotalNumberOfBits",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_SLL_LLNONREDUNNumberBitFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_SLL_LLNONREDUNNumberColumnFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_SLL_LLNONREDUNNumberRawDumpFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_SLL_LLNONREDUNNumberRowFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_SLL_LLNONREDUNNumberUnknownFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_SLL_LLNONREDUNTotalNumberOfBits",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_SLL_LLSTMNumberBitFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_SLL_LLSTMNumberColumnFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_SLL_LLSTMNumberRawDumpFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_SLL_LLSTMNumberRowFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_SLL_LLSTMNumberUnknownFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_HPRF_SLL_LLSTMTotalNumberOfBits",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_LLRF_HSS_SS_SLNONREDUNNumberBitFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_LLRF_HSS_SS_SLNONREDUNNumberColumnFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_LLRF_HSS_SS_SLNONREDUNNumberRawDumpFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_LLRF_HSS_SS_SLNONREDUNNumberRowFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_LLRF_HSS_SS_SLNONREDUNNumberUnknownFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_LLRF_HSS_SS_SLNONREDUNTotalNumberOfBits",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_LLRF_HSS_SSHVQKNumberBitFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_LLRF_HSS_SSHVQKNumberColumnFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_LLRF_HSS_SSHVQKNumberRawDumpFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_LLRF_HSS_SSHVQKNumberRowFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_LLRF_HSS_SSHVQKNumberUnknownFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_LLRF_HSS_SSHVQKTotalNumberOfBits",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_LLRF_HSS_SSNONREDUNNumberBitFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_LLRF_HSS_SSNONREDUNNumberColumnFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_LLRF_HSS_SSNONREDUNNumberRawDumpFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_LLRF_HSS_SSNONREDUNNumberRowFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_LLRF_HSS_SSNONREDUNNumberUnknownFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_LLRF_HSS_SSNONREDUNTotalNumberOfBits",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_LLRF_HSS_SSSTMNumberBitFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_LLRF_HSS_SSSTMNumberColumnFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_LLRF_HSS_SSSTMNumberRawDumpFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_LLRF_HSS_SSSTMNumberRowFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_LLRF_HSS_SSSTMNumberUnknownFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_LLRF_HSS_SSSTMTotalNumberOfBits",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_TPRF_HHH_SS_SLNONREDUNNumberBitFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_TPRF_HHH_SS_SLNONREDUNNumberColumnFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_TPRF_HHH_SS_SLNONREDUNNumberRawDumpFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_TPRF_HHH_SS_SLNONREDUNNumberRowFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_TPRF_HHH_SS_SLNONREDUNNumberUnknownFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_TPRF_HHH_SS_SLNONREDUNTotalNumberOfBits",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_TPRF_HHH_SSHVQKNumberBitFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_TPRF_HHH_SSHVQKNumberColumnFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_TPRF_HHH_SSHVQKNumberRawDumpFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_TPRF_HHH_SSHVQKNumberRowFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_TPRF_HHH_SSHVQKNumberUnknownFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_TPRF_HHH_SSHVQKTotalNumberOfBits",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_TPRF_HHH_SSNONREDUNNumberBitFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_TPRF_HHH_SSNONREDUNNumberColumnFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_TPRF_HHH_SSNONREDUNNumberRawDumpFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_TPRF_HHH_SSNONREDUNNumberRowFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_TPRF_HHH_SSNONREDUNNumberUnknownFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_TPRF_HHH_SSNONREDUNTotalNumberOfBits",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_TPRF_HHH_SSSTMNumberBitFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_TPRF_HHH_SSSTMNumberColumnFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_TPRF_HHH_SSSTMNumberRawDumpFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_TPRF_HHH_SSSTMNumberRowFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_TPRF_HHH_SSSTMNumberUnknownFails",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_TPRF_HHH_SSSTMTotalNumberOfBits",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "TPGL_1stPassRU_HPRF_SLL",
+      "Value": "999"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "TPGL_1stPassRU_LLRF_HSS_SS_TOP",
+      "Value": "999"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "TPGL_1stPassRU_LLRF_HSS_SS_BOT",
+      "Value": "999"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "TPGL_1stPassRU_HCC_D2_TOP",
+      "Value": "999"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "TPGL_1stPassRU_HCC_D2_BOT",
+      "Value": "999"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "TPGL_1stPassRU_TPRF_HHH_SS_TOP",
+      "Value": "999"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "TPGL_1stPassRU_TPRF_HHH_SS_BOT",
+      "Value": "999"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "TPGL_1stPassRU_HPRF_SLL_LL_TOP",
+      "Value": "999"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "TPGL_1stPassRU_HPRF_SLL_LL_BOT",
+      "Value": "999"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "TPGL_1stPassRU_HCC",
+      "Value": "999"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "TPGL_1stPassRU_HDC",
+      "Value": "999"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "TPGL_1stPassRU_HCC_D3_TOP",
+      "Value": "999"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "TPGL_1stPassRU_HDC_D3_TOP",
+      "Value": "999"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "TPGL_1stPassRU_HCC_D3_BOT",
+      "Value": "999"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "TPGL_1stPassRU_HDC_D3_BOT",
+      "Value": "999"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "TPGL_1stPassRU_HCC_D2VID",
+      "Value": "999"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "TPGL_1stPassRU_HCC_D3VID",
+      "Value": "999"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "TPGL_1stPassRU_HCC_D4VID",
+      "Value": "999"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "TPGL_1stPassRU_HDC_D4",
+      "Value": "999"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "TPGL_1stPassRU_HCC_D3CON",
+      "Value": "999"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "TPGL_1stPassRU_HDC_D3",
+      "Value": "999"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "TPGL_1stPassRU_HDC_D3CON",
+      "Value": "999"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "TPGL_1stPassRU_HPRF_HS",
+      "Value": "999"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "TPGL_1stPassRU_HPRF_SN",
+      "Value": "999"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "TPGL_1stPassRU_HPRF_SS",
+      "Value": "999"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "TPGL_1stPassRU_HPRF_HHS",
+      "Value": "999"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "TPGL_1stPassRU_HPRF_HSS",
+      "Value": "999"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "TPGL_1stPassRU_HPRF_HHH_SS_CG",
+      "Value": "999"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "TPGL_1stPassRU_HPRF_HHH_SS_NCG",
+      "Value": "999"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "TPGL_1stPassRU_HPRF_DOT2_SLL_VID",
+      "Value": "999"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "iCGL_RasterFirstPassingRU",
+      "Value": "999"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "GL_vmin_search_dat_fullarray_hcc_d2_pre",
+      "Value": "999"
+    },
+    {
+      "UserVariableCollection": "BYPASSVars",
+      "UserVariableName": "BYPASS_hprf_ss_posthvqk_nom",
+      "Value": "-1"
+    },
+    {
+      "UserVariableCollection": "BYPASSVars",
+      "UserVariableName": "BYPASS_hprf_sn_posthvqk_nom",
+      "Value": "-1"
+    },
+    {
+      "UserVariableCollection": "BYPASSVars",
+      "UserVariableName": "BYPASS_hprf_hss_posthvqk_nom",
+      "Value": "-1"
+    },
+    {
+      "UserVariableCollection": "BYPASSVars",
+      "UserVariableName": "BYPASS_hprf_hhs_posthvqk_nom",
+      "Value": "-1"
+    },
+    {
+      "UserVariableCollection": "BYPASSVars",
+      "UserVariableName": "BYPASS_hprf_hs_posthvqk_nom",
+      "Value": "-1"
+    },
+    {
+      "UserVariableCollection": "BYPASSVars",
+      "UserVariableName": "BYPASS_hprf_ss_posthvqk_ks",
+      "Value": "-1"
+    },
+    {
+      "UserVariableCollection": "BYPASSVars",
+      "UserVariableName": "BYPASS_hprf_sn_posthvqk_ks",
+      "Value": "-1"
+    },
+    {
+      "UserVariableCollection": "BYPASSVars",
+      "UserVariableName": "BYPASS_hprf_hss_posthvqk_ks",
+      "Value": "-1"
+    },
+    {
+      "UserVariableCollection": "BYPASSVars",
+      "UserVariableName": "BYPASS_hprf_hhs_posthvqk_ks",
+      "Value": "-1"
+    },
+    {
+      "UserVariableCollection": "BYPASSVars",
+      "UserVariableName": "BYPASS_hprf_hs_posthvqk_ks",
+      "Value": "-1"
+    },
+    {
+      "UserVariableCollection": "BYPASSVars",
+      "UserVariableName": "BYPASS_hdc_posthvqk_nom",
+      "Value": "-1"
+    },
+    {
+      "UserVariableCollection": "BYPASSVars",
+      "UserVariableName": "BYPASS_hdc_posthvqk_ks",
+      "Value": "-1"
+    },
+    {
+      "UserVariableCollection": "BYPASSVars",
+      "UserVariableName": "BYPASS_hcc_posthvqk_nom",
+      "Value": "-1"
+    },
+    {
+      "UserVariableCollection": "BYPASSVars",
+      "UserVariableName": "BYPASS_hcc_posthvqk_ks",
+      "Value": "-1"
+    },
+    {
+      "UserVariableCollection": "BYPASSVars",
+      "UserVariableName": "BYPASS_hdc_d3_posthvqk_nom",
+      "Value": "-1"
+    },
+    {
+      "UserVariableCollection": "BYPASSVars",
+      "UserVariableName": "BYPASS_hdc_d3_posthvqk_ks",
+      "Value": "-1"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "BYPASS_CHAINRU180_PREHVQK",
+      "Value": "333333333333333333"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU7_BOUNDARY",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU13_BOUNDARY",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU41_BOUNDARY",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU47_BOUNDARY",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU53_BOUNDARY",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU58_BOUNDARY",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU66_BOUNDARY",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU36_BOUNDARY",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU61_BOUNDARY",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU27_BOUNDARY",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU29_BOUNDARY",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU68_BOUNDARY",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU4_BOUNDARY",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU57_BOUNDARY",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU71_BOUNDARY",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU26_BOUNDARY",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "CHAINRU180_BOUNDARY_PREGOOD",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "CHAINRU180_PREGOOD",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "CHAINRU180_PREGOOD_FS",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "BYPASS_CHAINRU160_PREHVQK",
+      "Value": "333333333333333"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU11_BOUNDARY",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU19_BOUNDARY",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU25_BOUNDARY",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU45_BOUNDARY",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU51_BOUNDARY",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU56_BOUNDARY",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU65_BOUNDARY",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU31_BOUNDARY",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU64_BOUNDARY",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU28_BOUNDARY",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU67_BOUNDARY",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU69_BOUNDARY",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "CHAINRU160_BOUNDARY_BOT",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "CHAINRU160_PREGOOD",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "CHAINRU160_PREGOOD_ALL",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "ARM160_PREGOOD",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "ARM160_PREGOOD_ALL",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "ARMRU160_BOUNDARY_BOT",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "ARMRU180_BOUNDARY",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "ARM180_PREGOOD",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "ARM180_PREGOOD_ALL",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "BYPASS_ARM160_PREHVQK",
+      "Value": "3"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "BYPASS_ARM180_PREHVQK",
+      "Value": "33"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU34_BOUNDARY",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU60_BOUNDARY",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU57_BOUNDARY",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "LVHS160_PREGOOD_TOP",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "LVHS180_PREGOOD_TOP",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "LVHS160_PREGOOD_BOT",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "LVHS180_PREGOOD_BOT",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "LVHS160_POSTGOOD",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "LVHS180_POSTGOOD",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "LVHS160_PIPELINE_POSTGOOD",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "LVHS160_PIPELINE_PREGOOD",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "LVHS180_PIPELINE_POSTGOOD",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "LVHS180_PIPELINE_PREGOOD",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "LVHS160_PREHVQK_TOP",
+      "Value": "1111"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "LVHS160_PREHVQK_PIPELINE_TOP",
+      "Value": "1111"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "LVHS160_PREHVQK_BOT",
+      "Value": "1111"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "LVHS160_PREHVQK_PIPELINE_BOT",
+      "Value": "1111"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "LVHS180_PREHVQK_TOP",
+      "Value": "1111"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "LVHS180_PREHVQK_PIPELINE_TOP",
+      "Value": "1111"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "LVHS180_PREHVQK_BOT",
+      "Value": "1111"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "LVHS180_PREHVQK_PIPELINE_BOT",
+      "Value": "1111"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU0_BOUNDARY",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU4_BOUNDARY",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU1_BOUNDARY",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU17_BOUNDARY",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU23_BOUNDARY",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU26_BOUNDARY",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU74_BOUNDARY",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "RU76_BOUNDARY",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "BYPASS_CHAINRU180_POSTHVQK",
+      "Value": "333333333333333"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "BYPASS_CHAINRU160_POSTHVQK",
+      "Value": "333333333333333"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "CHAINRU180_BOUNDARY_POSTGOOD",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "CHAINRU180_POSTGOOD",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "CHAINRU180_POSTGOOD_FS",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "CHAINRU160_POSTGOOD",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "CHAINRU160_BOUNDARY_PREGOOD",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "CHAINRU160_BOUNDARY_POSTGOOD",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "CHAINRU160_BOUNDARY_PREGOOD_FS",
+      "Value": "0"
+    },
+    {
+      "UserVariableCollection": "_UserVars",
+      "UserVariableName": "BYPASS_TGRU_PREHVQK",
+      "Value": "1"
+    }
+  ]
+}

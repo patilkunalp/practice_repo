@@ -1,0 +1,20 @@
+Version 1.0;
+
+PatternTriggerMap MonitorTriggerMap
+{
+    TriggerType LevelsTC
+    {
+		monitor1_pins_meas = edm_pins_shops_LD_selector;
+		monitor0_pins_meas = edm_pins_shops_LD_selector;
+    }
+}
+PatternTriggerMap LYATriggerMap
+{
+    TriggerType LevelsTC
+    {
+		LYA_BL_Meas_11 = LYA_BL_meas_ltype_cat0;
+		LYA_BLb_Meas_11 = LYA_BLb_meas_ltype_cat0;
+		LYA_PC_Meas_11 = LYA_PC_meas_ltype_cat0;
+		LYA_PCb_Meas_11 = LYA_PCb_meas_ltype_cat0;
+    }
+}

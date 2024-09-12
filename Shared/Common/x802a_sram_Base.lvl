@@ -1,0 +1,1660 @@
+Version 1.0;
+#Import "x802a_sram_Base.usrv";
+#Import "x802a_sram_Base.pin";
+Levels pwrdn_lvl
+{
+	vcc1
+	{
+		FreeDriveTime = 3mS;
+		IClampHi = 10A;
+		IClampLo = -10A;
+		IRange = "IR24A";
+		OPMode = "VSIM";
+		PowerSequence = True;
+		VForce = 0V;
+		VSlewStepRatio = 100;
+	}
+	vcc2
+	{
+		FreeDriveTime = 3mS;
+		IClampHi = 10A;
+		IClampLo = -10A;
+		IRange = "IR24A";
+		OPMode = "VSIM";
+		PowerSequence = True;
+		VForce = 0V;
+		VSlewStepRatio = 100;
+	}
+	vcc3
+	{
+		FreeDriveTime = 3mS;
+		IClampHi = 10A;
+		IClampLo = -10A;
+		IRange = "IR24A";
+		OPMode = "VSIM";
+		PowerSequence = True;
+		VForce = 0V;
+		VSlewStepRatio = 100;
+	}
+
+	sram_pat_Dpins
+	{
+		PinModeSel = "Digital";
+		FixedDriveState = "Off";
+		TermMode = "TermVRef";
+		TermVRef = 0V;		
+		VForce = 0V;
+	}
+	all_Keepmode_pins
+	{
+		PinModeSel = "Digital";
+		FixedDriveState = "Off";
+		TermMode = "TermVRef";
+		TermVRef = 0V;		
+		VForce = 0V;
+	}
+	SequenceBreak 0.1S;
+	vccio
+	{
+		FreeDriveTime = 3mS;
+		IClampHi = 10A;
+		IClampLo = -10A;
+		IRange = "IR24A";
+		OPMode = "VSIM";
+		PowerSequence = True;
+		VForce = 0V;
+		VSlewStepRatio = 100;
+	}
+}
+
+Levels PwrOn_0V_lvl
+{
+	vccio
+	{
+		FreeDriveTime = 1mS;
+		IClampHi = 10A;
+		IClampLo = -10A;
+		IRange = "IR24A";
+		OPMode = "VSIM";
+		PowerSequence = True;
+		VForce = 0V;
+		VSlewStepRatio = 100;
+	}
+	sram_pat_Dpins
+	{
+		PinModeSel = "Digital";
+		FixedDriveState = "Off";
+		TermMode = "TermVRef";
+		TermVRef = 0V;		
+		VForce = 0V;
+	}
+	all_Keepmode_pins
+	{
+		PinModeSel = "Digital";
+		FixedDriveState = "Off";
+		TermMode = "TermVRef";
+		TermVRef = 0V;		
+		VForce = 0V;
+	}
+	SequenceBreak 0.1S;
+	vcc1
+	{
+		FreeDriveTime = 3mS;
+		IClampHi = 20A;
+		IClampLo = -10A;
+		IRange = "IR24A";
+		OPMode = "VSIM";
+		PowerSequence = True;
+		VForce = 0V;
+		VSlewStepRatio = 100;
+	}
+	vcc2
+	{
+		FreeDriveTime = 3mS;
+		IClampHi = 20A;
+		IClampLo = -10A;
+		IRange = "IR24A";
+		OPMode = "VSIM";
+		PowerSequence = True;
+		VForce = 0V;
+		VSlewStepRatio = 100;
+	}
+	vcc3
+	{
+		FreeDriveTime = 3mS;
+		IClampHi = 20A;
+		IClampLo = -10A;
+		IRange = "IR24A";
+		OPMode = "VSIM";
+		PowerSequence = True;
+		VForce = 0V;
+		VSlewStepRatio = 100;
+	}
+}
+
+Levels TiuValidationDpin_level
+{
+	sram_pat_Dpins
+	{
+		PinModeSel = "PMU";
+		OPMode = "VSIM";
+		VForce = 1V;
+		IRange = "IR40mA"; 
+        IClampHi = 40mA; 
+        IClampLo = -40mA;
+    }
+    SequenceBreak 1mS;
+    sram_pat_Dpins
+    {
+        # Mandatory Parameters for measurement.
+        StartMeasurement = True;     
+        PreMeasurementDelay = 5mS;   
+        SamplingCount = 1; 
+        SamplingRatio = 1;       
+        SamplingMode = "Trace";
+	}
+
+}
+Levels TIUvalidationDPs_lvl
+{
+	all_HC
+	{
+		OPMode = "VSIM";
+		VForce = 0.6V;		
+		IRange = "IR500mA";
+		IClampHi = 500mA;
+		IClampLo = -500mA;
+		FreeDriveTime = 10mS;
+		VSlewStepRatio = 100;
+		PowerSequence = True;
+	}	
+	SequenceBreak 3mS;	
+	all_HC
+	{
+		PreMeasurementDelay = 1mS;
+		SamplingCount = 1;
+		SamplingMode = "Trace";
+		SamplingRatio = 1;
+		StartMeasurement = True;
+	}
+	
+}
+Levels creslvl
+{
+	all_cres
+    {
+        OPMode = "ISVM";
+        IRange = "IR40mA";
+        IForce = -0.01A;
+        VClampHi = 2V;
+        VClampLo = -1.5V;
+        StartMeasurement = True; # Attribute that triggers measurement on the supply. 
+        PreMeasurementDelay = 15ms; # Time to wait from VForce before collecting measurements.
+        SamplingCount = 1;
+        SamplingRatio = 1; 
+        SamplingMode = "Trace";
+        PinModeSel = "PMU";
+    }	
+}
+Levels ezalvl
+{
+	all_eza
+    {
+        OPMode = "ISVM";
+        IRange = "IR40mA";
+        IForce = -0.01A;
+        VClampHi = 2V;
+        VClampLo = -1.5V;
+        StartMeasurement = True; # Attribute that triggers measurement on the supply. 
+        PreMeasurementDelay = 15ms; # Time to wait from VForce before collecting measurements.
+        SamplingCount = 1;
+        SamplingRatio = 1; 
+        SamplingMode = "Trace";
+        PinModeSel = "PMU";
+    }	
+}
+
+Levels vccio_HC_cont_lvl
+{
+	sram_pat_Dpins
+	{
+		PinModeSel = "Digital";
+		FixedDriveState = "Off";
+		TermMode = "TermVRef";
+		TermVRef = 0V;		
+		VForce = 0V;
+	}
+	all_Keepmode_pins
+	{
+		PinModeSel = "Digital";
+		FixedDriveState = "Off";
+		TermMode = "TermVRef";
+		TermVRef = 0V;		
+		VForce = 0V;
+	}
+	all_HC
+	{
+		FreeDriveTime = 5mS;
+		IClampHi = 250mA;
+		IClampLo = -250mA;
+		IRange = "IR500mA";
+		OPMode = "VSIM";
+		PowerSequence = True;
+		VForce = 0V;
+		VSlewStepRatio = 120;
+	}
+	vccio
+	{
+		FreeDriveTime = 3mS;
+		IClampHi = 500mA;
+		IClampLo = -500mA;
+		IRange = "IR500mA";
+		OPMode = "VSIM";
+		PowerSequence = True;
+		VForce = cont_vforce;
+		VSlewStepRatio = 120;
+	}
+	SequenceBreak 3mS;
+	vccio
+	{
+		PreMeasurementDelay = 1mS;
+		SamplingCount = 1;
+		SamplingMode = "Trace";
+		SamplingRatio = 1;
+		StartMeasurement = True;
+	}
+}
+
+Levels vcc1_HC_cont_lvl
+{
+	sram_pat_Dpins
+	{
+		PinModeSel = "Digital";
+		FixedDriveState = "Off";
+		TermMode = "TermVRef";
+		TermVRef = 0V;		
+		VForce = 0V;
+	}
+	all_Keepmode_pins
+	{
+		PinModeSel = "Digital";
+		FixedDriveState = "Off";
+		TermMode = "TermVRef";
+		TermVRef = 0V;		
+		VForce = 0V;
+	}
+	all_HC
+	{
+		FreeDriveTime = 5mS;
+		IClampHi = 250mA;
+		IClampLo = -250mA;
+		IRange = "IR500mA";
+		OPMode = "VSIM";
+		PowerSequence = True;
+		VForce = 0V;
+		VSlewStepRatio = 120;
+	}
+	vcc1
+	{
+		FreeDriveTime = 3mS;
+		IClampHi = 500mA;
+		IClampLo = -500mA;
+		IRange = "IR500mA";
+		OPMode = "VSIM";
+		PowerSequence = True;
+		VForce = cont_vforce;
+		VSlewStepRatio = 120;
+	}
+	SequenceBreak 3mS;
+	vcc1
+	{
+		PreMeasurementDelay = 1mS;
+		SamplingCount = 1;
+		SamplingMode = "Trace";
+		SamplingRatio = 1;
+		StartMeasurement = True;
+	}
+}
+Levels vcc2_HC_cont_lvl
+{
+	sram_pat_Dpins
+	{
+		PinModeSel = "Digital";
+		FixedDriveState = "Off";
+		TermMode = "TermVRef";
+		TermVRef = 0V;		
+		VForce = 0V;
+	}
+	all_Keepmode_pins
+	{
+		PinModeSel = "Digital";
+		FixedDriveState = "Off";
+		TermMode = "TermVRef";
+		TermVRef = 0V;		
+		VForce = 0V;
+	}
+	all_HC
+	{
+		FreeDriveTime = 5mS;
+		IClampHi = 250mA;
+		IClampLo = -250mA;
+		IRange = "IR500mA";
+		OPMode = "VSIM";
+		PowerSequence = True;
+		VForce = 0V;
+		VSlewStepRatio = 120;
+	}
+	vcc2
+	{
+		FreeDriveTime = 3mS;
+		IClampHi = 500mA;
+		IClampLo = -500mA;
+		IRange = "IR500mA";
+		OPMode = "VSIM";
+		PowerSequence = True;
+		VForce = cont_vforce;
+		VSlewStepRatio = 120;
+	}
+	SequenceBreak 3mS;
+	vcc2
+	{
+		PreMeasurementDelay = 1mS;
+		SamplingCount = 1;
+		SamplingMode = "Trace";
+		SamplingRatio = 1;
+		StartMeasurement = True;
+	}
+}
+Levels vcc3_HC_cont_lvl
+{
+	sram_pat_Dpins
+	{
+		PinModeSel = "Digital";
+		FixedDriveState = "Off";
+		TermMode = "TermVRef";
+		TermVRef = 0V;		
+		VForce = 0V;
+	}
+	all_Keepmode_pins
+	{
+		PinModeSel = "Digital";
+		FixedDriveState = "Off";
+		TermMode = "TermVRef";
+		TermVRef = 0V;		
+		VForce = 0V;
+	}
+	all_HC
+	{
+		FreeDriveTime = 5mS;
+		IClampHi = 250mA;
+		IClampLo = -250mA;
+		IRange = "IR500mA";
+		OPMode = "VSIM";
+		PowerSequence = True;
+		VForce = 0V;
+		VSlewStepRatio = 120;
+	}
+	vcc3
+	{
+		FreeDriveTime = 3mS;
+		IClampHi = 500mA;
+		IClampLo = -500mA;
+		IRange = "IR500mA";
+		OPMode = "VSIM";
+		PowerSequence = True;
+		VForce = cont_vforce;
+		VSlewStepRatio = 120;
+	}
+	SequenceBreak 3mS;
+	vcc3
+	{
+		PreMeasurementDelay = 1mS;
+		SamplingCount = 1;
+		SamplingMode = "Trace";
+		SamplingRatio = 1;
+		StartMeasurement = True;
+	}
+}
+
+Levels sram_shops_lvl
+{
+	sram_shops
+	{
+		IForce = force_current;
+		IRange = "IR40mA";
+		OPMode = "ISVM";
+		PinModeSel = "PMU";
+		PreMeasurementDelay = 15ms;
+		SamplingCount = 1;
+		SamplingMode = "Trace";
+		SamplingRatio = 1;
+		StartMeasurement = True;
+		VClampHi = 2V;
+		VClampLo = -1.5V;
+	}	
+}
+
+Levels lya_pins_shops_lvl
+{
+	lya_pins
+	{
+		IForce = force_current;
+		IRange = "IR40mA";
+		OPMode = "ISVM";
+		PinModeSel = "PMU";
+		PreMeasurementDelay = 15ms;
+		SamplingCount = 1;
+		SamplingMode = "Trace";
+		SamplingRatio = 1;
+		StartMeasurement = True;
+		VClampHi = 2V;
+		VClampLo = -1.5V;
+	}	
+}
+
+Levels edm_pins_shops_lvl
+{
+	edm_pins
+	{
+		IForce = force_current;
+		IRange = "IR40mA";
+		OPMode = "ISVM";
+		PinModeSel = "PMU";
+		PreMeasurementDelay = 15ms;
+		SamplingCount = 1;
+		SamplingMode = "Trace";
+		SamplingRatio = 1;
+		StartMeasurement = True;
+		VClampHi = 2V;
+		VClampLo = -1.5V;
+	}	
+}
+Levels sram_shops_dpin_level
+{
+	sram_shops_dpin
+	{
+		IForce = force_current;
+		#IRange = p_edm_core_irange;
+		IRange = "IR40mA";
+		OPMode = "ISVM";
+		PinModeSel = "PMU";
+		PreMeasurementDelay = 15ms;
+		SamplingCount = 1;
+		SamplingMode = "Trace";
+		SamplingRatio = 1;
+		StartMeasurement = True;
+		VClampHi = 2V;
+		VClampLo = -1.5V;
+	}	
+}
+Levels main_ltype
+{
+	vccio
+	{
+		OPModeCheck = "VSIM";
+		FreeDriveTime = free_drive_time;
+		IClampHi = vccio_iclamp_hi;
+		IClampLo = vccio_iclamp_lo;
+		IRange = "IR24A";
+		VForce = vccio_value;
+		VSlewStepRatio = 100;
+	}
+	vcc1
+	{
+		OPModeCheck = "VSIM";
+		FreeDriveTime = free_drive_time;
+		IClampHi = vcc1_iclamp_hi;
+		IClampLo = vcc1_iclamp_lo;
+		IRange = "IR24A";
+		VForce = vcc1_value;
+		VSlewStepRatio = 100;
+	}
+	SequenceBreak 1mS;	
+
+	all_Keepmode_pins
+	{
+		PinModeSel = "Digital";
+		FixedDriveState = "Off";
+		TermMode = "TermVRef";
+		TermVRef = 0V;
+		VIH = 0V;
+		VIL = 0V;
+		VOX = 0V;
+	}
+	sram_pat_low_Dpins
+	{
+		PinModeSel = "Digital";
+		FixedDriveState = "Off";
+		TermMode = "TermVRef";
+		TermVRef = 0V;
+		VIH = 0V;
+		VIL = 0V;
+		VOX = 0V;
+	}
+	defaultir_b
+	{
+		PinModeSel = "Digital";
+		FixedDriveState = "Off";
+		TermMode = "TermVRef";
+		TermVRef = vccio_value;
+		VIH = vvih;
+		VIL = vvil;
+		VOX = vvox;
+	}
+	shutoffen_b
+	{
+		PinModeSel = "Digital";
+		FixedDriveState = "Off";
+		TermMode = "TermVRef";
+		TermVRef = vccio_value;
+		VIH = vvih;
+		VIL = vvil;
+		VOX = vvox;
+	}
+	vcc2
+	{
+		OPModeCheck = "VSIM";
+		FreeDriveTime = free_drive_time;
+		IClampHi = vcc2_iclamp_hi;
+		IClampLo = vcc2_iclamp_lo;
+		IRange = "IR24A";
+		VForce = vcc2_value;
+		VSlewStepRatio = 100;
+	}
+	SequenceBreak 1mS;	
+	vcc3
+	{
+		OPModeCheck = "VSIM";
+		FreeDriveTime = free_drive_time;
+		IClampHi = vcc3_iclamp_hi;
+		IClampLo = vcc3_iclamp_lo;
+		IRange = "IR24A";
+		VForce = vcc3_value;
+		VSlewStepRatio = 100;
+	}
+	SequenceBreak 1mS;	
+	all_Keepmode_pins
+	{
+		PinModeSel = "Digital";
+		FixedDriveState = "Off";
+		TermMode = "TermVRef";
+		TermVRef = 0V;
+		VIH = vvih;
+		VIL = vvil;
+		VOX = vvox;
+	}
+	sram_inpin_Dpin
+	{
+		PinModeSel = "Digital";
+		FixedDriveState = "Off";
+		TermMode = "TermVRef";
+		TermVRef = 0V;
+		VIH = vvih;
+		VIL = vvil;
+		VOX = vvox;
+	}
+	lya_pins
+	{
+		PinModeSel = "Digital";
+		FixedDriveState = "Off";
+		TermMode = "TermVRef";
+		TermVRef = 0V;
+		VIH = vvih;
+		VIL = vvil;
+		VOX = vvox;
+	}
+	sram_outpin_Dpin
+	{
+		FixedDriveState = "Off";
+		PinModeSel = "Digital";
+		TermMode = "TermVRef";
+		TermVRef = vvref;
+		VIH = vvih;
+		VIL = vvil;
+		VOX = vvox;
+	}
+	io_scan_out
+	{
+		FixedDriveState = "Off";
+		PinModeSel = "Digital";
+		TermMode = "TermVRef";
+		TermVRef = 0V;
+		VIH = vvih;
+		VIL = vvil;
+		VOX = vvox;
+	}
+	clk_pins
+	{
+		PinModeSel = "Digital";
+		FixedDriveState = "Off";
+		TermMode = "TermVRef";
+		TermVRef = vvil;
+		VIH = vvih;
+		VIL = vvil;
+		VOX = vvox;
+	}
+}
+
+Levels logic_ltype
+{
+	vccio
+	{
+		OPModeCheck = "VSIM";
+		FreeDriveTime = free_drive_time;
+		IClampHi = vccio_iclamp_hi;
+		IClampLo = vccio_iclamp_lo;
+		IRange = "IR24A";
+		VForce = vccio_value;
+		VSlewStepRatio = 100;
+	}
+	vcc1
+	{
+		OPModeCheck = "VSIM";
+		FreeDriveTime = free_drive_time;
+		IClampHi = vcc1_iclamp_hi;
+		IClampLo = vcc1_iclamp_lo;
+		IRange = "IR24A";
+		VForce = vcc1_value;
+		VSlewStepRatio = 100;
+	}
+	SequenceBreak 1mS;	
+
+	all_Keepmode_pins
+	{
+		PinModeSel = "Digital";
+		FixedDriveState = "Off";
+		TermMode = "TermVRef";
+		TermVRef = 0V;
+		VIH = 0V;
+		VIL = 0V;
+		VOX = 0V;
+	}
+	sram_pat_low_Dpins
+	{
+		PinModeSel = "Digital";
+		FixedDriveState = "Off";
+		TermMode = "TermVRef";
+		TermVRef = 0V;
+		VIH = 0V;
+		VIL = 0V;
+		VOX = 0V;
+	}
+	defaultir_b
+	{
+		PinModeSel = "Digital";
+		FixedDriveState = "Off";
+		TermMode = "TermVRef";
+		TermVRef = 0V;
+		VIH = vvih;
+		VIL = vvil;
+		VOX = vvox;
+	}
+	shutoffen_b
+	{
+		PinModeSel = "Digital";
+		FixedDriveState = "Off";
+		TermMode = "TermVRef";
+		TermVRef = 0V;
+		VIH = vvih;
+		VIL = vvil;
+		VOX = vvox;
+	}
+	vcc2
+	{
+		OPModeCheck = "VSIM";
+		FreeDriveTime = free_drive_time;
+		IClampHi = vcc2_iclamp_hi;
+		IClampLo = vcc2_iclamp_lo;
+		IRange = "IR24A";
+		VForce = vcc2_value;
+		VSlewStepRatio = 100;
+	}
+	SequenceBreak 1mS;	
+	vcc3
+	{
+		OPModeCheck = "VSIM";
+		FreeDriveTime = free_drive_time;
+		IClampHi = vcc3_iclamp_hi;
+		IClampLo = vcc3_iclamp_lo;
+		IRange = "IR24A";
+		VForce = vcc3_value;
+		VSlewStepRatio = 100;
+	}
+	SequenceBreak 1mS;	
+	all_Keepmode_pins
+	{
+		PinModeSel = "Digital";
+		FixedDriveState = "Off";
+		TermMode = "TermVRef";
+		TermVRef = 0V;
+		VIH = vvih;
+		VIL = vvil;
+		VOX = vvox;
+	}
+	sram_inpin_Dpin
+	{
+		PinModeSel = "Digital";
+		FixedDriveState = "Off";
+		TermMode = "TermVRef";
+		TermVRef = 0V;
+		VIH = vvih;
+		VIL = vvil;
+		VOX = vvox;
+	}
+	lya_pins
+	{
+		PinModeSel = "Digital";
+		FixedDriveState = "Off";
+		TermMode = "TermVRef";
+		TermVRef = 0V;
+		VIH = vvih;
+		VIL = vvil;
+		VOX = vvox;
+	}
+	sram_outpin_Dpin
+	{
+		FixedDriveState = "Off";
+		PinModeSel = "Digital";
+		TermMode = "TermVRef";
+		TermVRef = vvref;
+		VIH = vvih;
+		VIL = vvil;
+		VOX = vvox;
+	}
+	io_scan_out
+	{
+		FixedDriveState = "Off";
+		PinModeSel = "Digital";
+		TermMode = "TermVRef";
+		TermVRef = 0V;
+		VIH = vvih;
+		VIL = vvil;
+		VOX = vvox;
+	}
+	tap_outpins
+	{
+		FixedDriveState = "Off";
+		PinModeSel = "Digital";
+		TermMode = "TermVRef";
+		TermVRef = 0V;
+		VIH = vvih;
+		VIL = vvil;
+		VOX = vvox_logic_tdo;
+	}
+	clk_pins
+	{
+		PinModeSel = "Digital";
+		FixedDriveState = "Off";
+		TermMode = "TermVRef";
+		TermVRef = vvil;
+		VIH = vvih;
+		VIL = vvil;
+		VOX = vvox;
+	}
+}
+
+Levels LYA_ltype
+{
+	vccio
+	{
+		OPModeCheck = "VSIM";
+		FreeDriveTime = free_drive_time;
+		IClampHi = vccio_iclamp_hi;
+		IClampLo = vccio_iclamp_lo;
+		IRange = "IR24A";
+		VForce = vccio_value;
+		VSlewStepRatio = 100;
+	}
+	vcc1
+	{
+		OPModeCheck = "VSIM";
+		FreeDriveTime = free_drive_time;
+		IClampHi = vcc1_iclamp_hi;
+		IClampLo = vcc1_iclamp_lo;
+		IRange = "IR24A";
+		VForce = vcc1_value;
+		VSlewStepRatio = 100;
+	}
+	SequenceBreak 1mS;	
+
+	all_Keepmode_pins
+	{
+		PinModeSel = "Digital";
+		FixedDriveState = "Off";
+		TermMode = "TermVRef";
+		TermVRef = 0V;
+		VIH = 0V;
+		VIL = 0V;
+		VOX = 0V;
+	}
+	sram_pat_noLYA_low_Dpins
+	{
+		PinModeSel = "Digital";
+		FixedDriveState = "Off";
+		TermMode = "TermVRef";
+		TermVRef = 0V;
+		VIH = 0V;
+		VIL = 0V;
+		VOX = 0V;
+	}
+	defaultir_b
+	{
+		PinModeSel = "Digital";
+		FixedDriveState = "Off";
+		TermMode = "TermVRef";
+		TermVRef = vccio_value;
+		VIH = vvih;
+		VIL = vvil;
+		VOX = vvox;
+	}
+	shutoffen_b
+	{
+		PinModeSel = "Digital";
+		FixedDriveState = "Off";
+		TermMode = "TermVRef";
+		TermVRef = vccio_value;
+		VIH = vvih;
+		VIL = vvil;
+		VOX = vvox;
+	}
+	vcc2
+	{
+		OPModeCheck = "VSIM";
+		FreeDriveTime = free_drive_time;
+		IClampHi = vcc2_iclamp_hi;
+		IClampLo = vcc2_iclamp_lo;
+		IRange = "IR24A";
+		VForce = vcc2_value;
+		VSlewStepRatio = 100;
+	}
+	SequenceBreak 1mS;	
+	vcc3
+	{
+		OPModeCheck = "VSIM";
+		FreeDriveTime = free_drive_time;
+		IClampHi = vcc3_iclamp_hi;
+		IClampLo = vcc3_iclamp_lo;
+		IRange = "IR24A";
+		VForce = vcc3_value;
+		VSlewStepRatio = 100;
+	}
+	SequenceBreak 1mS;	
+	all_Keepmode_pins
+	{
+		PinModeSel = "Digital";
+		FixedDriveState = "Off";
+		TermMode = "TermVRef";
+		TermVRef = 0V;
+		VIH = vvih;
+		VIL = vvil;
+		VOX = vvox;
+	}
+	sram_inpin_Dpin
+	{
+		PinModeSel = "Digital";
+		FixedDriveState = "Off";
+		TermMode = "TermVRef";
+		TermVRef = 0V;
+		VIH = vvih;
+		VIL = vvil;
+		VOX = vvox;
+	}
+	lya_bitline_pins
+	{
+		PinModeSel = "PMU";
+		OPMode = "VSIM";
+		IRange = "IR1mA";
+		IClampHi = 1mA;
+		IClampLo = -1mA;		
+		VForce = 0V;
+	}
+	lya_bitlinebar_pins
+	{
+		PinModeSel = "PMU";
+		OPMode = "VSIM";
+		IRange = "IR1mA";
+		IClampHi = 1mA;
+		IClampLo = -1mA;		
+		VForce = 0V;
+	}
+	sram_outpin_Dpin
+	{
+		FixedDriveState = "Off";
+		PinModeSel = "Digital";
+		TermMode = "TermVRef";
+		TermVRef = vvref;
+		VIH = vvih;
+		VIL = vvil;
+		VOX = vvox;
+	}
+	io_scan_out
+	{
+		FixedDriveState = "Off";
+		PinModeSel = "Digital";
+		TermMode = "TermVRef";
+		TermVRef = 0V;
+		VIH = vvih;
+		VIL = vvil;
+		VOX = vvox;
+	}
+	clk_pins
+	{
+		PinModeSel = "Digital";
+		FixedDriveState = "Off";
+		TermMode = "TermVRef";
+		TermVRef = vvil;
+		VIH = vvih;
+		VIL = vvil;
+		VOX = vvox;
+	}
+}
+
+Levels LYA_BL_meas_ltype   
+{
+	lya_bitlinebar_pins
+	{
+		PinModeSel = "PMU";
+		OPMode = "VSIM";
+		IRange = "IR1mA";
+		IClampHi = 1mA;
+		IClampLo = -1mA;		
+		VForce = 0.85V;
+	}
+SequenceBreak 10nS;	
+	lya_bitline_pins
+	{
+		PinModeSel = "PMU";
+		OPMode = "VSIM";
+		IRange = "IR1mA";
+		IClampHi = 1mA;
+		IClampLo = -1mA;		
+		VForce = 0.0V;
+		PreMeasurementDelay = LYA_PreMeasurementDelay;
+		SamplingCount = 1;
+		SamplingMode = "Trace";
+		SamplingRatio = 1;
+		StartMeasurement = True;
+	}
+	SequenceBreak 10uS;	
+	lya_bitline_pins
+	{
+		PinModeSel = "PMU";
+		OPMode = "VSIM";
+		IRange = "IR1mA";
+		IClampHi = 1mA;
+		IClampLo = -1mA;		
+		VForce = 0.085V;
+		PreMeasurementDelay = LYA_PreMeasurementDelay;
+		SamplingCount = 1;
+		SamplingMode = "Trace";
+		SamplingRatio = 1;
+		StartMeasurement = True;
+	}
+	SequenceBreak 10uS;	
+	lya_bitline_pins
+	{
+		PinModeSel = "PMU";
+		OPMode = "VSIM";
+		IRange = "IR1mA";
+		IClampHi = 1mA;
+		IClampLo = -1mA;		
+		VForce = 0.17V;
+		PreMeasurementDelay = LYA_PreMeasurementDelay;
+		SamplingCount = 1;
+		SamplingMode = "Trace";
+		SamplingRatio = 1;
+		StartMeasurement = True;
+	}
+	SequenceBreak 10uS;	
+	lya_bitline_pins
+	{
+		PinModeSel = "PMU";
+		OPMode = "VSIM";
+		IRange = "IR1mA";
+		IClampHi = 1mA;
+		IClampLo = -1mA;		
+		VForce = 0.255V;
+		PreMeasurementDelay = LYA_PreMeasurementDelay;
+		SamplingCount = 1;
+		SamplingMode = "Trace";
+		SamplingRatio = 1;
+		StartMeasurement = True;
+	}
+	SequenceBreak 10uS;	
+	lya_bitline_pins
+	{
+		PinModeSel = "PMU";
+		OPMode = "VSIM";
+		IRange = "IR1mA";
+		IClampHi = 1mA;
+		IClampLo = -1mA;		
+		VForce = 0.34V;
+		PreMeasurementDelay = LYA_PreMeasurementDelay;
+		SamplingCount = 1;
+		SamplingMode = "Trace";
+		SamplingRatio = 1;
+		StartMeasurement = True;
+	}
+	SequenceBreak 10uS;	
+	lya_bitline_pins
+	{
+		PinModeSel = "PMU";
+		OPMode = "VSIM";
+		IRange = "IR1mA";
+		IClampHi = 1mA;
+		IClampLo = -1mA;		
+		VForce = 0.425V;
+		PreMeasurementDelay = LYA_PreMeasurementDelay;
+		SamplingCount = 1;
+		SamplingMode = "Trace";
+		SamplingRatio = 1;
+		StartMeasurement = True;
+	}
+	SequenceBreak 10uS;	
+	lya_bitline_pins
+	{
+		PinModeSel = "PMU";
+		OPMode = "VSIM";
+		IRange = "IR1mA";
+		IClampHi = 1mA;
+		IClampLo = -1mA;		
+		VForce = 0.51V;
+		PreMeasurementDelay = LYA_PreMeasurementDelay;
+		SamplingCount = 1;
+		SamplingMode = "Trace";
+		SamplingRatio = 1;
+		StartMeasurement = True;
+	}
+	SequenceBreak 10uS;	
+	lya_bitline_pins
+	{
+		PinModeSel = "PMU";
+		OPMode = "VSIM";
+		IRange = "IR1mA";
+		IClampHi = 1mA;
+		IClampLo = -1mA;		
+		VForce = 0.595V;
+		PreMeasurementDelay = LYA_PreMeasurementDelay;
+		SamplingCount = 1;
+		SamplingMode = "Trace";
+		SamplingRatio = 1;
+		StartMeasurement = True;
+	}
+	SequenceBreak 10uS;	
+	lya_bitline_pins
+	{
+		PinModeSel = "PMU";
+		OPMode = "VSIM";
+		IRange = "IR1mA";
+		IClampHi = 1mA;
+		IClampLo = -1mA;		
+		VForce = 0.68V;
+		PreMeasurementDelay = LYA_PreMeasurementDelay;
+		SamplingCount = 1;
+		SamplingMode = "Trace";
+		SamplingRatio = 1;
+		StartMeasurement = True;
+	}
+	SequenceBreak 10uS;	
+	lya_bitline_pins
+	{
+		PinModeSel = "PMU";
+		OPMode = "VSIM";
+		IRange = "IR1mA";
+		IClampHi = 1mA;
+		IClampLo = -1mA;		
+		VForce = 0.765V;
+		PreMeasurementDelay = LYA_PreMeasurementDelay;
+		SamplingCount = 1;
+		SamplingMode = "Trace";
+		SamplingRatio = 1;
+		StartMeasurement = True;
+	}
+	SequenceBreak 10uS;	
+	lya_bitline_pins
+	{
+		PinModeSel = "PMU";
+		OPMode = "VSIM";
+		IRange = "IR1mA";
+		IClampHi = 1mA;
+		IClampLo = -1mA;		
+		VForce = 0.85V;
+		PreMeasurementDelay = LYA_PreMeasurementDelay;
+		SamplingCount = 1;
+		SamplingMode = "Trace";
+		SamplingRatio = 1;
+		StartMeasurement = True;
+	}
+	SequenceBreak 10uS;	
+}
+Levels LYA_BLb_meas_ltype   
+{
+	lya_bitline_pins
+	{
+		PinModeSel = "PMU";
+		OPMode = "VSIM";
+		IRange = "IR1mA";
+		IClampHi = 1mA;
+		IClampLo = -1mA;		
+		VForce = 0.85V;
+	}
+	lya_bitlinebar_pins
+	{
+		PinModeSel = "PMU";
+		OPMode = "VSIM";
+		IRange = "IR1mA";
+		IClampHi = 1mA;
+		IClampLo = -1mA;		
+		VForce = 0.0V;
+		PreMeasurementDelay = LYA_PreMeasurementDelay;
+		SamplingCount = 1;
+		SamplingMode = "Trace";
+		SamplingRatio = 1;
+		StartMeasurement = True;
+	}
+	SequenceBreak 10uS;	
+	lya_bitlinebar_pins
+	{
+		PinModeSel = "PMU";
+		OPMode = "VSIM";
+		IRange = "IR1mA";
+		IClampHi = 1mA;
+		IClampLo = -1mA;		
+		VForce = 0.085V;
+		PreMeasurementDelay = LYA_PreMeasurementDelay;
+		SamplingCount = 1;
+		SamplingMode = "Trace";
+		SamplingRatio = 1;
+		StartMeasurement = True;
+	}
+	SequenceBreak 10uS;	
+	lya_bitlinebar_pins
+	{
+		PinModeSel = "PMU";
+		OPMode = "VSIM";
+		IRange = "IR1mA";
+		IClampHi = 1mA;
+		IClampLo = -1mA;		
+		VForce = 0.17V;
+		PreMeasurementDelay = LYA_PreMeasurementDelay;
+		SamplingCount = 1;
+		SamplingMode = "Trace";
+		SamplingRatio = 1;
+		StartMeasurement = True;
+	}
+	SequenceBreak 10uS;	
+	lya_bitlinebar_pins
+	{
+		PinModeSel = "PMU";
+		OPMode = "VSIM";
+		IRange = "IR1mA";
+		IClampHi = 1mA;
+		IClampLo = -1mA;		
+		VForce = 0.255V;
+		PreMeasurementDelay = LYA_PreMeasurementDelay;
+		SamplingCount = 1;
+		SamplingMode = "Trace";
+		SamplingRatio = 1;
+		StartMeasurement = True;
+	}
+	SequenceBreak 10uS;	
+	lya_bitlinebar_pins
+	{
+		PinModeSel = "PMU";
+		OPMode = "VSIM";
+		IRange = "IR1mA";
+		IClampHi = 1mA;
+		IClampLo = -1mA;		
+		VForce = 0.34V;
+		PreMeasurementDelay = LYA_PreMeasurementDelay;
+		SamplingCount = 1;
+		SamplingMode = "Trace";
+		SamplingRatio = 1;
+		StartMeasurement = True;
+	}
+	SequenceBreak 10uS;	
+	lya_bitlinebar_pins
+	{
+		PinModeSel = "PMU";
+		OPMode = "VSIM";
+		IRange = "IR1mA";
+		IClampHi = 1mA;
+		IClampLo = -1mA;		
+		VForce = 0.425V;
+		PreMeasurementDelay = LYA_PreMeasurementDelay;
+		SamplingCount = 1;
+		SamplingMode = "Trace";
+		SamplingRatio = 1;
+		StartMeasurement = True;
+	}
+	SequenceBreak 10uS;	
+	lya_bitlinebar_pins
+	{
+		PinModeSel = "PMU";
+		OPMode = "VSIM";
+		IRange = "IR1mA";
+		IClampHi = 1mA;
+		IClampLo = -1mA;		
+		VForce = 0.51V;
+		PreMeasurementDelay = LYA_PreMeasurementDelay;
+		SamplingCount = 1;
+		SamplingMode = "Trace";
+		SamplingRatio = 1;
+		StartMeasurement = True;
+	}
+	SequenceBreak 10uS;	
+	lya_bitlinebar_pins
+	{
+		PinModeSel = "PMU";
+		OPMode = "VSIM";
+		IRange = "IR1mA";
+		IClampHi = 1mA;
+		IClampLo = -1mA;		
+		VForce = 0.595V;
+		PreMeasurementDelay = LYA_PreMeasurementDelay;
+		SamplingCount = 1;
+		SamplingMode = "Trace";
+		SamplingRatio = 1;
+		StartMeasurement = True;
+	}
+	SequenceBreak 10uS;	
+	lya_bitlinebar_pins
+	{
+		PinModeSel = "PMU";
+		OPMode = "VSIM";
+		IRange = "IR1mA";
+		IClampHi = 1mA;
+		IClampLo = -1mA;		
+		VForce = 0.68V;
+		PreMeasurementDelay = LYA_PreMeasurementDelay;
+		SamplingCount = 1;
+		SamplingMode = "Trace";
+		SamplingRatio = 1;
+		StartMeasurement = True;
+	}
+	SequenceBreak 10uS;	
+	lya_bitlinebar_pins
+	{
+		PinModeSel = "PMU";
+		OPMode = "VSIM";
+		IRange = "IR1mA";
+		IClampHi = 1mA;
+		IClampLo = -1mA;		
+		VForce = 0.765V;
+		PreMeasurementDelay = LYA_PreMeasurementDelay;
+		SamplingCount = 1;
+		SamplingMode = "Trace";
+		SamplingRatio = 1;
+		StartMeasurement = True;
+	}
+	SequenceBreak 10uS;	
+	lya_bitlinebar_pins
+	{
+		PinModeSel = "PMU";
+		OPMode = "VSIM";
+		IRange = "IR1mA";
+		IClampHi = 1mA;
+		IClampLo = -1mA;		
+		VForce = 0.85V;
+		PreMeasurementDelay = LYA_PreMeasurementDelay;
+		SamplingCount = 1;
+		SamplingMode = "Trace";
+		SamplingRatio = 1;
+		StartMeasurement = True;
+	}
+	SequenceBreak 10uS;	
+}
+Levels LYA_PC_meas_ltype   
+{
+	lya_bitlinebar_pins
+	{
+		PinModeSel = "PMU";
+		OPMode = "VSIM";
+		IRange = "IR1mA";
+		IClampHi = 1mA;
+		IClampLo = -1mA;		
+		VForce = 0.0V;
+	}
+	lya_bitline_pins
+	{
+		PinModeSel = "PMU";
+		OPMode = "VSIM";
+		IRange = "IR1mA";
+		IClampHi = 1mA;
+		IClampLo = -1mA;		
+		VForce = 0.85V;
+		PreMeasurementDelay = 0.001;
+		SamplingCount = 1;
+		SamplingMode = "Average";
+		SamplingRatio = 1;
+		StartMeasurement = True;
+	}
+	SequenceBreak 10uS;	
+	lya_bitline_pins
+	{
+		PinModeSel = "PMU";
+		OPMode = "VSIM";
+		IRange = "IR1mA";
+		IClampHi = 1mA;
+		IClampLo = -1mA;		
+		VForce = 0.765V;
+		PreMeasurementDelay = 0.001;
+		SamplingCount = 1;
+		SamplingMode = "Average";
+		SamplingRatio = 1;
+		StartMeasurement = True;
+	}
+	SequenceBreak 10uS;	
+	lya_bitline_pins
+	{
+		PinModeSel = "PMU";
+		OPMode = "VSIM";
+		IRange = "IR1mA";
+		IClampHi = 1mA;
+		IClampLo = -1mA;		
+		VForce = 0.68V;
+		PreMeasurementDelay = 0.001;
+		SamplingCount = 1;
+		SamplingMode = "Average";
+		SamplingRatio = 1;
+		StartMeasurement = True;
+	}
+	SequenceBreak 10uS;	
+	lya_bitline_pins
+	{
+		PinModeSel = "PMU";
+		OPMode = "VSIM";
+		IRange = "IR1mA";
+		IClampHi = 1mA;
+		IClampLo = -1mA;		
+		VForce = 0.595V;
+		PreMeasurementDelay = 0.001;
+		SamplingCount = 1;
+		SamplingMode = "Average";
+		SamplingRatio = 1;
+		StartMeasurement = True;
+	}
+	SequenceBreak 10uS;	
+	lya_bitline_pins
+	{
+		PinModeSel = "PMU";
+		OPMode = "VSIM";
+		IRange = "IR1mA";
+		IClampHi = 1mA;
+		IClampLo = -1mA;		
+		VForce = 0.51V;
+		PreMeasurementDelay = 0.001;
+		SamplingCount = 1;
+		SamplingMode = "Average";
+		SamplingRatio = 1;
+		StartMeasurement = True;
+	}
+	SequenceBreak 10uS;	
+	lya_bitline_pins
+	{
+		PinModeSel = "PMU";
+		OPMode = "VSIM";
+		IRange = "IR1mA";
+		IClampHi = 1mA;
+		IClampLo = -1mA;		
+		VForce = 0.425V;
+		PreMeasurementDelay = 0.001;
+		SamplingCount = 1;
+		SamplingMode = "Average";
+		SamplingRatio = 1;
+		StartMeasurement = True;
+	}
+	SequenceBreak 10uS;	
+	lya_bitline_pins
+	{
+		PinModeSel = "PMU";
+		OPMode = "VSIM";
+		IRange = "IR1mA";
+		IClampHi = 1mA;
+		IClampLo = -1mA;		
+		VForce = 0.34V;
+		PreMeasurementDelay = 0.001;
+		SamplingCount = 1;
+		SamplingMode = "Average";
+		SamplingRatio = 1;
+		StartMeasurement = True;
+	}
+	SequenceBreak 10uS;	
+	lya_bitline_pins
+	{
+		PinModeSel = "PMU";
+		OPMode = "VSIM";
+		IRange = "IR1mA";
+		IClampHi = 1mA;
+		IClampLo = -1mA;		
+		VForce = 0.255V;
+		PreMeasurementDelay = 0.001;
+		SamplingCount = 1;
+		SamplingMode = "Average";
+		SamplingRatio = 1;
+		StartMeasurement = True;
+	}
+	SequenceBreak 10uS;	
+	lya_bitline_pins
+	{
+		PinModeSel = "PMU";
+		OPMode = "VSIM";
+		IRange = "IR1mA";
+		IClampHi = 1mA;
+		IClampLo = -1mA;		
+		VForce = 0.17V;
+		PreMeasurementDelay = 0.001;
+		SamplingCount = 1;
+		SamplingMode = "Average";
+		SamplingRatio = 1;
+		StartMeasurement = True;
+	}
+	SequenceBreak 10uS;	
+	lya_bitline_pins
+	{
+		PinModeSel = "PMU";
+		OPMode = "VSIM";
+		IRange = "IR1mA";
+		IClampHi = 1mA;
+		IClampLo = -1mA;		
+		VForce = 0.085V;
+		PreMeasurementDelay = 0.001;
+		SamplingCount = 1;
+		SamplingMode = "Average";
+		SamplingRatio = 1;
+		StartMeasurement = True;
+	}
+	SequenceBreak 10uS;	
+	lya_bitline_pins
+	{
+		PinModeSel = "PMU";
+		OPMode = "VSIM";
+		IRange = "IR1mA";
+		IClampHi = 1mA;
+		IClampLo = -1mA;		
+		VForce = 0.0V;
+		PreMeasurementDelay = 0.001;
+		SamplingCount = 1;
+		SamplingMode = "Average";
+		SamplingRatio = 1;
+		StartMeasurement = True;
+	}
+}
+Levels LYA_PCb_meas_ltype   
+{
+	lya_bitline_pins
+	{
+		PinModeSel = "PMU";
+		OPMode = "VSIM";
+		IRange = "IR1mA";
+		IClampHi = 1mA;
+		IClampLo = -1mA;		
+		VForce = 0V;
+	}
+	lya_bitlinebar_pins
+	{
+		PinModeSel = "PMU";
+		OPMode = "VSIM";
+		IRange = "IR1mA";
+		IClampHi = 1mA;
+		IClampLo = -1mA;		
+		VForce = 0.85V;
+		PreMeasurementDelay = LYA_PreMeasurementDelay;
+		SamplingCount = 1;
+		SamplingMode = "Trace";
+		SamplingRatio = 1;
+		StartMeasurement = True;
+	}
+	SequenceBreak 10uS;	
+	lya_bitlinebar_pins
+	{
+		PinModeSel = "PMU";
+		OPMode = "VSIM";
+		IRange = "IR1mA";
+		IClampHi = 1mA;
+		IClampLo = -1mA;		
+		VForce = 0.765V;
+		PreMeasurementDelay = LYA_PreMeasurementDelay;
+		SamplingCount = 1;
+		SamplingMode = "Trace";
+		SamplingRatio = 1;
+		StartMeasurement = True;
+	}
+	SequenceBreak 10uS;	
+	lya_bitlinebar_pins
+	{
+		PinModeSel = "PMU";
+		OPMode = "VSIM";
+		IRange = "IR1mA";
+		IClampHi = 1mA;
+		IClampLo = -1mA;		
+		VForce = 0.68V;
+		PreMeasurementDelay = LYA_PreMeasurementDelay;
+		SamplingCount = 1;
+		SamplingMode = "Trace";
+		SamplingRatio = 1;
+		StartMeasurement = True;
+	}
+	SequenceBreak 10uS;	
+	lya_bitlinebar_pins
+	{
+		PinModeSel = "PMU";
+		OPMode = "VSIM";
+		IRange = "IR1mA";
+		IClampHi = 1mA;
+		IClampLo = -1mA;		
+		VForce = 0.595V;
+		PreMeasurementDelay = LYA_PreMeasurementDelay;
+		SamplingCount = 1;
+		SamplingMode = "Trace";
+		SamplingRatio = 1;
+		StartMeasurement = True;
+	}
+	SequenceBreak 10uS;	
+	lya_bitlinebar_pins
+	{
+		PinModeSel = "PMU";
+		OPMode = "VSIM";
+		IRange = "IR1mA";
+		IClampHi = 1mA;
+		IClampLo = -1mA;		
+		VForce = 0.51V;
+		PreMeasurementDelay = LYA_PreMeasurementDelay;
+		SamplingCount = 1;
+		SamplingMode = "Trace";
+		SamplingRatio = 1;
+		StartMeasurement = True;
+	}
+	SequenceBreak 10uS;	
+	lya_bitlinebar_pins
+	{
+		PinModeSel = "PMU";
+		OPMode = "VSIM";
+		IRange = "IR1mA";
+		IClampHi = 1mA;
+		IClampLo = -1mA;		
+		VForce = 0.425V;
+		PreMeasurementDelay = LYA_PreMeasurementDelay;
+		SamplingCount = 1;
+		SamplingMode = "Trace";
+		SamplingRatio = 1;
+		StartMeasurement = True;
+	}
+	SequenceBreak 10uS;	
+	lya_bitlinebar_pins
+	{
+		PinModeSel = "PMU";
+		OPMode = "VSIM";
+		IRange = "IR1mA";
+		IClampHi = 1mA;
+		IClampLo = -1mA;		
+		VForce = 0.34V;
+		PreMeasurementDelay = LYA_PreMeasurementDelay;
+		SamplingCount = 1;
+		SamplingMode = "Trace";
+		SamplingRatio = 1;
+		StartMeasurement = True;
+	}
+	SequenceBreak 10uS;	
+	lya_bitlinebar_pins
+	{
+		PinModeSel = "PMU";
+		OPMode = "VSIM";
+		IRange = "IR1mA";
+		IClampHi = 1mA;
+		IClampLo = -1mA;		
+		VForce = 0.255V;
+		PreMeasurementDelay = LYA_PreMeasurementDelay;
+		SamplingCount = 1;
+		SamplingMode = "Trace";
+		SamplingRatio = 1;
+		StartMeasurement = True;
+	}
+	SequenceBreak 10uS;	
+	lya_bitlinebar_pins
+	{
+		PinModeSel = "PMU";
+		OPMode = "VSIM";
+		IRange = "IR1mA";
+		IClampHi = 1mA;
+		IClampLo = -1mA;		
+		VForce = 0.17V;
+		PreMeasurementDelay = LYA_PreMeasurementDelay;
+		SamplingCount = 1;
+		SamplingMode = "Trace";
+		SamplingRatio = 1;
+		StartMeasurement = True;
+	}
+	SequenceBreak 10uS;	
+	lya_bitlinebar_pins
+	{
+		PinModeSel = "PMU";
+		OPMode = "VSIM";
+		IRange = "IR1mA";
+		IClampHi = 1mA;
+		IClampLo = -1mA;		
+		VForce = 0.085V;
+		PreMeasurementDelay = LYA_PreMeasurementDelay;
+		SamplingCount = 1;
+		SamplingMode = "Trace";
+		SamplingRatio = 1;
+		StartMeasurement = True;
+	}
+	SequenceBreak 10uS;	
+	lya_bitlinebar_pins
+	{
+		PinModeSel = "PMU";
+		OPMode = "VSIM";
+		IRange = "IR1mA";
+		IClampHi = 1mA;
+		IClampLo = -1mA;		
+		VForce = 0.0V;
+		PreMeasurementDelay = LYA_PreMeasurementDelay;
+		SamplingCount = 1;
+		SamplingMode = "Trace";
+		SamplingRatio = 1;
+		StartMeasurement = True;
+	}
+	SequenceBreak 10uS;	
+}
+

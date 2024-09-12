@@ -1,0 +1,63 @@
+Version 1.0;
+ThermalControl ThermalControl_TDYN_09
+{
+    vcc1
+    {
+        PowerScale=factor;
+    }
+	vcc2
+    {
+        PowerScale=factor;
+    }
+#	TDYN_09 
+#   {
+#       SumScale = factor;
+#   }
+}
+
+
+ThermalMeasure ThermalBlock_All_TDAU_Channel
+{
+      TDAU_XTHMDA
+  {
+        MeasurementMode     = "SingleCurrentSCOCalMode";
+        SCOCalMethod      	= SCOCAL_Method_CPU28;   
+        IdealityFactor      = Ideality_CPU28;       
+        ForceCurrentFirst   = IC1_CPU28;
+        ForceCurrentSecond  = IC3_CPU28;
+        ForceCurrentThird  = IC2_CPU28;
+        BaseLeakageCompensation = BaseLeakage_CPU28;
+        Slope           = D_Slope_CPU28;
+        TemperatureOffset   = Offset_CPU28;
+  }
+}
+ThermalMeasure ThermalBlock_TDAU_SOT
+{
+    TDAU_XTHMDA
+    {
+		RunScoCal			= True;
+    }
+}
+ThermalMeasure ThermalBlock_TDAU_EOT
+{
+    TDAU_XTHMDA
+    {
+		StopConversion = True;
+    }
+}
+ThermalMeasure ThermalMeasure_TDAU_ALL
+{
+    TDAU_XTHMDA
+  {
+        MeasurementMode     = "SingleCurrentSCOCalMode";
+        SCOCalMethod      	= SCOCAL_Method_CPU28;   
+        IdealityFactor      = Ideality_CPU28;       
+        ForceCurrentFirst   = IC1_CPU28;
+        ForceCurrentSecond  = IC3_CPU28;
+        ForceCurrentThird  = IC2_CPU28;
+        BaseLeakageCompensation = BaseLeakage_CPU28;
+        Slope           = D_Slope_CPU28;
+        TemperatureOffset   = Offset_CPU28;
+        RunScoCal = True;
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "product_table": [
+    {
+      "DIETYPE": "SS_BOTTOM",
+      "EXITPORT": "0"
+    },
+    {
+      "DIETYPE": "SS_TOP",
+      "EXITPORT": "1"
+    },
+    {
+      "DIETYPE": "FS_BOTTOM",
+      "EXITPORT": "2"
+    },
+    {
+      "DIETYPE": "FS_TOP",
+      "EXITPORT": "3"
+    }
+  ]
+}

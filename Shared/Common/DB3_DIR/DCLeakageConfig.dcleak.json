@@ -1,0 +1,100 @@
+{
+  "ConfigurationSets": [
+	{
+      "ConfigurationName": "ilih_test",
+      "Measurements": [
+        {
+          "MeasurementGroup": "ilih_test_inlkg_pins",
+          "MeasurementPinGroup": "inlkg_pins",
+          "Settings": [
+            {
+              "Pins": [
+                "inlkg_pins"
+              ],
+              "PinSetting": {
+                "VssLimitHigh": 0.0094, 
+                "VssLimitLow": -0.0094, 
+                "ForceHigh": 0.9,
+                "ClampHigh": 0.02,
+                "ClampLow": -0.02,
+                "IRange": "IR40mA"
+              }
+            }
+          ]
+        }
+      ]
+    },
+	{
+      "ConfigurationName": "ilil_test",
+      "Measurements": [
+        {
+          "MeasurementGroup": "ilil_test_inlkg_pins",
+          "MeasurementPinGroup": "inlkg_pins",
+          "Settings": [
+            {
+              "Pins": [
+                "inlkg_pins"
+              ],
+              "PinSetting": {
+                "VccLimitHigh": 0.0094, 
+                "VccLimitLow": -0.0094, 
+                "ForceLow": 0.9,
+                "ClampHigh": 0.02,
+                "ClampLow": -0.02,
+                "IRange": "IR40mA"
+              }
+            }
+          ]
+        }
+      ]
+    },
+	{
+      "ConfigurationName": "iloh_test",
+      "Measurements": [
+        {
+          "MeasurementGroup": "iloh_test_outlkg_pins",
+          "MeasurementPinGroup": "outlkg_pins",
+          "Settings": [
+            {
+              "Pins": [
+                "outlkg_pins"
+              ],
+              "PinSetting": {
+                "VssLimitHigh": 0.0094, 
+                "VssLimitLow": -0.0094, 
+                "ForceHigh": 0.9,
+                "ClampHigh": 0.02,
+                "ClampLow": -0.02,
+                "IRange": "IR40mA"
+              }
+            }
+          ]
+        }
+      ]
+    },
+	{
+      "ConfigurationName": "ilol_test",
+      "Measurements": [
+        {
+          "MeasurementGroup": "ilol_test_outlkg_pins",
+          "MeasurementPinGroup": "outlkg_pins",
+          "Settings": [
+            {
+              "Pins": [
+                "outlkg_pins"
+              ],
+              "PinSetting": {
+                "VccLimitHigh": 0.0094, 
+                "VccLimitLow": -0.0094, 
+                "ForceLow": 0.9,
+                "ClampHigh": 0.02,
+                "ClampLow": -0.02,
+                "IRange": "IR40mA"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

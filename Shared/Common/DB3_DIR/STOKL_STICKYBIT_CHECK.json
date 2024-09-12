@@ -1,0 +1,99 @@
+{
+  "STOKL_CHECK": [
+    {
+      "BypassFailValue": "2",
+      "BypassPassValue": "-1",
+      "BypassVariable": "BYPASSVars!BYPASS_BFNR_HCC_D2_test",
+      "Counter": "4601",
+      "Plist": "hcc_d2_stokl_check_plist"
+    },
+    {
+      "BypassFailValue": "2",
+      "BypassPassValue": "-1",
+      "BypassVariable": "BYPASSVars!BYPASS_BFNR_HCC_D3_test",
+      "Counter": "4602",
+      "Plist": "hcc_d3_stokl_check_plist"
+    },
+    {
+      "BypassFailValue": "2",
+      "BypassPassValue": "-1",
+      "BypassVariable": "BYPASSVars!BYPASS_BFNR_HDC_D3_test",
+      "Counter": "4603",
+      "Plist": "hdc_d3_stokl_check_plist"
+    },
+    {
+      "BypassFailValue": "2",
+      "BypassPassValue": "-1",
+      "BypassVariable": "BYPASSVars!BYPASS_BFNR_HPRF_SLL_LL_test",
+      "Counter": "4604",
+      "Plist": "hprf_sll_ll_stokl_check_plist"
+    },
+    {
+      "BypassFailValue": "2",
+      "BypassPassValue": "-1",
+      "BypassVariable": "BYPASSVars!BYPASS_BFNR_LLRF_HSS_SS_test",
+      "Counter": "4605",
+      "Plist": "llrf_hss_ss_stokl_check_plist"
+    },
+    {
+      "BypassFailValue": "2",
+      "BypassPassValue": "-1",
+      "BypassVariable": "BYPASSVars!BYPASS_BFNR_TPRF_HHH_SS_test",
+      "Counter": "4606",
+      "Plist": "tprf_hhh_ss_stokl_check_plist"
+    },
+    {
+      "BypassFailValue": "2",
+      "BypassPassValue": "-1",
+      "BypassVariable": "BYPASSVars!BYPASS_BFNR_HPRF_HHH_LL_test",
+      "Counter": "4607",
+      "Plist": "hprf_hhh_ll_stokl_check_plist"
+    }
+  ],
+  "STICKYBIT_CHECK_top": [
+    {
+      "BypassFailValue": "2",
+      "BypassPassValue": "-1",
+      "BypassVariable": "",
+      "Counter": "4621",
+      "Plist": "hcc_d2_top_stickybit_check_plist"
+    },
+    {
+      "BypassFailValue": "2",
+      "BypassPassValue": "-1",
+      "BypassVariable": "",
+      "Counter": "4622",
+      "Plist": "hcc_d3_top_stickybit_check_plist"
+    },
+    {
+      "BypassFailValue": "2",
+      "BypassPassValue": "-1",
+      "BypassVariable": "",
+      "Counter": "4623",
+      "Plist": "hdc_d3_top_stickybit_check_plist"
+    }
+  ],
+  "STICKYBIT_CHECK_bot": [
+    {
+      "BypassFailValue": "2",
+      "BypassPassValue": "-1",
+      "BypassVariable": "",
+      "Counter": "4621",
+      "Plist": "hcc_d2_bot_stickybit_check_plist"
+    },
+    {
+      "BypassFailValue": "2",
+      "BypassPassValue": "-1",
+      "BypassVariable": "",
+      "Counter": "4622",
+      "Plist": "hcc_d3_bot_stickybit_check_plist"
+    },
+    {
+      "BypassFailValue": "2",
+      "BypassPassValue": "-1",
+      "BypassVariable": "",
+      "Counter": "4623",
+      "Plist": "hdc_d3_bot_stickybit_check_plist"
+    }
+  ]
+}

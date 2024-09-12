@@ -1,0 +1,88 @@
+{
+  "Shops": [
+    {
+      "MeasurementType": "LOWER",
+      "TestName": "sram_shops",
+      "Pins": "sram_shops",
+      "UpperLimit": "-0.1",
+      "LowerLimit": "-1.45",
+      "LevelTestCondition": "sram_shops_LD_selector",
+      "PassCounterGroupID": "sram_shops",
+      "PassCounter": "1501",
+      "UpperLimitFailCounter": "1001",
+      "LowerLimitFailCounter": "1501",
+      "BypassUservar": "BYPASSVars.BYPASS_PinCont_Test",
+      "BypassUservarValue": "2"
+    },
+    {
+      "MeasurementType": "UPPER",
+      "TestName": "sram_shops",
+      "Pins": "sram_shops",
+      "UpperLimit": "1.5",
+      "LowerLimit": "0.1",
+      "LevelTestCondition": "sram_shops_LD_selector",
+      "PassCounterGroupID": "sram_shops",
+      "PassCounter": "1501",
+      "UpperLimitFailCounter": "1503",
+      "LowerLimitFailCounter": "1001",
+      "BypassUservar": "BYPASSVars.BYPASS_PinCont_Test",
+      "BypassUservarValue": "2"
+    },
+    {
+      "MeasurementType": "LOWER",
+      "TestName": "lya_shops",
+      "Pins": "lya_pins",
+      "UpperLimit": "-0.1",
+      "LowerLimit": "-1.45",
+      "LevelTestCondition": "lya_pins_shops_LD_selector",
+      "PassCounterGroupID": "lya_pins",
+      "PassCounter": "1338",
+      "UpperLimitFailCounter": "1338",
+      "LowerLimitFailCounter": "1339",
+      "BypassUservar": "",
+      "BypassUservarValue": ""
+    },
+    {
+      "MeasurementType": "UPPER",
+      "TestName": "lya_shops",
+      "Pins": "lya_pins",
+      "UpperLimit": "1.5",
+      "LowerLimit": "0.1",
+      "LevelTestCondition": "lya_pins_shops_UD_selector",
+      "PassCounterGroupID": "lya_pins",
+      "PassCounter": "1338",
+      "UpperLimitFailCounter": "1340",
+      "LowerLimitFailCounter": "1338",
+      "BypassUservar": "",
+      "BypassUservarValue": ""
+    },
+    {
+      "MeasurementType": "LOWER",
+      "TestName": "edm_shops",
+      "Pins": "edmin_pins",
+      "UpperLimit": "-0.1",
+      "LowerLimit": "-1.45",
+      "LevelTestCondition": "edm_pins_shops_LD_selector",
+      "PassCounterGroupID": "edmin_pins",
+      "PassCounter": "1311",
+      "UpperLimitFailCounter": "1311",
+      "LowerLimitFailCounter": "1312",
+      "BypassUservar": "BYPASSVars.BYPASS_EDM_PinCont_Test",
+      "BypassUservarValue": "2"
+    },
+    {
+      "MeasurementType": "UPPER",
+      "TestName": "edm_shops",
+      "Pins": "edmin_pins",
+      "UpperLimit": "1.5",
+      "LowerLimit": "0.1",
+      "LevelTestCondition": "edm_pins_shops_UD_selector",
+      "PassCounterGroupID": "edmin_pins",
+      "PassCounter": "1311",
+      "UpperLimitFailCounter": "1313",
+      "LowerLimitFailCounter": "1311",
+      "BypassUservar": "BYPASSVars.BYPASS_EDM_PinCont_Test",
+      "BypassUservarValue": "2"
+    }
+  ]
+}

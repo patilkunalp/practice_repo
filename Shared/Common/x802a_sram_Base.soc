@@ -1,0 +1,255 @@
+Version 1.0;
+
+SocketDef
+{
+	PinDescription "x802a_sram_Base.pin";
+	DUT 1
+	{
+		Resource HighPurityClock
+		{
+			clock_l	09.048;
+			clock_r	[U] 09.048;
+		}	
+	    Resource KeepModePin
+	    {
+			redun_l	09.100;
+			redun_r	[U] 09.100;
+			xadd0_l	08.045;
+			xadd0_r	[U] 08.045;
+			xadd1_l	08.011;
+			xadd1_r	[U] 08.011;
+			xadd10_l	08.001;
+			xadd10_r	[U] 08.001;
+			xadd11_l	08.052;
+			xadd11_r	[U] 08.052;
+			xadd12_l	08.023;
+			xadd12_r	[U] 08.023;
+			xadd13_l	08.054;
+			xadd13_r	[U] 08.054;
+			xadd14_l	08.047;
+			xadd14_r	[U]08.047;
+			xadd15_l	08.008;
+			xadd15_r	[U] 08.008;
+			xadd2_l	08.019;
+			xadd2_r	[U] 08.019;
+			xadd3_l	08.017;
+			xadd3_r	[U] 08.017;
+			xadd4_l	08.048;
+			xadd4_r	[U] 08.048;
+			xadd5_l	08.049;
+			xadd5_r	[U] 08.049;
+			xadd6_l	08.010;
+			xadd6_r	[U] 08.010;
+			xadd7_l	 08.018;
+			xadd7_r	[U] 08.018;
+			xadd8_l	08.055;
+			xadd8_r	[U] 08.055;
+			xadd9_l	08.015;
+			xadd9_r	[U] 08.015;
+			yadd0_l	08.016;
+			yadd0_r	[U]08.016;
+			yadd1_l	08.000;
+			yadd1_r	[U]08.000;
+			yadd2_l	08.009;
+			yadd2_r	[U] 08.009;
+			yadd3_l	08.038;
+			yadd3_r	[U] 08.038;
+			zadd0_l	09.017;
+			zadd0_r	[U] 09.017;
+			zadd1_l	09.102;
+			zadd1_r	[U] 09.102;
+			zadd2_l	09.046;
+			zadd2_r	[U] 09.046;
+			zadd3_l	09.019;
+			zadd3_r	[U] 09.019;
+			lyagcol0_l	02.037;
+			lyagcol0_r	[U] 02.037;
+			lyagcol1_l	02.024;
+			lyagcol1_r	[U] 02.024;
+			lyagcol2_l	02.071;
+			lyagcol2_r	[U] 02.071;
+			lyagcol3_l	02.079;
+			lyagcol3_r	[U] 02.079;
+			lyagcol4_l	02.044;
+			lyagcol4_r	[U] 02.044;
+			lyamode0_l	02.088;
+			lyamode0_r	[U] 02.088;
+			lyamode1_l	02.045;
+			lyamode1_r	[U] 02.045;
+			lyamode2_l	07.037;
+			lyamode2_r	[U] 07.037;
+		}
+
+		Resource DPin
+		{
+			BAGin1	07.050;
+			BAGin2	07.040;
+			BAGout1	07.102;
+			BAGout2	07.089;
+			bi_l	02.028;
+			bi_r	[U] 02.028;
+			capture_io_l	02.103;
+			capture_io_r	[U] 02.080;
+			datain_l	09.079;
+			datain_r	[U] 09.079;
+			dataout0_l	08.029;
+			dataout0_r	[U] 08.029;
+			dataout1_l	08.028;
+			dataout1_r	[U] 08.028;
+			dataout10_l	08.032;
+			dataout10_r	[U] 08.032;
+			dataout11_l	08.020;
+			dataout11_r	[U] 08.020;
+			dataout12_l	08.002;
+			dataout12_r	[U] 08.002;
+			dataout13_l	08.037;
+			dataout13_r	[U] 08.037;
+			dataout14_l	08.040;
+			dataout14_r	[U]08.040;
+			dataout15_l	08.025;
+			dataout15_r	[U] 08.025;
+			dataout16_l	08.033;
+			dataout16_r	[U] 08.033;
+			dataout17_l	08.005;
+			dataout17_r	[U] 08.005;
+			dataout18_l	08.043;
+			dataout18_r	[U] 08.043;
+			dataout19_l	08.051;
+			dataout19_r	[U] 08.051;
+			dataout2_l	08.030;
+			dataout2_r	[U] 08.030;
+			dataout20_l	08.044;
+			dataout20_r	[U] 08.044;
+			dataout21_l	08.006;
+			dataout21_r	[U] 08.006;
+			dataout22_l	08.050;
+			dataout22_r	[U] 08.050;
+			dataout23_l	08.024;
+			dataout23_r	[U] 08.024;
+			dataout24_l	08.014;
+			dataout24_r	[U] 08.014;
+			dataout25_l	08.021;
+			dataout25_r	[U] 08.021;
+			dataout26_l	08.031;
+			dataout26_r	[U] 08.031;
+			dataout27_l	08.035;
+			dataout27_r	[U] 08.035;
+			dataout28_l	08.042;
+			dataout28_r	[U] 08.042;
+			dataout29_l	08.007;
+			dataout29_r	[U] 08.007;
+			dataout3_l	08.026;
+			dataout3_r	[U] 08.026;
+			dataout30_l	08.027;
+			dataout30_r	[U] 08.027;
+			dataout31_l	08.041;
+			dataout31_r	[U] 08.041;
+			dataout4_l	08.034;
+			dataout4_r	[U] 08.034;
+			dataout5_l	08.004;
+			dataout5_r	[U] 08.004;
+			dataout6_l	08.003;
+			dataout6_r	[U] 08.003;
+			dataout7_l	08.013;
+			dataout7_r	[U] 08.013;
+			dataout8_l	08.012;
+			dataout8_r	[U] 08.012;
+			dataout9_l	08.053;
+			dataout9_r	[U] 08.053;
+			dc0_l	07.020;
+			dc0_r	[U] 07.020;
+			dc1_l	02.025;
+			dc1_r	[U] 02.025;
+			DC_center0	[U]02.025;
+			DC_center1	[U] 02.025;
+			dduty_en_l	02.001;
+			dduty_en_r	[U] 02.001;
+			defaultir_b_l	02.106;
+			defaultir_b_r	[U] 02.106;
+			lyapad0_b_l	02.102;
+			lyapad0_b_r	[U] 02.102;
+			lyapad0_l	08.089;
+			lyapad0_r	[U] 08.089;
+			lyapad1_b_l	08.070;
+			lyapad1_b_r	[U] 08.070;
+			lyapad1_l	07.030;
+			lyapad1_r	[U] 07.030;
+			psddigview0_l	08.105;
+			psddigview0_r	[U] 08.105;
+			psddigview1_l	08.108;
+			psddigview1_r	[U] 08.108;
+			psdmode10_l	08.102;
+			psdmode10_r	[U] 08.102;
+			psdmode11_l	08.106;
+			psdmode11_r	[U] 08.106;
+			psdmode12_l	08.101;
+			psdmode12_r	[U] 08.101;
+			psdsramclk1_l	08.092;
+			psdsramclk1_r	[U]08.092;
+			read_l	09.038;
+			read_r	[U] 09.038;
+			reset_l	09.015;
+			reset_r	[U] 09.015;
+			sca_l	07.049;
+			sca_r	[U] 07.049;
+			scb_l	08.080;
+			scb_r	[U] 08.080;
+			shutoffen_b_l	08.063;
+			shutoffen_b_r	[U] 08.063;
+			spare0_l	07.077;
+			spare0_r	[U] 07.077;
+			spare1_l	07.031;
+			spare1_r	[U] 07.031;
+			sramvccmon_l	08.077;
+			sramvccmon_r	[U] 08.077;
+			stkyreset_l	07.038;
+			stkyreset_r	[U] 07.038;
+			stokl_l	09.045;
+			stokl_r	[U] 09.045;
+			stopclock_l	02.101;
+			stopclock_r	[U] 02.101;
+			tck_l	02.084;
+			tck_r	[U] 02.084;
+			tdi_io_l	02.051;
+			tdi_io_r	[U] 02.051;
+			tdi_l	07.096;
+			tdi_r	[U]07.096;
+			tdo_io_l	07.097;
+			tdo_io_r	[U] 07.097;
+			tdo_l	02.090;
+			tdo_r	[U] 02.090;
+			tms_l	02.107;
+			tms_r	[U]02.107;
+			trst_b_l	08.076;
+			trst_b_r	[U] 08.076;
+			update_io_l	07.001;
+			update_io_r	[U] 07.001;
+			vccmonru_l	07.016;
+			vccmonru_r	[U] 07.016;
+			vssmonru_l	07.039;
+			vssmonru_r	[U] 07.039;
+			wlvccmon_l	07.046;
+			wlvccmon_r	[U] 07.046;
+			write_l	09.073;
+			write_r	[U] 09.073;
+			xedm1_0	08.098;
+			xedm1_1	04.036;
+			xedm2_0	08.095;
+			xedm2_1	04.041;
+			xesd1	08.100;
+			xesd2	04.089;
+		}				
+		Resource HC
+		{
+			vcc1	11.33;
+			vcc2	00.28;
+			vcc3	11.26;
+			vccio	11.29;
+		}		
+		Resource TDAU
+		{
+			TDAU_XTHMDA     1001.000;   
+		}		
+	}
+	
+}	

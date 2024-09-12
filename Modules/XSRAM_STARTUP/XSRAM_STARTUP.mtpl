@@ -1,0 +1,512 @@
+Version 1.0;
+
+ProgramStyle = Modular;
+
+TestPlan XSRAM_STARTUP;
+
+
+Counters
+{
+	n90300005_fail_CRES_0,
+	p99300001_pass_CRES_1,
+	n90300001_fail_CRES_2,
+	n90300002_fail_CRES_3,
+	n90300004_fail_CRES_5,
+	n90300003_fail_CRES_4
+}
+CSharpTest FlowTimer starttimer_total
+{
+	TimerName = "TT_TOTAL_FULL_FLOW" ; #USER TODO: define value
+	mode = "Start";
+}
+CSharpTest FlowTimer starttimer_total_startup
+{
+	TimerName = "TT_TOTAL_STARTUP" ; #USER TODO: define value
+	mode = "Start";
+}
+CSharpTest FlowTimer endtimer_total_startup
+{
+	TimerName = "TT_TOTAL_STARTUP" ; #USER TODO: define value
+	mode = "Stop";
+}
+CSharpTest FlowTimer starttimer_intialize_shops_cont
+{
+	TimerName = "TT_ALL_STARTUP_INITIALIZE_SHOPS_CONT" ; #USER TODO: define value
+	mode = "Start";
+}
+CSharpTest FlowTimer endtimer_intialize_shops_cont
+{
+	TimerName = "TT_ALL_STARTUP_INITIALIZE_SHOPS_CONT" ; #USER TODO: define value
+	mode = "Stop";
+}
+CSharpTest UserFuncTest PrintSiteID
+{
+	UserFunction = "SRAM_Userfuncs.TestFlowUserFuncs.PrintSiteID";
+	StringParameter = "StringParamToPrint";
+}
+CSharpTest UserFuncTest VisualID_uf
+{
+	UserFunction = "SRAM_Userfuncs.TestFlowUserFuncs.hasVisualID";
+	StringParameter = "StringParamToPrint";
+}
+CSharpTest SortClassFlowFork SortClassFlowFork
+{
+}
+CSharpTest DieXYFlowFork Die_type_select
+{
+	TableName = "product_table";
+	ConfigFile = GetEnvironmentVariable("DB3_DIR") + "\\product_dietype.json";
+	DieTypeUserVariableName = "_UserVars.GL_DIE_TYPE"; #USER TODO: define value
+	ItuffName = "DFF_GL_DIE_TYPE"; #USER TODO: define value
+	ProductTypeUserVariableName = "_UserVars.GL_PRODUCT"; #USER TODO: define value
+	XLocationUserVariableName = "SCVars.SC_WAFERX"; #USER TODO: define value
+	YLocationUserVariableName = "SCVars.SC_WAFERY"; #USER TODO: define value
+}
+CSharpTest CacheRepair CacheRepair_Initialization_Test_top
+{
+	ConfigFile = GetEnvironmentVariable("DB3_DIR") + "\\CacheRepair.json"; #USER TODO: define value
+	DFFString = "DFF_REDUN_REPAIR"; #USER TODO: define value
+	ElementLayoutTableName = "ElementLayoutTable"; #USER TODO: define value
+	FlavorName = "HDC"; #USER TODO: define value
+	LabelTableName = "IOLableTable_top"; #USER TODO: define value
+	RepairType = "NOM"; #USER TODO: define value
+	RUstoProcess = "HDC_RU_Location";
+	RepairMode = "Init";
+}
+CSharpTest ShopsTest shops
+{
+	ConfigFile = GetEnvironmentVariable("DB3_DIR") + "\\ShopsConfig.json";
+	TableName = "Shops";
+	ExitPortPriority = "SHORTS_TOP_PRIORITY";
+	LogLevel = "Enabled";
+}
+CSharpTest CacheRepair CacheRepair_Initialization_Test_classhot_top
+{
+	ConfigFile = GetEnvironmentVariable("DB3_DIR") + "\\CacheRepair.json"; #USER TODO: define value
+	DFFString = "DFF_REDUN_REPAIR_CLASSHOT_RC"; #USER TODO: define value
+	ElementLayoutTableName = "ElementLayoutTable"; #USER TODO: define value
+	FlavorName = "HDC"; #USER TODO: define value
+	LabelTableName = "IOLableTable_top"; #USER TODO: define value
+	RepairType = "NOM"; #USER TODO: define value
+	RUstoProcess = "HDC_RU_Location";
+	RepairMode = "Init";
+}
+CSharpTest CacheRepair CacheRepair_Initialization_Test_bot
+{
+	ConfigFile = GetEnvironmentVariable("DB3_DIR") + "\\CacheRepair.json"; #USER TODO: define value
+	DFFString = "DFF_REDUN_REPAIR"; #USER TODO: define value
+	ElementLayoutTableName = "ElementLayoutTable"; #USER TODO: define value
+	FlavorName = "HDC"; #USER TODO: define value
+	LabelTableName = "IOLableTable_bot"; #USER TODO: define value
+	RepairType = "NOM"; #USER TODO: define value
+	RUstoProcess = "HDC_RU_Location";
+	RepairMode = "Init";
+}
+CSharpTest CacheRepair CacheRepair_Initialization_Test_classhot_bot
+{
+	ConfigFile = GetEnvironmentVariable("DB3_DIR") + "\\CacheRepair.json"; #USER TODO: define value
+	DFFString = "DFF_REDUN_REPAIR_CLASSHOT_RC"; #USER TODO: define value
+	ElementLayoutTableName = "ElementLayoutTable"; #USER TODO: define value
+	FlavorName = "HDC"; #USER TODO: define value
+	LabelTableName = "IOLableTable_bot"; #USER TODO: define value
+	RepairType = "NOM"; #USER TODO: define value
+	RUstoProcess = "HDC_RU_Location";
+	RepairMode = "Init";
+}
+CSharpTest CResTest CRES
+{
+	ConfigFile = GetEnvironmentVariable("DB3_DIR") + "\\CResTable.json"; #USER TODO: define value
+	ForceCurrentValue = -0.01; #USER TODO: define value
+	Level = "BASE::creslvl_creslvl_TC"; #USER TODO: define value
+	OpenLimit = -1.5; #USER TODO: define value
+	Pins = "all_cres"; #USER TODO: define value
+	ShortLimit = -0.1; #USER TODO: define value
+	TableName = "CRESTable"; #USER TODO: define value
+	LogLevel = "Enabled";
+}
+CSharpTest SetUserVariables initialize_globals
+{
+	ConfigFile = GetEnvironmentVariable("DB3_DIR") + "\\InitializeUservar.json"; #USER TODO: define value
+	TableName = "UservarTable";
+}
+CSharpTest ICCInit initialize_ICC_results
+{
+}
+CSharpTest IccTest primary_supply_continuity_test
+{
+	ConfigFile = GetEnvironmentVariable("DB3_DIR") + "\\ContConfig.json";
+	TableName = "Primary_Continuity";
+	IccProjectionTable = "";
+	StopTestingAtFirstAlarm = "Enable";
+	FlushSmartTCCache = "Enable";
+	LogLevel = "Enabled";
+}
+CSharpTest FlowTimer starttimer_shops
+{
+	TimerName = "TT_SHOPS_COMP" ; #USER TODO: define value
+	mode = "Start";
+}
+CSharpTest FlowTimer endtimer_shops
+{
+	TimerName = "TT_SHOPS_COMP" ; #USER TODO: define value
+	mode = "Stop";
+}
+
+
+Flow shops_comp
+{
+	FlowItem starttimer_shops starttimer_shops
+	{
+		Result -2 { Property PassFail = "Fail"; SetBin b99010001_fail_FAIL_DPS_ALARM; Return -2; }
+		Result -1 { Property PassFail = "Fail"; SetBin b98010001_fail_FAIL_SYSTEM_SOFTWARE; Return -1; }
+		Result 0
+		{
+			Property PassFail = "Fail";
+			GoTo shops;
+		}
+		Result 1
+		{
+			Property PassFail = "Pass";
+			GoTo shops;
+		}
+	}
+	FlowItem shops shops
+	{
+		Result -2 { Property PassFail = "Fail"; SetBin b99010001_fail_FAIL_DPS_ALARM; Return -2; }
+		Result -1 { Property PassFail = "Fail"; SetBin b98010001_fail_FAIL_SYSTEM_SOFTWARE; Return -1; }
+		Result 0
+		{
+			Property PassFail = "Fail";
+			Return 0;
+		}
+		Result 1
+		{
+			Property PassFail = "Pass";
+			Return 1;
+		}
+		Result 4
+		{
+			Property PassFail = "Fail";
+			GoTo endtimer_shops;
+		}
+		Result 5
+		{
+			Property PassFail = "Fail";
+			GoTo endtimer_shops;
+		}
+		Result 6
+		{
+			Property PassFail = "Fail";
+			GoTo endtimer_shops;
+		}
+		
+	}
+	FlowItem endtimer_shops endtimer_shops
+	{
+		Result -2 { Property PassFail = "Fail"; SetBin b99010001_fail_FAIL_DPS_ALARM; Return -2; }
+		Result -1 { Property PassFail = "Fail"; SetBin b98010001_fail_FAIL_SYSTEM_SOFTWARE; Return -1; }
+		Result 0
+		{
+			Property PassFail = "Fail";
+			Return 1;
+		}
+		Result 1
+		{
+			Property PassFail = "Pass";
+			Return 1;
+		}
+	}
+
+}
+Flow cont_comp
+{
+	FlowItem primary_supply_continuity_test primary_supply_continuity_test
+	{
+		Result -2 { Property PassFail = "Fail"; SetBin b99010001_fail_FAIL_DPS_ALARM; Return -1; }
+		Result -1 { Property PassFail = "Fail"; SetBin b98010001_fail_FAIL_SYSTEM_SOFTWARE; Return -1; }
+		Result 0
+		{
+			Property PassFail = "Fail";
+			Return 0;
+		}
+		Result 1
+		{
+			Property PassFail = "Pass";
+			Return 1;
+		}
+		Result 2
+		{
+			Property PassFail = "Pass";
+			Return 1;
+		}
+	}
+}
+
+Flow Initialize_repair_and_shutoff_pattern
+{
+	FlowItem CacheRepair_Initialization_Test_top CacheRepair_Initialization_Test_top
+	{
+		Result -2 { Property PassFail = "Fail"; SetBin b99010001_fail_FAIL_DPS_ALARM; Return -2; }
+		Result -1 { Property PassFail = "Fail"; SetBin b98010001_fail_FAIL_SYSTEM_SOFTWARE; Return -1; }
+		Result 0
+		{
+			Property PassFail = "Fail";
+			GoTo CacheRepair_Initialization_Test_classhot_top;
+		}
+		Result 1
+		{
+			Property PassFail = "Pass";
+			GoTo CacheRepair_Initialization_Test_classhot_top;
+		}
+	}
+	FlowItem CacheRepair_Initialization_Test_classhot_top CacheRepair_Initialization_Test_classhot_top
+	{
+		Result -2 { Property PassFail = "Fail"; SetBin b99010001_fail_FAIL_DPS_ALARM; Return -2; }
+		Result -1 { Property PassFail = "Fail"; SetBin b98010001_fail_FAIL_SYSTEM_SOFTWARE; Return -1; }
+		Result 0
+		{
+			Property PassFail = "Fail";
+			GoTo CacheRepair_Initialization_Test_bot;
+		}
+		Result 1
+		{
+			Property PassFail = "Pass";
+			GoTo CacheRepair_Initialization_Test_bot;
+		}
+	}
+	FlowItem CacheRepair_Initialization_Test_bot CacheRepair_Initialization_Test_bot
+	{
+		Result -2 { Property PassFail = "Fail"; SetBin b99010001_fail_FAIL_DPS_ALARM; Return -2; }
+		Result -1 { Property PassFail = "Fail"; SetBin b98010001_fail_FAIL_SYSTEM_SOFTWARE; Return -1; }
+		Result 0
+		{
+			Property PassFail = "Fail";
+			GoTo CacheRepair_Initialization_Test_classhot_bot;
+		}
+		Result 1
+		{
+			Property PassFail = "Pass";
+			GoTo CacheRepair_Initialization_Test_classhot_bot;
+		}
+	}
+	FlowItem CacheRepair_Initialization_Test_classhot_bot CacheRepair_Initialization_Test_classhot_bot
+	{
+		Result -2 { Property PassFail = "Fail"; SetBin b99010001_fail_FAIL_DPS_ALARM; Return -2; }
+		Result -1 { Property PassFail = "Fail"; SetBin b98010001_fail_FAIL_SYSTEM_SOFTWARE; Return -1; }
+		Result 0
+		{
+			Property PassFail = "Fail";
+			Return 1;
+		}
+		Result 1
+		{
+			Property PassFail = "Pass";
+			Return 1;
+		}
+	}
+
+}
+Flow initialize_shops_cont
+{
+	FlowItem starttimer_intialize_shops_cont starttimer_intialize_shops_cont
+	{
+		Result -2 { Property PassFail = "Fail"; SetBin b99010001_fail_FAIL_DPS_ALARM; Return -2; }
+		Result -1 { Property PassFail = "Fail"; SetBin b98010001_fail_FAIL_SYSTEM_SOFTWARE; Return -1; }
+		Result 0 { Property PassFail = "Fail";
+			GoTo initialize_globals; }
+		Result 1 { Property PassFail = "Pass";
+			GoTo initialize_globals; }
+	}
+	FlowItem PrintSiteID PrintSiteID
+	{
+		Result -2 { Property PassFail = "Fail"; SetBin b99010001_fail_FAIL_DPS_ALARM; Return -2; }
+		Result -1 { Property PassFail = "Fail"; SetBin b98010001_fail_FAIL_SYSTEM_SOFTWARE; Return -1; }
+		Result 0 { Property PassFail = "Fail";
+			GoTo SortClassFlowFork; }
+		Result 1 { Property PassFail = "Pass";
+			GoTo SortClassFlowFork; }
+	}
+	FlowItem VisualID_uf VisualID_uf
+	{
+		Result -2 { Property PassFail = "Fail"; SetBin b99010001_fail_FAIL_DPS_ALARM; Return -2; }
+		Result -1 { Property PassFail = "Fail"; SetBin b98010001_fail_FAIL_SYSTEM_SOFTWARE; Return -1; }
+		Result 0 { Property PassFail = "Fail";
+			GoTo SortClassFlowFork; }
+		Result 1 { Property PassFail = "Pass";
+			GoTo SortClassFlowFork; }
+		Result 2 { Property PassFail = "Pass";
+			GoTo SortClassFlowFork; }
+	}
+	FlowItem SortClassFlowFork SortClassFlowFork
+	{
+		Result -2 { Property PassFail = "Fail"; SetBin b99010001_fail_FAIL_DPS_ALARM; Return -2; }
+		Result -1 { Property PassFail = "Fail"; SetBin b98010001_fail_FAIL_SYSTEM_SOFTWARE; Return -1; }
+		Result 0 { Property PassFail = "Fail";
+			GoTo Die_type_select; }
+		Result 1 { Property PassFail = "Pass";
+			GoTo Die_type_select; }
+	}
+	FlowItem Die_type_select Die_type_select
+	{
+		Result -2 { Property PassFail = "Fail"; SetBin b99010001_fail_FAIL_DPS_ALARM; Return -2; }
+		Result -1 { Property PassFail = "Fail"; SetBin b98010001_fail_FAIL_SYSTEM_SOFTWARE; Return -1; }
+		Result 0 { Property PassFail = "Fail";
+			GoTo CRES; }
+		Result 1 { Property PassFail = "Pass";
+			GoTo CRES; }
+		Result 2 { Property PassFail = "Pass";
+			GoTo CRES; }
+		Result 3 { Property PassFail = "Pass";
+			GoTo CRES; }
+		Result 4 { Property PassFail = "Pass";
+			GoTo CRES; }
+	}
+	FlowItem CRES CRES
+	{
+		Result -2 { Property PassFail = "Fail"; SetBin b99010001_fail_FAIL_DPS_ALARM; Return -2; }
+		Result -1 { Property PassFail = "Fail"; SetBin b98010001_fail_FAIL_SYSTEM_SOFTWARE; Return -1; }
+		Result 0
+		{
+			Property PassFail = "Fail";
+			IncrementCounters XSRAM_STARTUP::n90300005_fail_CRES_0;
+			GoTo shops_comp;
+		}
+		Result 1
+		{
+			Property PassFail = "Pass";
+			IncrementCounters XSRAM_STARTUP::p99300001_pass_CRES_1;
+			GoTo shops_comp;
+		}
+		Result 2
+		{
+			Property PassFail = "Fail";
+			IncrementCounters XSRAM_STARTUP::n90300001_fail_CRES_2;
+			SetBin b90303001_fail_XSRAM_STARTUP_X78C_CRES_2;
+			GoTo shops_comp;
+		}
+		Result 3
+		{
+			Property PassFail = "Fail";
+			IncrementCounters XSRAM_STARTUP::n90300002_fail_CRES_3;
+			GoTo shops_comp;
+		}
+		Result 4
+		{
+			Property PassFail = "Fail";
+			IncrementCounters XSRAM_STARTUP::n90300003_fail_CRES_4;
+			GoTo shops_comp;
+		}
+		Result 5
+		{
+			Property PassFail = "Fail";
+			IncrementCounters XSRAM_STARTUP::n90300004_fail_CRES_5;
+			GoTo shops_comp;
+		}
+	}
+	FlowItem shops_comp shops_comp
+	{
+		Result -2 { Property PassFail = "Fail"; SetBin b99010001_fail_FAIL_DPS_ALARM;
+			GoTo endtimer_intialize_shops_cont; }
+		Result -1 { Property PassFail = "Fail"; SetBin b98010001_fail_FAIL_SYSTEM_SOFTWARE; Return -1; }
+		Result 0 { Property PassFail = "Fail"; GoTo cont_comp; }
+		Result 1 { Property PassFail = "Pass"; GoTo cont_comp; }
+	}
+	FlowItem cont_comp cont_comp
+	{
+		Result -1 { Property PassFail = "Fail"; SetBin b98010001_fail_FAIL_SYSTEM_SOFTWARE; Return -1; }
+		Result 0 { Property PassFail = "Fail"; GoTo endtimer_intialize_shops_cont; }
+		Result 1 { Property PassFail = "Pass"; GoTo endtimer_intialize_shops_cont; }
+	}
+	
+	FlowItem endtimer_intialize_shops_cont endtimer_intialize_shops_cont
+	{
+		Result -2 { Property PassFail = "Fail"; SetBin b99010001_fail_FAIL_DPS_ALARM; Return -2; }
+		Result -1 { Property PassFail = "Fail"; SetBin b98010001_fail_FAIL_SYSTEM_SOFTWARE; Return -1; }
+		Result 0 { Property PassFail = "Fail";
+			Return 1; }
+		Result 1 { Property PassFail = "Pass";
+			Return 1; }
+		Result 2 { Property PassFail = "Pass";
+			Return 1; }
+	}
+	FlowItem Initialize_repair_and_shutoff_pattern Initialize_repair_and_shutoff_pattern
+	{
+		Result -2 { Property PassFail = "Fail"; Return -2; }
+		Result -1 { Property PassFail = "Fail"; Return -1; }
+		Result 1 { Property PassFail = "Pass"; GoTo initialize_ICC_results; }
+	}
+	FlowItem initialize_globals initialize_globals
+	{
+		Result -2 { Property PassFail = "Fail"; SetBin b99010001_fail_FAIL_DPS_ALARM; Return -2; }
+		Result -1 { Property PassFail = "Fail"; SetBin b98010001_fail_FAIL_SYSTEM_SOFTWARE; Return -1; }
+		Result 0
+		{
+			Property PassFail = "Fail";
+			GoTo Initialize_repair_and_shutoff_pattern;
+		}
+		Result 1
+		{
+			Property PassFail = "Pass";
+			GoTo Initialize_repair_and_shutoff_pattern;
+		}
+	}
+	FlowItem initialize_ICC_results initialize_ICC_results
+	{
+		Result -2 { Property PassFail = "Fail"; SetBin b99010001_fail_FAIL_DPS_ALARM; Return -2; }
+		Result -1 { Property PassFail = "Fail"; SetBin b98010001_fail_FAIL_SYSTEM_SOFTWARE; Return -1; }
+		Result 0
+		{
+			Property PassFail = "Fail";
+			GoTo PrintSiteID;
+		}
+		Result 1
+		{
+			Property PassFail = "Pass";
+			GoTo PrintSiteID;
+		}
+	}
+}
+#TODO add content here
+Flow XSRAM_STARTUP_MAIN
+{
+	FlowItem starttimer_total starttimer_total
+	{
+		Result -2 { Property PassFail = "Fail"; SetBin b99010001_fail_FAIL_DPS_ALARM; Return -2; }
+		Result -1 { Property PassFail = "Fail"; SetBin b98010001_fail_FAIL_SYSTEM_SOFTWARE; Return -1; }
+		Result 0 { Property PassFail = "Fail";
+			GoTo starttimer_total_startup; }
+		Result 1 { Property PassFail = "Pass";
+			GoTo starttimer_total_startup; }
+		Result 2 { Property PassFail = "Pass";
+			GoTo starttimer_total_startup; }
+	}
+	FlowItem starttimer_total_startup starttimer_total_startup
+	{
+		Result -2 { Property PassFail = "Fail"; SetBin b99010001_fail_FAIL_DPS_ALARM; Return -2; }
+		Result -1 { Property PassFail = "Fail"; SetBin b98010001_fail_FAIL_SYSTEM_SOFTWARE; Return -1; }
+		Result 0 { Property PassFail = "Fail";
+			GoTo initialize_shops_cont; }
+		Result 1 { Property PassFail = "Pass";
+			GoTo initialize_shops_cont; }
+		Result 2 { Property PassFail = "Pass";
+			GoTo initialize_shops_cont; }
+	}
+	FlowItem initialize_shops_cont initialize_shops_cont
+	{
+		Result -2 { Property PassFail = "Fail"; SetBin b99010001_fail_FAIL_DPS_ALARM;
+			Return 0; }
+		Result -1 { Property PassFail = "Fail"; SetBin b98010001_fail_FAIL_SYSTEM_SOFTWARE; Return -1; }
+		Result 1 { Property PassFail = "Pass"; GoTo endtimer_total_startup; }
+	}
+	FlowItem endtimer_total_startup endtimer_total_startup
+	{
+		Result -2 { Property PassFail = "Fail"; SetBin b99010001_fail_FAIL_DPS_ALARM; Return -2; }
+		Result -1 { Property PassFail = "Fail"; SetBin b98010001_fail_FAIL_SYSTEM_SOFTWARE; Return -1; }
+		Result 0 { Property PassFail = "Fail";
+			GoTo initialize_shops_cont; }
+		Result 1 { Property PassFail = "Pass";
+			GoTo initialize_shops_cont; }
+		Result 2 { Property PassFail = "Pass";
+			GoTo initialize_shops_cont; }
+	}
+}

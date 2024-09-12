@@ -1,0 +1,22 @@
+{
+  "MonitorSetup": [
+    {
+      "TestName": "xvccmon1_test_z0",
+      "PatternModifyKeys": "RU0",
+      "MeasurePin": "xvccmon1",
+      "PList": "monitor_test_plist",
+      "PatternTriggerMap": "MonitorTriggerMap",
+      "Level": "BASE::main_ltype_main_nom_lcat",
+      "Timing": "BASE::char_tim_char_DCTest_tcat"
+    }
+  ],
+  "PatternModify": [
+    {
+      "Key": "RU0",
+      "Pattern": "monitor_regular_sleep_reset_setZ_seq",
+      "Label": "ZADDR",
+      "Pin": "xzadd6,xzadd5,xzadd4,xzadd3,xzadd2,xzadd1,xzadd0",
+      "ModifyString": "0000000"
+    }
+  ]
+}

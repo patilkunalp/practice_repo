@@ -1,0 +1,62 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\hemooers\\source\\repos\\SRAM_Userfuncs\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B35935FA-7CFE-4FA0-B8E5-EA51CD195D9B}|SRAM_Userfuncs\\SRAM_Userfuncs.csproj|c:\\users\\hemooers\\source\\repos\\sram_userfuncs\\sram_userfuncs\\binninguserfunc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B35935FA-7CFE-4FA0-B8E5-EA51CD195D9B}|SRAM_Userfuncs\\SRAM_Userfuncs.csproj|solutionrelative:sram_userfuncs\\binninguserfunc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B35935FA-7CFE-4FA0-B8E5-EA51CD195D9B}|SRAM_Userfuncs\\SRAM_Userfuncs.csproj|c:\\users\\hemooers\\source\\repos\\sram_userfuncs\\sram_userfuncs\\sramuserfuncexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B35935FA-7CFE-4FA0-B8E5-EA51CD195D9B}|SRAM_Userfuncs\\SRAM_Userfuncs.csproj|solutionrelative:sram_userfuncs\\sramuserfuncexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{dcc4ea97-1c0c-482b-b205-e541c0df9728}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{dcc4ea97-1c0c-482b-b205-e541c0df9728}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BinningUserfunc.cs",
+              "DocumentMoniker": "C:\\Users\\hemooers\\source\\repos\\SRAM_Userfuncs\\SRAM_Userfuncs\\BinningUserfunc.cs",
+              "RelativeDocumentMoniker": "SRAM_Userfuncs\\BinningUserfunc.cs",
+              "ToolTip": "C:\\Users\\hemooers\\source\\repos\\SRAM_Userfuncs\\SRAM_Userfuncs\\BinningUserfunc.cs",
+              "RelativeToolTip": "SRAM_Userfuncs\\BinningUserfunc.cs",
+              "ViewState": "AQIAANgAAAAAAAAAAAAmwP4AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T20:05:00.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SramUserFuncExample.cs",
+              "DocumentMoniker": "C:\\Users\\hemooers\\source\\repos\\SRAM_Userfuncs\\SRAM_Userfuncs\\SramUserFuncExample.cs",
+              "RelativeDocumentMoniker": "SRAM_Userfuncs\\SramUserFuncExample.cs",
+              "ToolTip": "C:\\Users\\hemooers\\source\\repos\\SRAM_Userfuncs\\SRAM_Userfuncs\\SramUserFuncExample.cs",
+              "RelativeToolTip": "SRAM_Userfuncs\\SramUserFuncExample.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T22:28:41.848Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

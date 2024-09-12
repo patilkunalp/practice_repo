@@ -1,0 +1,19 @@
+Version 6.0;
+
+PList tprf_nr_bf_plist [DefaultPListPinMask TPRF_masked_left, stokl]
+{              
+#    Pat regular_reset_seq_redun0;
+	Pat unmasking_tprf_zid_setup;
+	Pat rdwr_assist_tprf_rop0w0;
+	Pat nr_marchcm_fx_rs_1c_zid12;
+	Pat inverted_onebit_rf_zid12;
+}
+PList tprf_nr_precond_plist
+{              
+#    Pat regular_reset_seq_redun0;
+    Pat rdwr_assist_tprf_rop0w0;
+}
+PList NR_raster_marchcm_fx_rs_1c_setz_plist [DefaultPListPinMask stokl]
+{              
+	Pat nr_marchcm_fx_rs_1c_setz;
+}

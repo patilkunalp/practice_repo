@@ -1,0 +1,418 @@
+Version 1.0;
+
+Import "x802a_sram_Base.usrv";
+Import "x802a_sram_Base.pin";
+
+Timing char_tim
+{
+	Domain default
+	{
+		 PeriodTable
+        {
+			Divisor = 1;
+			Multiplier = 1;
+            Period  = tper;
+        }
+        
+        clk_pins
+		{
+			Period = tper;
+			ClockSkew = tper/2;
+			ClockEnable = 0;
+			Divisor = 1;
+			Multiplier = 1;
+			compare =  char_comp;
+			EdgeCounter = "Off";
+		}
+        inputsetup1_pins
+        {
+            drive = char_drive;
+            compare =  char_comp;
+			EdgeCounter = "Off";
+        }
+        redun
+        {
+            drive = char_drive;
+            compare =  char_comp;
+			EdgeCounter = "Off";
+        }
+        xaddrs
+        {
+            drive = char_drive;
+            compare =  char_comp;
+			EdgeCounter = "Off";
+        }
+        yaddrs
+        {
+            drive = char_drive;
+            compare =  char_comp;
+			EdgeCounter = "Off";
+        }
+        zaddrs
+        {
+            drive = char_drive;
+            compare =  char_comp;
+			EdgeCounter = "Off";
+        }
+        datain
+        {
+            drive = char_drive;
+            compare =  char_comp;
+			EdgeCounter = "Off";
+        }
+        io_scan_in
+        {
+            drive = char_drive;
+            compare =  char_comp;
+			EdgeCounter = "Off";
+        }
+        io_scan_out
+        {
+            drive = char_drive;
+            compare =  char_comp;
+			EdgeCounter = "Off";
+        }
+        inputsetup2_pins
+        {
+            drive = char_drive;
+            compare =  char_comp;
+			EdgeCounter = "Off";
+        }
+        apg_dataout_pins
+        {
+            drive = char_drive;
+            compare =  char_comp;
+			EdgeCounter = "Off";
+        }
+        tap_nonxtck_inpins
+        {
+            drive = char_drive;
+            compare =  char_comp;
+			EdgeCounter = "Off";
+        }
+        tap_outpins
+        {
+            drive = char_drive;
+            compare =  char_comp;
+			EdgeCounter = "Off";
+        }
+        tap_tck
+        {
+            drive = char_drive;
+            compare =  char_comp;
+			EdgeCounter = "Off";
+        }
+        lya_mode
+        {
+            drive = char_drive;
+            compare =  char_comp;
+			EdgeCounter = "Off";
+        }
+        lya_pins
+        {
+            drive = char_drive;
+            compare =  char_comp;
+			EdgeCounter = "Off";
+        }
+        lya_gc
+        {
+            drive = char_drive;
+            compare =  char_comp;
+			EdgeCounter = "Off";
+        }
+        dduty
+        {
+            drive = char_drive;
+            compare =  char_comp;
+			EdgeCounter = "Off";
+        }
+        stokl
+        {
+            drive = char_drive;
+            compare =  char_comp;
+			EdgeCounter = "Off";
+        }
+        sramio_buffer_pins
+        {
+            drive = char_drive;
+            compare =  char_comp;
+			EdgeCounter = "Off";
+        }
+    }  # end of Domain
+} #End of Timing Block basic_func_timing
+
+Timing main_tim
+{
+	Domain default
+	{
+		 PeriodTable
+        {
+			Divisor = 1;
+			Multiplier = 1;
+            Period  = tper;
+        }
+        
+        clk_pins
+		{
+			Period = tper;
+			ClockSkew = tper/2;
+			ClockEnable = 0;
+			Divisor = 1;
+			Multiplier = 1;
+			compare =  char_comp;
+			EdgeCounter = "Off";
+		}
+        inputsetup1_pins
+        {
+            drive = char_drive;
+            compare =  char_comp;
+			EdgeCounter = "Off";
+        }
+        redun
+        {
+            drive = char_drive;
+            compare =  char_comp;
+			EdgeCounter = "Off";
+        }
+        xaddrs
+        {
+            drive = char_drive;
+            compare =  char_drive_comp;
+			EdgeCounter = "Off";
+        }
+        yaddrs
+        {
+            drive = char_drive;
+            compare =  char_drive_comp;
+			EdgeCounter = "Off";
+        }
+        zaddrs
+        {
+            drive = char_drive;
+            compare =  char_drive_comp;
+			EdgeCounter = "Off";
+        }
+        datain
+        {
+            drive = char_drive;
+            compare =  char_comp;
+			EdgeCounter = "Off";
+        }
+        io_scan_in
+        {
+            drive = char_drive;
+            compare =  char_comp;
+			EdgeCounter = "Off";
+        }
+        io_scan_out
+        {
+            drive = char_drive;
+            compare =  char_comp;
+			EdgeCounter = "Off";
+        }
+        inputsetup2_pins
+        {
+            drive = char_drive;
+            compare =  char_comp;
+			EdgeCounter = "Off";
+        }
+        apg_dataout_pins
+        {
+            drive = char_drive;
+            compare =  char_comp;
+			EdgeCounter = "Off";
+        }
+        tap_nonxtck_inpins
+        {
+            drive = char_drive;
+            compare =  char_comp;
+			EdgeCounter = "Off";
+        }
+        tap_outpins
+        {
+            drive = char_drive;
+            compare =  char_comp;
+			EdgeCounter = "Off";
+        }
+        tap_tck
+        {
+            drive = char_drive;
+            compare =  char_comp;
+			EdgeCounter = "Off";
+        }
+        lya_mode
+        {
+            drive = char_drive;
+            compare =  char_comp;
+			EdgeCounter = "Off";
+        }
+        lya_pins
+        {
+            drive = char_drive;
+            compare =  char_comp;
+			EdgeCounter = "Off";
+        }
+        lya_gc
+        {
+            drive = char_drive;
+            compare =  char_comp;
+			EdgeCounter = "Off";
+        }
+        dduty
+        {
+            drive = char_drive;
+            compare =  char_comp;
+			EdgeCounter = "Off";
+        }
+        stokl
+        {
+            drive = char_drive;
+            compare =  char_comp;
+			EdgeCounter = "Off";
+        }
+        sramio_buffer_pins
+        {
+            drive = char_drive;
+            compare =  char_comp;
+			EdgeCounter = "Off";
+        }
+    }  # end of Domain
+} #End of Timing Block basic_func_timing
+
+Timing logic_tim
+{
+	Domain default
+	{
+		 PeriodTable
+        {
+			Divisor = 1;
+			Multiplier = 1;
+            Period  = tper;
+        }
+        
+        clk_pins
+		{
+			Period = tper;
+			ClockSkew = tper/2;
+			ClockEnable = 0;
+			Divisor = 1;
+			Multiplier = 1;
+			compare =  char_comp;
+			EdgeCounter = "Off";
+		}
+        inputsetup1_pins
+        {
+            drive = char_drive;
+            compare =  char_comp;
+			EdgeCounter = "Off";
+        }
+        redun
+        {
+            drive = char_drive;
+            compare =  char_comp;
+			EdgeCounter = "Off";
+        }
+        xaddrs
+        {
+            drive = char_drive;
+            compare =  char_comp;
+			EdgeCounter = "Off";
+        }
+        yaddrs
+        {
+            drive = char_drive;
+            compare =  char_comp;
+			EdgeCounter = "Off";
+        }
+        zaddrs
+        {
+            drive = char_drive;
+            compare =  char_comp;
+			EdgeCounter = "Off";
+        }
+        datain
+        {
+            drive = char_drive;
+            compare =  char_comp;
+			EdgeCounter = "Off";
+        }
+        io_scan_in
+        {
+            drive = char_drive;
+            compare =  char_comp;
+			EdgeCounter = "Off";
+        }
+        io_scan_out
+        {
+            drive = char_drive;
+            compare =  char_comp;
+			EdgeCounter = "Off";
+        }
+        inputsetup2_pins
+        {
+            drive = char_drive;
+            compare =  char_comp;
+			EdgeCounter = "Off";
+        }
+        apg_dataout_pins
+        {
+            drive = char_drive;
+            compare =  char_comp;
+			EdgeCounter = "Off";
+        }
+        tap_nonxtck_inpins
+        {
+            drive = char_drive;
+            compare =  char_comp;
+			EdgeCounter = "Off";
+        }
+        tap_outpins
+        {
+            drive = char_drive;
+            compare =  char_comp;
+			EdgeCounter = "Off";
+        }
+        tap_tck
+        {
+            drive = char_drive;
+            compare =  char_comp;
+			EdgeCounter = "Off";
+        }
+        lya_mode
+        {
+            drive = char_drive;
+            compare =  char_comp;
+			EdgeCounter = "Off";
+        }
+        lya_pins
+        {
+            drive = char_drive;
+            compare =  char_comp;
+			EdgeCounter = "Off";
+        }
+        lya_gc
+        {
+            drive = char_drive;
+            compare =  char_comp;
+			EdgeCounter = "Off";
+        }
+        dduty
+        {
+            drive = char_drive;
+            compare =  char_comp;
+			EdgeCounter = "Off";
+        }
+        stokl
+        {
+            drive = char_drive;
+            compare =  char_comp;
+			EdgeCounter = "Off";
+        }
+        sramio_buffer_pins
+        {
+            drive = char_drive;
+            compare =  char_comp;
+			EdgeCounter = "Off";
+        }
+    }  # end of Domain
+} #End of Timing Block basic_func_timing

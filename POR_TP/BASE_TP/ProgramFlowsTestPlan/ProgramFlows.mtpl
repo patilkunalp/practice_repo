@@ -1,0 +1,111 @@
+Version 1.0;
+
+ProgramStyle = Modular;
+
+TestPlan Flows;  # End of DUTFlow SDTFAILFLOW_SubFlow
+
+Flow MAIN
+{	
+	FlowItem XSRAM_STARTUP_MAIN XSRAM_STARTUP::XSRAM_STARTUP_MAIN
+	{
+		Result -2 { Property PassFail = "Fail"; GoTo XCHIP_BASE_POWERDOWN; }		
+		Result -1 { Property PassFail = "Fail"; GoTo XCHIP_BASE_POWERDOWN; }		
+		Result 0 { Property PassFail = "Fail"; GoTo XCHIP_BASE_POWERDOWN; }		
+	}
+	
+	FlowItem XCHIP_BASE_POWERDOWN XCHIP_BASE::XCHIP_BASE_POWERDOWN
+	{
+		Result -2 { Property PassFail = "Fail"; Return -2; }		
+		Result -1 { Property PassFail = "Fail"; Return -1; }		
+		Result 0 { Property PassFail = "Fail"; Return 0; }		
+		
+		Result 1 { Property PassFail = "Pass"; Return 1; }		
+	}
+	
+}  # End of DUTFlow MAIN
+
+Flow INIT
+{
+	FlowItem XCHIP_BASE_INIT XCHIP_BASE::XCHIP_BASE_INIT
+	{
+		Result -2 { Property PassFail = "Fail"; Return -1; }		
+		Result -1 { Property PassFail = "Fail"; Return -1; }		
+		Result 0 { Property PassFail = "Fail"; Return 0; }		
+		
+		Result 1 { Property PassFail = "Pass"; Return 1; }		
+	}	
+}  # End of Flow INIT
+
+Flow LOTENDFLOW
+{	
+	FlowItem XCHIP_BASE_LOTENDFLOW XCHIP_BASE::XCHIP_BASE_LOTENDFLOW
+	{
+		Result -2 { Property PassFail = "Fail"; Return -2; }		
+		Result -1 { Property PassFail = "Fail"; Return -1; }		
+		Result 0 { Property PassFail = "Fail"; Return 0; }		
+		Result 1 { Property PassFail = "Pass"; Return 1; }		
+	}	
+}  # End of Flow LOTENDFLOW
+
+Flow LOTSTARTFLOW
+{
+	FlowItem XCHIP_BASE_LOTSTARTFLOW XCHIP_BASE::XCHIP_BASE_LOTSTARTFLOW
+	{
+		Result -2 { Property PassFail = "Fail"; Return -1; }		
+		Result -1 { Property PassFail = "Fail"; Return -1; }		
+		Result 0 { Property PassFail = "Fail"; Return 0; }		
+		
+		Result 1 { Property PassFail = "Pass"; Return 1; }		
+	}	
+}  # End of Flow LOTSTARTFLOW
+
+Flow TESTPLANSTARTFLOW
+{
+	FlowItem XCHIP_BASE_TESTPLANSTARTFLOW XCHIP_BASE::XCHIP_BASE_TESTPLANSTARTFLOW
+	{
+		Result -2 { Property PassFail = "Fail"; Return -1; }		
+		Result -1 { Property PassFail = "Fail"; Return -1; }		
+		Result 0 { Property PassFail = "Fail"; Return 0; }		
+		
+		Result 1 { Property PassFail = "Pass"; Return 1; }		
+	}	
+	
+	
+}  # End of Flow TESTPLANSTARTFLOW
+
+Flow TESTPLANENDFLOW
+{	
+	FlowItem XCHIP_BASE_TESTPLANENDFLOW XCHIP_BASE::XCHIP_BASE_TESTPLANENDFLOW
+	{
+		Result -2 { Property PassFail = "Fail"; Return 1; }		
+		Result -1 { Property PassFail = "Fail"; Return 1; }		
+		Result 0 { Property PassFail = "Fail"; Return 0; }		
+		
+		Result 1 { Property PassFail = "Pass"; Return 1; }		
+	}	
+}  # End of Flow TESTPLANENDFLOW
+
+
+Flow DUTCHANGEFLOW
+{	
+	FlowItem XCHIP_BASE_DUTCHANGEFLOW XCHIP_BASE::XCHIP_BASE_DUTCHANGEFLOW
+	{
+		Result -2 { Property PassFail = "Fail"; Return 1; }		
+		Result -1 { Property PassFail = "Fail"; Return 1; }		
+		Result 0 { Property PassFail = "Fail"; Return 0; }		
+		
+		Result 1 { Property PassFail = "Pass"; Return 1; }		
+	}	
+}  # End of Flow TESTPLANENDFLOW
+
+
+FlowDefs
+{
+	InitFlow = INIT;
+	MainFlow = MAIN;
+	DUTChangeFlow = DUTCHANGEFLOW;
+	LotEndFlow = LOTENDFLOW;
+	LotStartFlow = LOTSTARTFLOW;
+	TestPlanEndFlow = TESTPLANENDFLOW;
+	TestPlanStartFlow = TESTPLANSTARTFLOW;
+}

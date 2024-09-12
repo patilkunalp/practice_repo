@@ -1,0 +1,155 @@
+{
+    "Pins": [
+        {
+        "Channel": 9048,
+        "Name": "xclock",
+        },
+        {
+        "Channel": 9079,
+        "Name": "xdatain",
+        },
+        {
+        "Channel": 2106,
+        "Name": "xdefaultir_b",
+        },
+        {
+        "Channel": 7037,
+        "Name": "xlyamode2_dpin",
+        },
+        {
+        "Channel": 2045,
+        "Name": "xlyamode1_dpin",
+        },
+        {
+        "Channel": 2088,
+        "Name": "xlyamode0_dpin",
+        },
+        {
+        "Channel": 9015,
+        "Name": "xreset",
+        },
+        {
+        "Channel": 9038,
+        "Name": "xread",
+        },
+        {
+        "Channel": 9018,
+        "Name": "xstkyreset",
+        },
+        {
+        "Channel": 9045,
+        "Name": "xstokl",
+        },
+        {
+        "Channel": 9073,
+        "Name": "xwrite",
+        },
+        {
+        "Channel": 8045,
+        "Name": "xxadd0_dpin",
+        },
+        {
+        "Channel": 8011,
+        "Name": "xxadd1_dpin",
+        },
+        {
+        "Channel": 8001,
+        "Name": "xxadd10_dpin",
+        },
+        {
+        "Channel": 8052,
+        "Name": "xxadd11_dpin",
+        },
+        {
+        "Channel": 8023,
+        "Name": "xxadd12_dpin",
+        },
+        {
+        "Channel": 8054,
+        "Name": "xxadd13_dpin",
+        },
+        {
+        "Channel": 8047,
+        "Name": "xxadd14_dpin",
+        },
+        {
+        "Channel": 8019,
+        "Name": "xxadd2_dpin",
+        },
+        {
+        "Channel": 8017,
+        "Name": "xxadd3_dpin",
+        },
+        {
+        "Channel": 8048,
+        "Name": "xxadd4_dpin",
+        },
+        {
+        "Channel": 8049,
+        "Name": "xxadd5_dpin",
+        },
+        {
+        "Channel": 8010,
+        "Name": "xxadd6_dpin",
+        },
+        {
+        "Channel": 8018,
+        "Name": "xxadd7_dpin",
+        },
+        {
+        "Channel": 8055,
+        "Name": "xxadd8_dpin",
+        },
+        {
+        "Channel": 8015,
+        "Name": "xxadd9_dpin",
+        },
+        {
+        "Channel": 8016,
+        "Name": "xyadd0_dpin",
+        },
+        {
+        "Channel": 8000,
+        "Name": "xyadd1_dpin",
+        },
+        {
+        "Channel": 8009,
+        "Name": "xyadd2_dpin",
+        },
+        {
+        "Channel": 8038,
+        "Name": "xyadd3_dpin",
+        },
+        {
+        "Channel": 9017,
+        "Name": "xzadd0_dpin",
+        },
+        {
+        "Channel": 9102,
+        "Name": "xzadd1_dpin",
+        },
+        {
+        "Channel": 9046,
+        "Name": "xzadd2_dpin",
+        },
+        {
+        "Channel": 9019,
+        "Name": "xzadd3_dpin",
+        },
+        {
+        "Channel": 9101,
+        "Name": "xzadd4_dpin",
+        },
+        {
+        "Channel": 9078,
+        "Name": "xzadd5_dpin",
+        }
+    ],
+    "PinGroups": [
+        {
+        "Name": "all_eza",
+        "ShortsLimit": -0.1,
+        "OpensLimit": -1.45
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FlowTimer</name>
+    </assembly>
+    <members>
+        <member name="T:FlowTimer.FlowTimer">
+            <summary>
+            Dummy description of this test method.
+            </summary>
+        </member>
+        <member name="F:FlowTimer.FlowTimer.starttimes">
+            <summary>
+            Gets or sets the TimerMode (this comment will be used on the pre-header file).
+            </summary>
+            
+        </member>
+        <member name="T:FlowTimer.FlowTimer.TimerMode">
+            <summary>
+            Timer modes
+            </summary>
+        </member>
+        <member name="F:FlowTimer.FlowTimer.TimerMode.Start">
+            <summary>Start Timer</summary>
+        </member>
+        <member name="F:FlowTimer.FlowTimer.TimerMode.Stop">
+            <summary>Stop Timer</summary>
+        </member>
+        <member name="P:FlowTimer.FlowTimer.TimerName">
+            <summary>
+            Name of the timer
+            </summary>
+            
+        </member>
+        <member name="P:FlowTimer.FlowTimer.mode">
+            <summary>
+            Timer mode - either start or stop
+            </summary>
+            
+        </member>
+        <member name="M:FlowTimer.FlowTimer.Verify">
+            <inheritdoc/>
+        </member>
+        <member name="M:FlowTimer.FlowTimer.Execute">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>

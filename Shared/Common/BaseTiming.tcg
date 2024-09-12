@@ -1,0 +1,90 @@
+Version 1.0;
+
+Import "x802a_sram_Base.tim";
+
+SpecificationSet char_tim_PARAMS (char_DCTest_tcat,char_RUbypassloop_tcat,char_bypassloop_tcat)
+{
+	Time tper = clk_period;
+	Time char_drive = 0nS;
+	Time clk2out = 5nS, cache_strobe_delay,cache_strobe_delay;
+	Time clk_offset = tper*0.5,tper*0.5,tper;
+	Time char_comp = clk_offset+ clk2out;
+}
+TestConditionGroup char_tim_TCG
+{
+	SpecificationSet = char_tim_PARAMS;
+	Timing = __main__::char_tim;
+}
+
+TestCondition char_tim_char_DCTest_tcat
+{
+	TestConditionGroup  = char_tim_TCG;
+	Selector = char_DCTest_tcat;
+}
+
+TestCondition char_tim_char_RUbypassloop_tcat
+{
+	TestConditionGroup  = char_tim_TCG;
+	Selector = char_RUbypassloop_tcat;
+}
+TestCondition char_tim_char_bypassloop_tcat
+{
+	TestConditionGroup  = char_tim_TCG;
+	Selector = char_bypassloop_tcat;
+}
+
+SpecificationSet main_tim_PARAMS (main_nom_tcat,main_lof_tcat)
+{
+	Time tper = cache_clk_period,lof_period;
+	Time char_drive = 0nS;
+	Time char_drive_comp = tper*0.5;
+	Time clk2out = cache_strobe_delay;
+	Time clk_offset = tper*0.5;
+	Time clk0_0 = clk_offset;
+	Time clkgate = clk_offset;
+	Time char_comp =Latency*tper+ clk_offset+tper*0.5+clk2out;
+}	
+
+TestConditionGroup main_tim_TCG
+{
+	SpecificationSet = main_tim_PARAMS;
+	Timing = __main__::main_tim;
+}
+
+TestCondition main_tim_main_nom_tcat
+{
+	TestConditionGroup  = main_tim_TCG;
+	Selector = main_lof_tcat;
+}
+TestCondition main_tim_main_lof_tcat
+{
+	TestConditionGroup  = main_tim_TCG;
+	Selector = main_nom_tcat;
+}
+
+SpecificationSet logic_tim_PARAMS (logic_nom_tcat)
+{
+	Time tper = gt_clk_period;
+	Time char_drive = 0nS;
+	Time clk2out = 5nS;
+	Double trise_mult = 0.5;
+	Double tfall_mult = 1.0;
+	Double stb_mult = 0.25;
+	Time clk_offset = tper*trise_mult;
+	Time clk0_0 = clk_offset;
+	Time stb_offset = 0nS;
+	Time clkgate = tper*tfall_mult;
+	Time char_comp = (tper*stb_mult)+stb_offset;
+}
+
+TestConditionGroup logic_tim_TCG
+{
+	SpecificationSet = logic_tim_PARAMS;
+	Timing = __main__::logic_tim;
+}
+
+TestCondition logic_tim_logic_nom_tcat
+{
+	TestConditionGroup  = logic_tim_TCG;
+	Selector = logic_nom_tcat;
+}

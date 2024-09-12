@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+	<TestProgram>
+		<ProductCodeName>X78C</ProductCodeName>
+		<TestProgramDescriptiveName>X78C_TP</TestProgramDescriptiveName>
+		<TeamEmailAddress>jemar.sampang@intel.com</TeamEmailAddress>
+		<SortClassType>CLASS</SortClassType>
+		<TPNameUservar>
+			TPNameVars.TPName1<!--Define the uservar that holds the TP name-->
+		</TPNameUservar>
+		<TpTag>
+			<!--Define a tag for the test program-->
+		</TpTag>
+	</TestProgram>
+
+	<TestProgramFiles>
+		<BaseTplPath>..\..\BaseTestPlan.tpl</BaseTplPath>
+		<!--Define the path to the .tpl file-->
+		<ENVPath>EnvironmentFile.env</ENVPath>
+		<!--Define the path to the .env file-->
+		<STPLPath>SubTestPlan.stpl</STPLPath>
+		<!--Define the path to the .stpl file-->
+		<RootPath>
+			..\..\<!--Define the solution topmost folder-->
+		</RootPath>
+		<TPIESignaturePath>..\..\TPIE.Signature</TPIESignaturePath>
+		<!--Define the path to the TPIE.Signature file-->
+	</TestProgramFiles>
+
+	<LTLTestProgramNameToSocketMapping>
+		<!--update the socket file name to the correct one-->
+		<TPToSocketMapping TPNameUservar="SCVars.TP_PROGRAM_NAME" SocketFile="..\..\Shared\Common\x802a_sram_Base.soc" />
+		<!--Add more TPToSocketMapping tags for each unique TP name uservar-->
+	</LTLTestProgramNameToSocketMapping>
+
+
+
+	<TPCustomAttributes>
+		<!--Define any custom XML tags here-->
+	</TPCustomAttributes>
+</Configuration>

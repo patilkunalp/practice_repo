@@ -1,0 +1,971 @@
+{
+  "Main": [
+    {
+      "ConditionalExecuteTokens": "",
+      "ID": "1",
+      "Level": "logic_ltyp_logic_nom_lcat",
+      "PList": "chainru126_GT2_loopback_plist",
+      "PatternTable": "loopback_patterntable",
+      "PostExecUserFunc": "",
+      "PreExecPatternModify": "",
+      "PreExecUserFunc": "",
+      "RU": "",
+      "TestName": "PreHVQK_CRU126_LOOPBACK",
+      "Timing": "logic_tim_logic_nom_tcat",
+      "YAddr": "1",
+      "ZAddr": "1"
+    },
+    {
+      "ConditionalExecuteTokens": "",
+      "ID": "2",
+      "Level": "logic_ltyp_logic_nom_lcat",
+      "PList": "chainru126_GT2_boundary_plist",
+      "PatternTable": "boundary_patterntable",
+      "PostExecUserFunc": "",
+      "PreExecPatternModify": "",
+      "PreExecUserFunc": "",
+      "RU": "",
+      "TestName": "PreHVQK_CRU126_BOUNDARY",
+      "Timing": "logic_tim_logic_nom_tcat",
+      "YAddr": "1",
+      "ZAddr": "1"
+    },
+    {
+      "ConditionalExecuteTokens": "",
+      "ID": "3",
+      "Level": "logic_ltyp_logic_nom_lcat",
+      "PList": "chainru126_GT2_chain_plist",
+      "PatternTable": "gt_shift_patterntable",
+      "PostExecUserFunc": "",
+      "PreExecPatternModify": "",
+      "PreExecUserFunc": "",
+      "RU": "",
+      "TestName": "PreHVQK_CRU126_CHAIN",
+      "Timing": "logic_tim_logic_nom_tcat",
+      "YAddr": "1",
+      "ZAddr": "1"
+    },
+    {
+      "ConditionalExecuteTokens": "",
+      "ID": "4",
+      "Level": "logic_ltyp_logic_nom_lcat",
+      "PList": "chainru126_GT2_capture_1_plist",
+      "PatternTable": "gt_capture_patterntable",
+      "PostExecUserFunc": "",
+      "PreExecPatternModify": "",
+      "PreExecUserFunc": "",
+      "RU": "3",
+      "TestName": "PreHVQK_CRU126_CAPTURE",
+      "Timing": "logic_tim_logic_nom_tcat",
+      "YAddr": "1",
+      "ZAddr": "1"
+    },
+    {
+      "ConditionalExecuteTokens": "",
+      "ID": "5",
+      "Level": "logic_ltyp_logic_nom_lcat",
+      "PList": "chainru126_GT2_capture_2_plist",
+      "PatternTable": "gt_capture_patterntable",
+      "PostExecUserFunc": "",
+      "PreExecPatternModify": "",
+      "PreExecUserFunc": "",
+      "RU": "9",
+      "TestName": "PreHVQK_CRU126_CAPTURE",
+      "Timing": "logic_tim_logic_nom_tcat",
+      "YAddr": "1",
+      "ZAddr": "1"
+    }
+  ],
+  "loopback_patterntable": [
+    {
+      "ConditionalExecuteTokens": "",
+      "DividerRatio": "",
+      "FailConditionalToken": "",
+      "HRYKey": "HRY_PREHVQK_CRU126.LOOPBACK_RU{RU}_TILE{TILE}",
+      "HRYOnlyToken": "true",
+      "HRYPinConfig": "HRYMainPlist",
+      "LOG_LABEL_NAME": "",
+      "LOG_PATTERN_NAME": "All_pats_die_loopback",
+      "LOG_Y_ADDR": "{TILE}",
+      "LOG_Z_ADDR": "{RU}",
+      "Label": "RU{RU}_chainru_loopback_tile{TILE}",
+      "PassConditionalToken": "",
+      "Pattern": "hdmt_chain126_all_pats_die_loopback",
+      "UseRegex": ""
+    },
+    {
+      "ConditionalExecuteTokens": "",
+      "DividerRatio": "",
+      "FailConditionalToken": "",
+      "HRYKey": "HRY_PREHVQK_CRU126.LOOPBACK_NEW_RU{RU}_TILE{TILE}",
+      "HRYOnlyToken": "true",
+      "HRYPinConfig": "HRYMainPlist",
+      "LOG_LABEL_NAME": "",
+      "LOG_PATTERN_NAME": "All_pats_die_loopback",
+      "LOG_Y_ADDR": "{TILE}",
+      "LOG_Z_ADDR": "{RU}",
+      "Label": "RU{RU}_chainru_loopbacknew_tile{TILE}",
+      "PassConditionalToken": "",
+      "Pattern": "hdmt_chain126_all_pats_die_loopback",
+      "UseRegex": ""
+    }
+  ],
+  "boundary_patterntable": [
+    {
+      "ConditionalExecuteTokens": "",
+      "DividerRatio": "",
+      "FailConditionalToken": "",
+      "HRYKey": "HRY_PREHVQK_CRU126.BOUNDARY_RU{RU}",
+      "HRYOnlyToken": "true",
+      "HRYPinConfig": "HRYMainPlist",
+      "LOG_LABEL_NAME": "{LABEL}",
+      "LOG_PATTERN_NAME": "All_pats_die_boundary",
+      "LOG_Y_ADDR": "1",
+      "LOG_Z_ADDR": "{RU}",
+      "Label": "RU{RU}_chainru126_syncA_boundary_L0",
+      "PassConditionalToken": "",
+      "Pattern": "hdmt_chain126_all_pats_die_boundary",
+      "UseRegex": ""
+    },
+    {
+      "ConditionalExecuteTokens": "",
+      "DividerRatio": "",
+      "FailConditionalToken": "",
+      "HRYKey": "HRY_PREHVQK_CRU126.BOUNDARY_RU{RU}",
+      "HRYOnlyToken": "true",
+      "HRYPinConfig": "HRYMainPlist",
+      "LOG_LABEL_NAME": "{LABEL}",
+      "LOG_PATTERN_NAME": "All_pats_die_boundary",
+      "LOG_Y_ADDR": "1",
+      "LOG_Z_ADDR": "{RU}",
+      "Label": "RU{RU}_chainru126_syncB_boundary_L0",
+      "PassConditionalToken": "",
+      "Pattern": "hdmt_chain126_all_pats_die_boundary",
+      "UseRegex": ""
+    }
+  ],
+  "gt_shift_patterntable": [
+    {
+      "ConditionalExecuteTokens": "RU{RU}_DFF",
+      "DividerRatio": "",
+      "FailConditionalToken": "RU{RU}_TILE{TILE}_sync_bank{BANK}",
+      "HRYKey": "HRY_PREHVQK_CRU126.RU{RU}_TILE{TILE}_sync_bank{BANK}",
+      "HRYOnlyToken": "",
+      "HRYPinConfig": "HRYMainPlist",
+      "LOG_LABEL_NAME": "{LABEL}",
+      "LOG_PATTERN_NAME": "chainru_Si_syncA_bank0{BANK}",
+      "LOG_Y_ADDR": "{TILE}",
+      "LOG_Z_ADDR": "{RU}",
+      "Label": "RU{RU}_TILE{TILE}_chainru_Si_syncA_bank0{BANK}_L{LABEL}",
+      "PassConditionalToken": "",
+      "Pattern": "hdmt_chain126_all_pats_die_chain_non_pipeline",
+      "UseRegex": ""
+    },
+    {
+      "ConditionalExecuteTokens": "RU{RU}_DFF",
+      "DividerRatio": "",
+      "FailConditionalToken": "RU{RU}_TILE{TILE}_sync_bank{BANK}",
+      "HRYKey": "HRY_PREHVQK_CRU126.RU{RU}_TILE{TILE}_sync_bank{BANK}",
+      "HRYOnlyToken": "",
+      "HRYPinConfig": "HRYMainPlist",
+      "LOG_LABEL_NAME": "{LABEL}",
+      "LOG_PATTERN_NAME": "chainru_Si_syncB_bank0{BANK}",
+      "LOG_Y_ADDR": "{TILE}",
+      "LOG_Z_ADDR": "{RU}",
+      "Label": "RU{RU}_TILE{TILE}_chainru_Si_syncB_bank0{BANK}_L{LABEL}",
+      "PassConditionalToken": "",
+      "Pattern": "hdmt_chain126_all_pats_die_chain_non_pipeline",
+      "UseRegex": ""
+    },
+    {
+      "ConditionalExecuteTokens": "RU{RU}_DFF",
+      "DividerRatio": "",
+      "FailConditionalToken": "RU{RU}_TILE{TILE}_sync_bank{BANK}",
+      "HRYKey": "HRY_PREHVQK_CRU126.RU{RU}_TILE{TILE}_sync_bank{BANK}",
+      "HRYOnlyToken": "",
+      "HRYPinConfig": "HRYMainPlist",
+      "LOG_LABEL_NAME": "{LABEL}",
+      "LOG_PATTERN_NAME": "chainru_D_syncA_bank0{BANK}",
+      "LOG_Y_ADDR": "{TILE}",
+      "LOG_Z_ADDR": "{RU}",
+      "Label": "RU{RU}_TILE{TILE}_chainru_D_syncA_bank0{BANK}_L{LABEL}",
+      "PassConditionalToken": "",
+      "Pattern": "hdmt_chain126_all_pats_die_chain_non_pipeline",
+      "UseRegex": ""
+    },
+    {
+      "ConditionalExecuteTokens": "RU{RU}_DFF",
+      "DividerRatio": "",
+      "FailConditionalToken": "RU{RU}_TILE{TILE}_sync_bank{BANK}",
+      "HRYKey": "HRY_PREHVQK_CRU126.RU{RU}_TILE{TILE}_sync_bank{BANK}",
+      "HRYOnlyToken": "",
+      "HRYPinConfig": "HRYMainPlist",
+      "LOG_LABEL_NAME": "{LABEL}",
+      "LOG_PATTERN_NAME": "chainru_D_syncB_bank0{BANK}",
+      "LOG_Y_ADDR": "{TILE}",
+      "LOG_Z_ADDR": "{RU}",
+      "Label": "RU{RU}_TILE{TILE}_chainru_D_syncB_bank0{BANK}_L{LABEL}",
+      "PassConditionalToken": "",
+      "Pattern": "hdmt_chain126_all_pats_die_chain_non_pipeline",
+      "UseRegex": ""
+    },
+    {
+      "ConditionalExecuteTokens": "RU{RU}_DFF",
+      "DividerRatio": "",
+      "FailConditionalToken": "RU{RU}_TILE{TILE}_sync_bank1{BANK}",
+      "HRYKey": "HRY_PREHVQK_CRU126.RU{RU}_TILE{TILE}_sync_bank1{BANK}",
+      "HRYOnlyToken": "",
+      "HRYPinConfig": "HRYMainPlist",
+      "LOG_LABEL_NAME": "{LABEL}",
+      "LOG_PATTERN_NAME": "chainru_Si_syncA_bank1{BANK}",
+      "LOG_Y_ADDR": "{TILE}",
+      "LOG_Z_ADDR": "{RU}",
+      "Label": "RU{RU}_TILE{TILE}_chainru_Si_syncA_bank1{BANK}_L{LABEL}",
+      "PassConditionalToken": "",
+      "Pattern": "hdmt_chain126_all_pats_die_chain_non_pipeline",
+      "UseRegex": ""
+    },
+    {
+      "ConditionalExecuteTokens": "RU{RU}_DFF",
+      "DividerRatio": "",
+      "FailConditionalToken": "RU{RU}_TILE{TILE}_sync_bank1{BANK}",
+      "HRYKey": "HRY_PREHVQK_CRU126.RU{RU}_TILE{TILE}_sync_bank1{BANK}",
+      "HRYOnlyToken": "",
+      "HRYPinConfig": "HRYMainPlist",
+      "LOG_LABEL_NAME": "{LABEL}",
+      "LOG_PATTERN_NAME": "chainru_Si_syncB_bank1{BANK}",
+      "LOG_Y_ADDR": "{TILE}",
+      "LOG_Z_ADDR": "{RU}",
+      "Label": "RU{RU}_TILE{TILE}_chainru_Si_syncB_bank1{BANK}_L{LABEL}",
+      "PassConditionalToken": "",
+      "Pattern": "hdmt_chain126_all_pats_die_chain_non_pipeline",
+      "UseRegex": ""
+    },
+    {
+      "ConditionalExecuteTokens": "RU{RU}_DFF",
+      "DividerRatio": "",
+      "FailConditionalToken": "RU{RU}_TILE{TILE}_sync_bank1{BANK}",
+      "HRYKey": "HRY_PREHVQK_CRU126.RU{RU}_TILE{TILE}_sync_bank1{BANK}",
+      "HRYOnlyToken": "",
+      "HRYPinConfig": "HRYMainPlist",
+      "LOG_LABEL_NAME": "{LABEL}",
+      "LOG_PATTERN_NAME": "chainru_D_syncA_bank1{BANK}",
+      "LOG_Y_ADDR": "{TILE}",
+      "LOG_Z_ADDR": "{RU}",
+      "Label": "RU{RU}_TILE{TILE}_chainru_D_syncA_bank1{BANK}_L{LABEL}",
+      "PassConditionalToken": "",
+      "Pattern": "hdmt_chain126_all_pats_die_chain_non_pipeline",
+      "UseRegex": ""
+    },
+    {
+      "ConditionalExecuteTokens": "RU{RU}_DFF",
+      "DividerRatio": "",
+      "FailConditionalToken": "RU{RU}_TILE{TILE}_sync_bank1{BANK}",
+      "HRYKey": "HRY_PREHVQK_CRU126.RU{RU}_TILE{TILE}_sync_bank1{BANK}",
+      "HRYOnlyToken": "",
+      "HRYPinConfig": "HRYMainPlist",
+      "LOG_LABEL_NAME": "{LABEL}",
+      "LOG_PATTERN_NAME": "chainru_D_syncB_bank1{BANK}",
+      "LOG_Y_ADDR": "{TILE}",
+      "LOG_Z_ADDR": "{RU}",
+      "Label": "RU{RU}_TILE{TILE}_chainru_D_syncB_bank1{BANK}_L{LABEL}",
+      "PassConditionalToken": "",
+      "Pattern": "hdmt_chain126_all_pats_die_chain_non_pipeline",
+      "UseRegex": ""
+    },
+    {
+      "ConditionalExecuteTokens": "RU{RU}_DFF",
+      "DividerRatio": "",
+      "FailConditionalToken": "RU{RU}_TILE{TILE}_sync_bank2{BANK}",
+      "HRYKey": "HRY_PREHVQK_CRU126.RU{RU}_TILE{TILE}_sync_bank2{BANK}",
+      "HRYOnlyToken": "",
+      "HRYPinConfig": "HRYMainPlist",
+      "LOG_LABEL_NAME": "{LABEL}",
+      "LOG_PATTERN_NAME": "chainru_Si_syncA_bank2{BANK}",
+      "LOG_Y_ADDR": "{TILE}",
+      "LOG_Z_ADDR": "{RU}",
+      "Label": "RU{RU}_TILE{TILE}_chainru_Si_syncA_bank2{BANK}_L{LABEL}",
+      "PassConditionalToken": "",
+      "Pattern": "hdmt_chain126_all_pats_die_chain_non_pipeline",
+      "UseRegex": ""
+    },
+    {
+      "ConditionalExecuteTokens": "RU{RU}_DFF",
+      "DividerRatio": "",
+      "FailConditionalToken": "RU{RU}_TILE{TILE}_sync_bank2{BANK}",
+      "HRYKey": "HRY_PREHVQK_CRU126.RU{RU}_TILE{TILE}_sync_bank2{BANK}",
+      "HRYOnlyToken": "",
+      "HRYPinConfig": "HRYMainPlist",
+      "LOG_LABEL_NAME": "{LABEL}",
+      "LOG_PATTERN_NAME": "chainru_Si_syncB_bank2{BANK}",
+      "LOG_Y_ADDR": "{TILE}",
+      "LOG_Z_ADDR": "{RU}",
+      "Label": "RU{RU}_TILE{TILE}_chainru_Si_syncB_bank2{BANK}_L{LABEL}",
+      "PassConditionalToken": "",
+      "Pattern": "hdmt_chain126_all_pats_die_chain_non_pipeline",
+      "UseRegex": ""
+    },
+    {
+      "ConditionalExecuteTokens": "RU{RU}_DFF",
+      "DividerRatio": "",
+      "FailConditionalToken": "RU{RU}_TILE{TILE}_sync_bank2{BANK}",
+      "HRYKey": "HRY_PREHVQK_CRU126.RU{RU}_TILE{TILE}_sync_bank2{BANK}",
+      "HRYOnlyToken": "",
+      "HRYPinConfig": "HRYMainPlist",
+      "LOG_LABEL_NAME": "{LABEL}",
+      "LOG_PATTERN_NAME": "chainru_D_syncA_bank2{BANK}",
+      "LOG_Y_ADDR": "{TILE}",
+      "LOG_Z_ADDR": "{RU}",
+      "Label": "RU{RU}_TILE{TILE}_chainru_D_syncA_bank2{BANK}_L{LABEL}",
+      "PassConditionalToken": "",
+      "Pattern": "hdmt_chain126_all_pats_die_chain_non_pipeline",
+      "UseRegex": ""
+    },
+    {
+      "ConditionalExecuteTokens": "RU{RU}_DFF",
+      "DividerRatio": "",
+      "FailConditionalToken": "RU{RU}_TILE{TILE}_sync_bank2{BANK}",
+      "HRYKey": "HRY_PREHVQK_CRU126.RU{RU}_TILE{TILE}_sync_bank2{BANK}",
+      "HRYOnlyToken": "",
+      "HRYPinConfig": "HRYMainPlist",
+      "LOG_LABEL_NAME": "{LABEL}",
+      "LOG_PATTERN_NAME": "chainru_D_syncB_bank2{BANK}",
+      "LOG_Y_ADDR": "{TILE}",
+      "LOG_Z_ADDR": "{RU}",
+      "Label": "RU{RU}_TILE{TILE}_chainru_D_syncB_bank2{BANK}_L{LABEL}",
+      "PassConditionalToken": "",
+      "Pattern": "hdmt_chain126_all_pats_die_chain_non_pipeline",
+      "UseRegex": ""
+    },
+    {
+      "ConditionalExecuteTokens": "RU{RU}_DFF",
+      "DividerRatio": "",
+      "FailConditionalToken": "RU{RU}_TILE{TILE}_sync_bank3{BANK}",
+      "HRYKey": "HRY_PREHVQK_CRU126.RU{RU}_TILE{TILE}_sync_bank3{BANK}",
+      "HRYOnlyToken": "",
+      "HRYPinConfig": "HRYMainPlist",
+      "LOG_LABEL_NAME": "{LABEL}",
+      "LOG_PATTERN_NAME": "chainru_Si_syncA_bank3{BANK}",
+      "LOG_Y_ADDR": "{TILE}",
+      "LOG_Z_ADDR": "{RU}",
+      "Label": "RU{RU}_TILE{TILE}_chainru_Si_syncA_bank3{BANK}_L{LABEL}",
+      "PassConditionalToken": "",
+      "Pattern": "hdmt_chain126_all_pats_die_chain_non_pipeline",
+      "UseRegex": ""
+    },
+    {
+      "ConditionalExecuteTokens": "RU{RU}_DFF",
+      "DividerRatio": "",
+      "FailConditionalToken": "RU{RU}_TILE{TILE}_sync_bank3{BANK}",
+      "HRYKey": "HRY_PREHVQK_CRU126.RU{RU}_TILE{TILE}_sync_bank3{BANK}",
+      "HRYOnlyToken": "",
+      "HRYPinConfig": "HRYMainPlist",
+      "LOG_LABEL_NAME": "{LABEL}",
+      "LOG_PATTERN_NAME": "chainru_Si_syncB_bank3{BANK}",
+      "LOG_Y_ADDR": "{TILE}",
+      "LOG_Z_ADDR": "{RU}",
+      "Label": "RU{RU}_TILE{TILE}_chainru_Si_syncB_bank3{BANK}_L{LABEL}",
+      "PassConditionalToken": "",
+      "Pattern": "hdmt_chain126_all_pats_die_chain_non_pipeline",
+      "UseRegex": ""
+    },
+    {
+      "ConditionalExecuteTokens": "RU{RU}_DFF",
+      "DividerRatio": "",
+      "FailConditionalToken": "RU{RU}_TILE{TILE}_sync_bank3{BANK}",
+      "HRYKey": "HRY_PREHVQK_CRU126.RU{RU}_TILE{TILE}_sync_bank3{BANK}",
+      "HRYOnlyToken": "",
+      "HRYPinConfig": "HRYMainPlist",
+      "LOG_LABEL_NAME": "{LABEL}",
+      "LOG_PATTERN_NAME": "chainru_D_syncA_bank3{BANK}",
+      "LOG_Y_ADDR": "{TILE}",
+      "LOG_Z_ADDR": "{RU}",
+      "Label": "RU{RU}_TILE{TILE}_chainru_D_syncA_bank3{BANK}_L{LABEL}",
+      "PassConditionalToken": "",
+      "Pattern": "hdmt_chain126_all_pats_die_chain_non_pipeline",
+      "UseRegex": ""
+    },
+    {
+      "ConditionalExecuteTokens": "RU{RU}_DFF",
+      "DividerRatio": "",
+      "FailConditionalToken": "RU{RU}_TILE{TILE}_sync_bank3{BANK}",
+      "HRYKey": "HRY_PREHVQK_CRU126.RU{RU}_TILE{TILE}_sync_bank3{BANK}",
+      "HRYOnlyToken": "",
+      "HRYPinConfig": "HRYMainPlist",
+      "LOG_LABEL_NAME": "{LABEL}",
+      "LOG_PATTERN_NAME": "chainru_D_syncB_bank3{BANK}",
+      "LOG_Y_ADDR": "{TILE}",
+      "LOG_Z_ADDR": "{RU}",
+      "Label": "RU{RU}_TILE{TILE}_chainru_D_syncB_bank3{BANK}_L{LABEL}",
+      "PassConditionalToken": "",
+      "Pattern": "hdmt_chain126_all_pats_die_chain_non_pipeline",
+      "UseRegex": ""
+    },
+    {
+      "ConditionalExecuteTokens": "RU{RU}_DFF",
+      "DividerRatio": "",
+      "FailConditionalToken": "RU{RU}_TILE{TILE}_sync_bank4{BANK}",
+      "HRYKey": "HRY_PREHVQK_CRU126.RU{RU}_TILE{TILE}_sync_bank4{BANK}",
+      "HRYOnlyToken": "",
+      "HRYPinConfig": "HRYMainPlist",
+      "LOG_LABEL_NAME": "{LABEL}",
+      "LOG_PATTERN_NAME": "chainru_Si_syncA_bank4{BANK}",
+      "LOG_Y_ADDR": "{TILE}",
+      "LOG_Z_ADDR": "{RU}",
+      "Label": "RU{RU}_TILE{TILE}_chainru_Si_syncA_bank4{BANK}_L{LABEL}",
+      "PassConditionalToken": "",
+      "Pattern": "hdmt_chain126_all_pats_die_chain_non_pipeline",
+      "UseRegex": ""
+    },
+    {
+      "ConditionalExecuteTokens": "RU{RU}_DFF",
+      "DividerRatio": "",
+      "FailConditionalToken": "RU{RU}_TILE{TILE}_sync_bank4{BANK}",
+      "HRYKey": "HRY_PREHVQK_CRU126.RU{RU}_TILE{TILE}_sync_bank4{BANK}",
+      "HRYOnlyToken": "",
+      "HRYPinConfig": "HRYMainPlist",
+      "LOG_LABEL_NAME": "{LABEL}",
+      "LOG_PATTERN_NAME": "chainru_Si_syncB_bank4{BANK}",
+      "LOG_Y_ADDR": "{TILE}",
+      "LOG_Z_ADDR": "{RU}",
+      "Label": "RU{RU}_TILE{TILE}_chainru_Si_syncB_bank4{BANK}_L{LABEL}",
+      "PassConditionalToken": "",
+      "Pattern": "hdmt_chain126_all_pats_die_chain_non_pipeline",
+      "UseRegex": ""
+    },
+    {
+      "ConditionalExecuteTokens": "RU{RU}_DFF",
+      "DividerRatio": "",
+      "FailConditionalToken": "RU{RU}_TILE{TILE}_sync_bank4{BANK}",
+      "HRYKey": "HRY_PREHVQK_CRU126.RU{RU}_TILE{TILE}_sync_bank4{BANK}",
+      "HRYOnlyToken": "",
+      "HRYPinConfig": "HRYMainPlist",
+      "LOG_LABEL_NAME": "{LABEL}",
+      "LOG_PATTERN_NAME": "chainru_D_syncA_bank4{BANK}",
+      "LOG_Y_ADDR": "{TILE}",
+      "LOG_Z_ADDR": "{RU}",
+      "Label": "RU{RU}_TILE{TILE}_chainru_D_syncA_bank4{BANK}_L{LABEL}",
+      "PassConditionalToken": "",
+      "Pattern": "hdmt_chain126_all_pats_die_chain_non_pipeline",
+      "UseRegex": ""
+    },
+    {
+      "ConditionalExecuteTokens": "RU{RU}_DFF",
+      "DividerRatio": "",
+      "FailConditionalToken": "RU{RU}_TILE{TILE}_sync_bank4{BANK}",
+      "HRYKey": "HRY_PREHVQK_CRU126.RU{RU}_TILE{TILE}_sync_bank4{BANK}",
+      "HRYOnlyToken": "",
+      "HRYPinConfig": "HRYMainPlist",
+      "LOG_LABEL_NAME": "{LABEL}",
+      "LOG_PATTERN_NAME": "chainru_D_syncB_bank4{BANK}",
+      "LOG_Y_ADDR": "{TILE}",
+      "LOG_Z_ADDR": "{RU}",
+      "Label": "RU{RU}_TILE{TILE}_chainru_D_syncB_bank4{BANK}_L{LABEL}",
+      "PassConditionalToken": "",
+      "Pattern": "hdmt_chain126_all_pats_die_chain_non_pipeline",
+      "UseRegex": ""
+    }
+  ],
+  "gt_capture_patterntable": [
+    {
+      "ConditionalExecuteTokens": "!RU{RU}_TILE{TILE}_sync_bank{BANK},RU{RU}_DFF",
+      "DividerRatio": "",
+      "FailConditionalToken": "",
+      "HRYKey": "HRY_PREHVQK_CRU126.RU{RU}_TILE{TILE}_capture_si_bank{BANK}",
+      "HRYOnlyToken": "",
+      "HRYPinConfig": "HRYMainPlist",
+      "LOG_LABEL_NAME": "{LABEL}",
+      "LOG_PATTERN_NAME": "chainru126_Si_trans_logicarray0{logicarray}_bank0{BANK}",
+      "LOG_Y_ADDR": "{TILE}",
+      "LOG_Z_ADDR": "{RU}",
+      "Label": "TILE{TILE}_chainru126_Si_trans_logicarray0{logicarray}_bank0{BANK}_L{LABEL}",
+      "PassConditionalToken": "",
+      "Pattern": "hdmt_subroutine_chain126_all_pats_die_capture_non_pipeline",
+      "UseRegex": ""
+    },
+    {
+      "ConditionalExecuteTokens": "!RU{RU}_TILE{TILE}_sync_bank1{BANK},RU{RU}_DFF",
+      "DividerRatio": "",
+      "FailConditionalToken": "",
+      "HRYKey": "HRY_PREHVQK_CRU126.RU{RU}_TILE{TILE}_capture_si_bank1{BANK}",
+      "HRYOnlyToken": "",
+      "HRYPinConfig": "HRYMainPlist",
+      "LOG_LABEL_NAME": "{LABEL}",
+      "LOG_PATTERN_NAME": "chainru126_Si_trans_logicarray0{logicarray}_bank1{BANK}",
+      "LOG_Y_ADDR": "{TILE}",
+      "LOG_Z_ADDR": "{RU}",
+      "Label": "TILE{TILE}_chainru126_Si_trans_logicarray0{logicarray}_bank1{BANK}_L{LABEL}",
+      "PassConditionalToken": "",
+      "Pattern": "hdmt_subroutine_chain126_all_pats_die_capture_non_pipeline",
+      "UseRegex": ""
+    },
+    {
+      "ConditionalExecuteTokens": "!RU{RU}_TILE{TILE}_sync_bank2{BANK},RU{RU}_DFF",
+      "DividerRatio": "",
+      "FailConditionalToken": "",
+      "HRYKey": "HRY_PREHVQK_CRU126.RU{RU}_TILE{TILE}_capture_si_bank2{BANK}",
+      "HRYOnlyToken": "",
+      "HRYPinConfig": "HRYMainPlist",
+      "LOG_LABEL_NAME": "{LABEL}",
+      "LOG_PATTERN_NAME": "chainru126_Si_trans_logicarray0{logicarray}_bank2{BANK}",
+      "LOG_Y_ADDR": "{TILE}",
+      "LOG_Z_ADDR": "{RU}",
+      "Label": "TILE{TILE}_chainru126_Si_trans_logicarray0{logicarray}_bank2{BANK}_L{LABEL}",
+      "PassConditionalToken": "",
+      "Pattern": "hdmt_subroutine_chain126_all_pats_die_capture_non_pipeline",
+      "UseRegex": ""
+    },
+    {
+      "ConditionalExecuteTokens": "!RU{RU}_TILE{TILE}_sync_bank3{BANK},RU{RU}_DFF",
+      "DividerRatio": "",
+      "FailConditionalToken": "",
+      "HRYKey": "HRY_PREHVQK_CRU126.RU{RU}_TILE{TILE}_capture_si_bank3{BANK}",
+      "HRYOnlyToken": "",
+      "HRYPinConfig": "HRYMainPlist",
+      "LOG_LABEL_NAME": "{LABEL}",
+      "LOG_PATTERN_NAME": "chainru126_Si_trans_logicarray0{logicarray}_bank3{BANK}",
+      "LOG_Y_ADDR": "{TILE}",
+      "LOG_Z_ADDR": "{RU}",
+      "Label": "TILE{TILE}_chainru126_Si_trans_logicarray0{logicarray}_bank3{BANK}_L{LABEL}",
+      "PassConditionalToken": "",
+      "Pattern": "hdmt_subroutine_chain126_all_pats_die_capture_non_pipeline",
+      "UseRegex": ""
+    },
+    {
+      "ConditionalExecuteTokens": "!RU{RU}_TILE{TILE}_sync_bank4{BANK},RU{RU}_DFF",
+      "DividerRatio": "",
+      "FailConditionalToken": "",
+      "HRYKey": "HRY_PREHVQK_CRU126.RU{RU}_TILE{TILE}_capture_si_bank4{BANK}",
+      "HRYOnlyToken": "",
+      "HRYPinConfig": "HRYMainPlist",
+      "LOG_LABEL_NAME": "{LABEL}",
+      "LOG_PATTERN_NAME": "chainru126_Si_trans_logicarray0{logicarray}_bank4{BANK}",
+      "LOG_Y_ADDR": "{TILE}",
+      "LOG_Z_ADDR": "{RU}",
+      "Label": "TILE{TILE}_chainru126_Si_trans_logicarray0{logicarray}_bank4{BANK}_L{LABEL}",
+      "PassConditionalToken": "",
+      "Pattern": "hdmt_subroutine_chain126_all_pats_die_capture_non_pipeline",
+      "UseRegex": ""
+    },
+    {
+      "ConditionalExecuteTokens": "!RU{RU}_TILE{TILE}_sync_bank{BANK},RU{RU}_DFF",
+      "DividerRatio": "",
+      "FailConditionalToken": "",
+      "HRYKey": "HRY_PREHVQK_CRU126.RU{RU}_TILE{TILE}_capture_si_bank{BANK}",
+      "HRYOnlyToken": "",
+      "HRYPinConfig": "HRYMainPlist",
+      "LOG_LABEL_NAME": "{LABEL}",
+      "LOG_PATTERN_NAME": "chainru126_Si_stuck_logicarray0{logicarray}_bank0{BANK}",
+      "LOG_Y_ADDR": "{TILE}",
+      "LOG_Z_ADDR": "{RU}",
+      "Label": "TILE{TILE}_chainru126_Si_stuck_logicarray0{logicarray}_bank0{BANK}_L{LABEL}",
+      "PassConditionalToken": "",
+      "Pattern": "hdmt_subroutine_chain126_all_pats_die_capture_non_pipeline",
+      "UseRegex": ""
+    },
+    {
+      "ConditionalExecuteTokens": "!RU{RU}_TILE{TILE}_sync_bank1{BANK},RU{RU}_DFF",
+      "DividerRatio": "",
+      "FailConditionalToken": "",
+      "HRYKey": "HRY_PREHVQK_CRU126.RU{RU}_TILE{TILE}_capture_si_bank1{BANK}",
+      "HRYOnlyToken": "",
+      "HRYPinConfig": "HRYMainPlist",
+      "LOG_LABEL_NAME": "{LABEL}",
+      "LOG_PATTERN_NAME": "chainru126_Si_stuck_logicarray0{logicarray}_bank1{BANK}",
+      "LOG_Y_ADDR": "{TILE}",
+      "LOG_Z_ADDR": "{RU}",
+      "Label": "TILE{TILE}_chainru126_Si_stuck_logicarray0{logicarray}_bank1{BANK}_L{LABEL}",
+      "PassConditionalToken": "",
+      "Pattern": "hdmt_subroutine_chain126_all_pats_die_capture_non_pipeline",
+      "UseRegex": ""
+    },
+    {
+      "ConditionalExecuteTokens": "!RU{RU}_TILE{TILE}_sync_bank2{BANK},RU{RU}_DFF",
+      "DividerRatio": "",
+      "FailConditionalToken": "",
+      "HRYKey": "HRY_PREHVQK_CRU126.RU{RU}_TILE{TILE}_capture_si_bank2{BANK}",
+      "HRYOnlyToken": "",
+      "HRYPinConfig": "HRYMainPlist",
+      "LOG_LABEL_NAME": "{LABEL}",
+      "LOG_PATTERN_NAME": "chainru126_Si_stuck_logicarray0{logicarray}_bank2{BANK}",
+      "LOG_Y_ADDR": "{TILE}",
+      "LOG_Z_ADDR": "{RU}",
+      "Label": "TILE{TILE}_chainru126_Si_stuck_logicarray0{logicarray}_bank2{BANK}_L{LABEL}",
+      "PassConditionalToken": "",
+      "Pattern": "hdmt_subroutine_chain126_all_pats_die_capture_non_pipeline",
+      "UseRegex": ""
+    },
+    {
+      "ConditionalExecuteTokens": "!RU{RU}_TILE{TILE}_sync_bank3{BANK},RU{RU}_DFF",
+      "DividerRatio": "",
+      "FailConditionalToken": "",
+      "HRYKey": "HRY_PREHVQK_CRU126.RU{RU}_TILE{TILE}_capture_si_bank3{BANK}",
+      "HRYOnlyToken": "",
+      "HRYPinConfig": "HRYMainPlist",
+      "LOG_LABEL_NAME": "{LABEL}",
+      "LOG_PATTERN_NAME": "chainru126_Si_stuck_logicarray0{logicarray}_bank3{BANK}",
+      "LOG_Y_ADDR": "{TILE}",
+      "LOG_Z_ADDR": "{RU}",
+      "Label": "TILE{TILE}_chainru126_Si_stuck_logicarray0{logicarray}_bank3{BANK}_L{LABEL}",
+      "PassConditionalToken": "",
+      "Pattern": "hdmt_subroutine_chain126_all_pats_die_capture_non_pipeline",
+      "UseRegex": ""
+    },
+    {
+      "ConditionalExecuteTokens": "!RU{RU}_TILE{TILE}_sync_bank4{BANK},RU{RU}_DFF",
+      "DividerRatio": "",
+      "FailConditionalToken": "",
+      "HRYKey": "HRY_PREHVQK_CRU126.RU{RU}_TILE{TILE}_capture_si_bank4{BANK}",
+      "HRYOnlyToken": "",
+      "HRYPinConfig": "HRYMainPlist",
+      "LOG_LABEL_NAME": "{LABEL}",
+      "LOG_PATTERN_NAME": "chainru126_Si_stuck_logicarray0{logicarray}_bank4{BANK}",
+      "LOG_Y_ADDR": "{TILE}",
+      "LOG_Z_ADDR": "{RU}",
+      "Label": "TILE{TILE}_chainru126_Si_stuck_logicarray0{logicarray}_bank4{BANK}_L{LABEL}",
+      "PassConditionalToken": "",
+      "Pattern": "hdmt_subroutine_chain126_all_pats_die_capture_non_pipeline",
+      "UseRegex": ""
+    }
+  ],
+  "UserVariable": [
+    {
+      "Set": "1",
+      "Token": "RU3_DFF",
+      "Uservar": "RU3_DFF_CLASS"
+    },
+    {
+      "Set": "1",
+      "Token": "RU9_DFF",
+      "Uservar": "RU9_DFF_CLASS"
+    }
+  ],
+  "HRYPinTable": [
+    {
+      "HRYPinConfig": "HRYMainPlist",
+      "PinList": "dataout0_l,dataout1_l,dataout2_l,dataout3_l,dataout4_l,dataout5_l,dataout6_l,dataout7_l,dataout8_l,dataout9_l,dataout10_l,dataout11_l,dataout12_l,dataout13_l,dataout14_l,dataout15_l,dataout16_l,dataout17_l,dataout18_l,dataout19_l,dataout20_l,dataout21_l,dataout22_l,dataout23_l,dataout24_l,dataout25_l,dataout26_l,dataout27_l,dataout28_l,dataout29_l,dataout30_l,dataout31_l,dataout0_r,dataout1_r,dataout2_r,dataout3_r,dataout4_r,dataout5_r,dataout6_r,dataout7_r,dataout8_r,dataout9_r,dataout10_r,dataout11_r,dataout12_r,dataout13_r,dataout14_r,dataout15_r,dataout16_r,dataout17_r,dataout18_r,dataout19_r,dataout20_r,dataout21_r,dataout22_r,dataout23_r,dataout24_r,dataout25_r,dataout26_r,dataout27_r,dataout28_r,dataout29_r,dataout30_r,dataout31_r"
+    }
+  ],
+  "PinTable": [
+    {
+      "Byte": "0",
+      "Pinname": "dataout0_l",
+      "Symbol": "d0"
+    },
+    {
+      "Byte": "1",
+      "Pinname": "dataout1_l",
+      "Symbol": "d1"
+    },
+    {
+      "Byte": "2",
+      "Pinname": "dataout2_l",
+      "Symbol": "d2"
+    },
+    {
+      "Byte": "3",
+      "Pinname": "dataout3_l",
+      "Symbol": "d3"
+    },
+    {
+      "Byte": "4",
+      "Pinname": "dataout4_l",
+      "Symbol": "d4"
+    },
+    {
+      "Byte": "5",
+      "Pinname": "dataout5_l",
+      "Symbol": "d5"
+    },
+    {
+      "Byte": "6",
+      "Pinname": "dataout6_l",
+      "Symbol": "d6"
+    },
+    {
+      "Byte": "7",
+      "Pinname": "dataout7_l",
+      "Symbol": "d7"
+    },
+    {
+      "Byte": "8",
+      "Pinname": "dataout8_l",
+      "Symbol": "d8"
+    },
+    {
+      "Byte": "9",
+      "Pinname": "dataout9_l",
+      "Symbol": "d9"
+    },
+    {
+      "Byte": "10",
+      "Pinname": "dataout10_l",
+      "Symbol": "d10"
+    },
+    {
+      "Byte": "11",
+      "Pinname": "dataout11_l",
+      "Symbol": "d11"
+    },
+    {
+      "Byte": "12",
+      "Pinname": "dataout12_l",
+      "Symbol": "d12"
+    },
+    {
+      "Byte": "13",
+      "Pinname": "dataout13_l",
+      "Symbol": "d13"
+    },
+    {
+      "Byte": "14",
+      "Pinname": "dataout14_l",
+      "Symbol": "d14"
+    },
+    {
+      "Byte": "15",
+      "Pinname": "dataout15_l",
+      "Symbol": "d15"
+    },
+    {
+      "Byte": "16",
+      "Pinname": "dataout16_l",
+      "Symbol": "d16"
+    },
+    {
+      "Byte": "17",
+      "Pinname": "dataout17_l",
+      "Symbol": "d17"
+    },
+    {
+      "Byte": "18",
+      "Pinname": "dataout18_l",
+      "Symbol": "d18"
+    },
+    {
+      "Byte": "19",
+      "Pinname": "dataout19_l",
+      "Symbol": "d19"
+    },
+    {
+      "Byte": "20",
+      "Pinname": "dataout20_l",
+      "Symbol": "d20"
+    },
+    {
+      "Byte": "21",
+      "Pinname": "dataout21_l",
+      "Symbol": "d21"
+    },
+    {
+      "Byte": "22",
+      "Pinname": "dataout22_l",
+      "Symbol": "d22"
+    },
+    {
+      "Byte": "23",
+      "Pinname": "dataout23_l",
+      "Symbol": "d23"
+    },
+    {
+      "Byte": "24",
+      "Pinname": "dataout24_l",
+      "Symbol": "d24"
+    },
+    {
+      "Byte": "25",
+      "Pinname": "dataout25_l",
+      "Symbol": "d25"
+    },
+    {
+      "Byte": "26",
+      "Pinname": "dataout26_l",
+      "Symbol": "d26"
+    },
+    {
+      "Byte": "27",
+      "Pinname": "dataout27_l",
+      "Symbol": "d27"
+    },
+    {
+      "Byte": "28",
+      "Pinname": "dataout28_l",
+      "Symbol": "d28"
+    },
+    {
+      "Byte": "29",
+      "Pinname": "dataout29_l",
+      "Symbol": "d29"
+    },
+    {
+      "Byte": "30",
+      "Pinname": "dataout30_l",
+      "Symbol": "d30"
+    },
+    {
+      "Byte": "31",
+      "Pinname": "dataout31_l",
+      "Symbol": "d31"
+    },
+    {
+      "Byte": "32",
+      "Pinname": "dataout0_r",
+      "Symbol": "d32"
+    },
+    {
+      "Byte": "33",
+      "Pinname": "dataout1_r",
+      "Symbol": "d33"
+    },
+    {
+      "Byte": "34",
+      "Pinname": "dataout2_r",
+      "Symbol": "d34"
+    },
+    {
+      "Byte": "35",
+      "Pinname": "dataout3_r",
+      "Symbol": "d35"
+    },
+    {
+      "Byte": "36",
+      "Pinname": "dataout4_r",
+      "Symbol": "d36"
+    },
+    {
+      "Byte": "37",
+      "Pinname": "dataout5_r",
+      "Symbol": "d37"
+    },
+    {
+      "Byte": "38",
+      "Pinname": "dataout6_r",
+      "Symbol": "d38"
+    },
+    {
+      "Byte": "39",
+      "Pinname": "dataout7_r",
+      "Symbol": "d39"
+    },
+    {
+      "Byte": "40",
+      "Pinname": "dataout8_r",
+      "Symbol": "d40"
+    },
+    {
+      "Byte": "41",
+      "Pinname": "dataout9_r",
+      "Symbol": "d41"
+    },
+    {
+      "Byte": "42",
+      "Pinname": "dataout10_r",
+      "Symbol": "d42"
+    },
+    {
+      "Byte": "43",
+      "Pinname": "dataout11_r",
+      "Symbol": "d43"
+    },
+    {
+      "Byte": "44",
+      "Pinname": "dataout12_r",
+      "Symbol": "d44"
+    },
+    {
+      "Byte": "45",
+      "Pinname": "dataout13_r",
+      "Symbol": "d45"
+    },
+    {
+      "Byte": "46",
+      "Pinname": "dataout14_r",
+      "Symbol": "d46"
+    },
+    {
+      "Byte": "47",
+      "Pinname": "dataout15_r",
+      "Symbol": "d47"
+    },
+    {
+      "Byte": "48",
+      "Pinname": "dataout16_r",
+      "Symbol": "d48"
+    },
+    {
+      "Byte": "49",
+      "Pinname": "dataout17_r",
+      "Symbol": "d49"
+    },
+    {
+      "Byte": "50",
+      "Pinname": "dataout18_r",
+      "Symbol": "d50"
+    },
+    {
+      "Byte": "51",
+      "Pinname": "dataout19_r",
+      "Symbol": "d51"
+    },
+    {
+      "Byte": "52",
+      "Pinname": "dataout20_r",
+      "Symbol": "d52"
+    },
+    {
+      "Byte": "53",
+      "Pinname": "dataout21_r",
+      "Symbol": "d53"
+    },
+    {
+      "Byte": "54",
+      "Pinname": "dataout22_r",
+      "Symbol": "d54"
+    },
+    {
+      "Byte": "55",
+      "Pinname": "dataout23_r",
+      "Symbol": "d55"
+    },
+    {
+      "Byte": "56",
+      "Pinname": "dataout24_r",
+      "Symbol": "d56"
+    },
+    {
+      "Byte": "57",
+      "Pinname": "dataout25_r",
+      "Symbol": "d57"
+    },
+    {
+      "Byte": "58",
+      "Pinname": "dataout26_r",
+      "Symbol": "d58"
+    },
+    {
+      "Byte": "59",
+      "Pinname": "dataout27_r",
+      "Symbol": "d59"
+    },
+    {
+      "Byte": "60",
+      "Pinname": "dataout28_r",
+      "Symbol": "d60"
+    },
+    {
+      "Byte": "61",
+      "Pinname": "dataout29_r",
+      "Symbol": "d61"
+    },
+    {
+      "Byte": "62",
+      "Pinname": "dataout30_r",
+      "Symbol": "d62"
+    },
+    {
+      "Byte": "63",
+      "Pinname": "dataout31_r",
+      "Symbol": "d63"
+    }
+  ]
+}

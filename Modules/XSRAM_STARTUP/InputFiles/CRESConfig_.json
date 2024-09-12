@@ -1,0 +1,898 @@
+{
+	"XIUs": [
+	{
+		"Name": "I782*",
+		"Pins": [
+			{
+			"Channel": "2028",
+			"Name": "xbi",
+			"BaseReading": "0",
+			"ContactResistanceLimit": "999",
+			"OpensMask": "false",
+			"ShortsMask": "false",
+			"ContactResistanceMask": "false"
+			},
+			{
+			"Channel": "2103",
+			"Name": "xclkmode0",
+			"BaseReading": "0",
+			"ContactResistanceLimit": "999",
+			"OpensMask": "false",
+			"ShortsMask": "false",
+			"ContactResistanceMask": "false"
+			},
+			{
+			"Channel": "2080",
+			"Name": "xclkmode1",
+			"BaseReading": "0",
+			"ContactResistanceLimit": "999",
+			"OpensMask": "false",
+			"ShortsMask": "false",
+			"ContactResistanceMask": "false"
+			},
+			{
+			"Channel": "2074",
+			"Name": "xcntrrst",
+			"BaseReading": "0",
+			"ContactResistanceLimit": "999",
+			"OpensMask": "false",
+			"ShortsMask": "false",
+			"ContactResistanceMask": "false"
+			},
+			{
+			"Channel": "2093",
+			"Name": "xcoltrlen",
+			"BaseReading": "0",
+			"ContactResistanceLimit": "999",
+			"OpensMask": "false",
+			"ShortsMask": "false",
+			"ContactResistanceMask": "false"
+			},
+			{
+			"Channel": "9079",
+			"Name": "xdatain",
+			"BaseReading": "0",
+			"ContactResistanceLimit": "999",
+			"OpensMask": "false",
+			"ShortsMask": "false",
+			"ContactResistanceMask": "false"
+			},
+			{
+			"Channel": "8029",
+			"Name": "xdataout0",
+			"BaseReading": "0",
+			"ContactResistanceLimit": "999",
+			"OpensMask": "false",
+			"ShortsMask": "false",
+			"ContactResistanceMask": "false"
+			},
+			{
+			"Channel": "8028",
+			"Name": "xdataout1",
+			"BaseReading": "0",
+			"ContactResistanceLimit": "999",
+			"OpensMask": "false",
+			"ShortsMask": "false",
+			"ContactResistanceMask": "false"
+			},
+			{
+			"Channel": "8032",
+			"Name": "xdataout10",
+			"BaseReading": "0",
+			"ContactResistanceLimit": "999",
+			"OpensMask": "false",
+			"ShortsMask": "false",
+			"ContactResistanceMask": "false"
+			},
+			{
+			"Channel": "8020",
+			"Name": "xdataout11",
+			"BaseReading": "0",
+			"ContactResistanceLimit": "999",
+			"OpensMask": "false",
+			"ShortsMask": "false",
+			"ContactResistanceMask": "false"
+			},
+			{
+			"Channel": "8002",
+			"Name": "xdataout12",
+			"BaseReading": "0",
+			"ContactResistanceLimit": "999",
+			"OpensMask": "false",
+			"ShortsMask": "false",
+			"ContactResistanceMask": "false"
+			},
+			{
+			"Channel": "8037",
+			"Name": "xdataout13",
+			"BaseReading": "0",
+			"ContactResistanceLimit": "999",
+			"OpensMask": "false",
+			"ShortsMask": "false",
+			"ContactResistanceMask": "false"
+			},
+			{
+			"Channel": "8040",
+			"Name": "xdataout14",
+			"BaseReading": "0",
+			"ContactResistanceLimit": "999",
+			"OpensMask": "false",
+			"ShortsMask": "false",
+			"ContactResistanceMask": "false"
+			},
+			{
+			"Channel": "8025",
+			"Name": "xdataout15",
+			"BaseReading": "0",
+			"ContactResistanceLimit": "999",
+			"OpensMask": "false",
+			"ShortsMask": "false",
+			"ContactResistanceMask": "false"
+			},
+			{
+			"Channel": "8033",
+			"Name": "xdataout16",
+			"BaseReading": "0",
+			"ContactResistanceLimit": "999",
+			"OpensMask": "false",
+			"ShortsMask": "false",
+			"ContactResistanceMask": "false"
+			},
+			{
+			"Channel": "8005",
+			"Name": "xdataout17",
+			"BaseReading": "0",
+			"ContactResistanceLimit": "999",
+			"OpensMask": "false",
+			"ShortsMask": "false",
+			"ContactResistanceMask": "false"
+			},
+			{
+			"Channel": "8043",
+			"Name": "xdataout18",
+			"BaseReading": "0",
+			"ContactResistanceLimit": "999",
+			"OpensMask": "false",
+			"ShortsMask": "false",
+			"ContactResistanceMask": "false"
+			},
+			{
+			"Channel": "8051",
+			"Name": "xdataout19",
+			"BaseReading": "0",
+			"ContactResistanceLimit": "999",
+			"OpensMask": "false",
+			"ShortsMask": "false",
+			"ContactResistanceMask": "false"
+			},
+			{
+			"Channel": "8030",
+			"Name": "xdataout2",
+			"BaseReading": "0",
+			"ContactResistanceLimit": "999",
+			"OpensMask": "false",
+			"ShortsMask": "false",
+			"ContactResistanceMask": "false"
+			},
+			{
+			"Channel": "8044",
+			"Name": "xdataout20",
+			"BaseReading": "0",
+			"ContactResistanceLimit": "999",
+			"OpensMask": "false",
+			"ShortsMask": "false",
+			"ContactResistanceMask": "false"
+			},
+			{
+			"Channel": "8006",
+			"Name": "xdataout21",
+			"BaseReading": "0",
+			"ContactResistanceLimit": "999",
+			"OpensMask": "false",
+			"ShortsMask": "false",
+			"ContactResistanceMask": "false"
+			},
+			{
+			"Channel": "8050",
+			"Name": "xdataout22",
+			"BaseReading": "0",
+			"ContactResistanceLimit": "999",
+			"OpensMask": "false",
+			"ShortsMask": "false",
+			"ContactResistanceMask": "false"
+			},
+			{
+			"Channel": "8024",
+			"Name": "xdataout23",
+			"BaseReading": "0",
+			"ContactResistanceLimit": "999",
+			"OpensMask": "false",
+			"ShortsMask": "false",
+			"ContactResistanceMask": "false"
+			},
+			{
+			"Channel": "8014",
+			"Name": "xdataout24",
+			"BaseReading": "0",
+			"ContactResistanceLimit": "999",
+			"OpensMask": "false",
+			"ShortsMask": "false",
+			"ContactResistanceMask": "false"
+			},
+			{
+			"Channel": "8021",
+			"Name": "xdataout25",
+			"BaseReading": "0",
+			"ContactResistanceLimit": "999",
+			"OpensMask": "false",
+			"ShortsMask": "false",
+			"ContactResistanceMask": "false"
+			},
+			{
+			"Channel": "8031",
+			"Name": "xdataout26",
+			"BaseReading": "0",
+			"ContactResistanceLimit": "999",
+			"OpensMask": "false",
+			"ShortsMask": "false",
+			"ContactResistanceMask": "false"
+			},
+			{
+			"Channel": "8035",
+			"Name": "xdataout27",
+			"BaseReading": "0",
+			"ContactResistanceLimit": "999",
+			"OpensMask": "false",
+			"ShortsMask": "false",
+			"ContactResistanceMask": "false"
+			},
+			{
+			"Channel": "8042",
+			"Name": "xdataout28",
+			"BaseReading": "0",
+			"ContactResistanceLimit": "999",
+			"OpensMask": "false",
+			"ShortsMask": "false",
+			"ContactResistanceMask": "false"
+			},
+			{
+			"Channel": "8007",
+			"Name": "xdataout29",
+			"BaseReading": "0",
+			"ContactResistanceLimit": "999",
+			"OpensMask": "false",
+			"ShortsMask": "false",
+			"ContactResistanceMask": "false"
+			},
+			{
+			"Channel": "8026",
+			"Name": "xdataout3",
+			"BaseReading": "0",
+			"ContactResistanceLimit": "999",
+			"OpensMask": "false",
+			"ShortsMask": "false",
+			"ContactResistanceMask": "false"
+			},
+			{
+			"Channel": "8027",
+			"Name": "xdataout30",
+			"BaseReading": "0",
+			"ContactResistanceLimit": "999",
+			"OpensMask": "false",
+			"ShortsMask": "false",
+			"ContactResistanceMask": "false"
+			},
+			{
+			"Channel": "8041",
+			"Name": "xdataout31",
+			"BaseReading": "0",
+			"ContactResistanceLimit": "999",
+			"OpensMask": "false",
+			"ShortsMask": "false",
+			"ContactResistanceMask": "false"
+			},
+			{
+			"Channel": "8034",
+			"Name": "xdataout4",
+			"BaseReading": "0",
+			"ContactResistanceLimit": "999",
+			"OpensMask": "false",
+			"ShortsMask": "false",
+			"ContactResistanceMask": "false"
+			},
+			{
+			"Channel": "8004",
+			"Name": "xdataout5",
+			"BaseReading": "0",
+			"ContactResistanceLimit": "999",
+			"OpensMask": "false",
+			"ShortsMask": "false",
+			"ContactResistanceMask": "false"
+			},
+			{
+			"Channel": "8003",
+			"Name": "xdataout6",
+			"BaseReading": "0",
+			"ContactResistanceLimit": "999",
+			"OpensMask": "false",
+			"ShortsMask": "false",
+			"ContactResistanceMask": "false"
+			},
+			{
+			"Channel": "8013",
+			"Name": "xdataout7",
+			"BaseReading": "0",
+			"ContactResistanceLimit": "999",
+			"OpensMask": "false",
+			"ShortsMask": "false",
+			"ContactResistanceMask": "false"
+			},
+			{
+			"Channel": "8012",
+			"Name": "xdataout8",
+			"BaseReading": "0",
+			"ContactResistanceLimit": "999",
+			"OpensMask": "false",
+			"ShortsMask": "false",
+			"ContactResistanceMask": "false"
+			},
+			{
+			"Channel": "8053",
+			"Name": "xdataout9",
+			"BaseReading": "0",
+			"ContactResistanceLimit": "999",
+			"OpensMask": "false",
+			"ShortsMask": "false",
+			"ContactResistanceMask": "false"
+			},
+			{
+			"Channel": "2001",
+			"Name": "xddutyouten",
+			"BaseReading": "0",
+			"ContactResistanceLimit": "999",
+			"OpensMask": "false",
+			"ShortsMask": "false",
+			"ContactResistanceMask": "false"
+			},
+			{
+			"Channel": "2106",
+			"Name": "xdefaultir_b",
+			"BaseReading": "0",
+			"ContactResistanceLimit": "999",
+			"OpensMask": "false",
+			"ShortsMask": "false",
+			"ContactResistanceMask": "false"
+			},
+			{
+			"Channel": "2102",
+			"Name": "xgridclkmon",
+			"BaseReading": "0",
+			"ContactResistanceLimit": "999",
+			"OpensMask": "false",
+			"ShortsMask": "false",
+			"ContactResistanceMask": "false"
+			},
+			{
+			"Channel": "8089",
+			"Name": "xidvdigout",
+			"BaseReading": "0",
+			"ContactResistanceLimit": "999",
+			"OpensMask": "false",
+			"ShortsMask": "false",
+			"ContactResistanceMask": "false"
+			},
+			{
+			"Channel": "9038",
+			"Name": "xread",
+			"BaseReading": "0",
+			"ContactResistanceLimit": "999",
+			"OpensMask": "false",
+			"ShortsMask": "false",
+			"ContactResistanceMask": "false"
+			},
+			{
+			"Channel": "2092",
+			"Name": "xreservedin0",
+			"BaseReading": "0",
+			"ContactResistanceLimit": "999",
+			"OpensMask": "false",
+			"ShortsMask": "false",
+			"ContactResistanceMask": "false"
+			},
+			{
+			"Channel": "3046",
+			"Name": "xreservedin1",
+			"BaseReading": "0",
+			"ContactResistanceLimit": "999",
+			"OpensMask": "false",
+			"ShortsMask": "false",
+			"ContactResistanceMask": "false"
+			},
+			{
+			"Channel": "2091",
+			"Name": "xreservedio0",
+			"BaseReading": "0",
+			"ContactResistanceLimit": "999",
+			"OpensMask": "false",
+			"ShortsMask": "false",
+			"ContactResistanceMask": "false"
+			},
+			{
+			"Channel": "2097",
+			"Name": "xreservedio1",
+			"BaseReading": "0",
+			"ContactResistanceLimit": "999",
+			"OpensMask": "false",
+			"ShortsMask": "false",
+			"ContactResistanceMask": "false"
+			},
+			{
+			"Channel": "2013",
+			"Name": "xreservedio2",
+			"BaseReading": "0",
+			"ContactResistanceLimit": "999",
+			"OpensMask": "false",
+			"ShortsMask": "false",
+			"ContactResistanceMask": "false"
+			},
+			{
+			"Channel": "7023",
+			"Name": "xreservedout",
+			"BaseReading": "0",
+			"ContactResistanceLimit": "999",
+			"OpensMask": "false",
+			"ShortsMask": "false",
+			"ContactResistanceMask": "false"
+			},
+			{
+			"Channel": "9015",
+			"Name": "xreset",
+			"BaseReading": "0",
+			"ContactResistanceLimit": "999",
+			"OpensMask": "false",
+			"ShortsMask": "false",
+			"ContactResistanceMask": "false"
+			},
+			{
+			"Channel": "7038",
+			"Name": "xshtoffen_b",
+			"BaseReading": "0",
+			"ContactResistanceLimit": "999",
+			"OpensMask": "false",
+			"ShortsMask": "false",
+			"ContactResistanceMask": "false"
+			},
+			{
+			"Channel": "9018",
+			"Name": "xstkyreset",
+			"BaseReading": "0",
+			"ContactResistanceLimit": "999",
+			"OpensMask": "false",
+			"ShortsMask": "false",
+			"ContactResistanceMask": "false"
+			},
+			{
+			"Channel": "9045",
+			"Name": "xstokl",
+			"BaseReading": "0",
+			"ContactResistanceLimit": "999",
+			"OpensMask": "false",
+			"ShortsMask": "false",
+			"ContactResistanceMask": "false"
+			},
+			{
+			"Channel": "2101",
+			"Name": "xstopclock",
+			"BaseReading": "0",
+			"ContactResistanceLimit": "999",
+			"OpensMask": "false",
+			"ShortsMask": "false",
+			"ContactResistanceMask": "false"
+			},
+			{
+			"Channel": "9092",
+			"Name": "xstreq",
+			"BaseReading": "0",
+			"ContactResistanceLimit": "999",
+			"OpensMask": "false",
+			"ShortsMask": "false",
+			"ContactResistanceMask": "false"
+			},
+			{
+			"Channel": "2076",
+			"Name": "xstrun",
+			"BaseReading": "0",
+			"ContactResistanceLimit": "999",
+			"OpensMask": "false",
+			"ShortsMask": "false",
+			"ContactResistanceMask": "false"
+			},
+			{
+			"Channel": "2084",
+			"Name": "xtck",
+			"BaseReading": "0",
+			"ContactResistanceLimit": "999",
+			"OpensMask": "false",
+			"ShortsMask": "false",
+			"ContactResistanceMask": "false"
+			},
+			{
+			"Channel": "2051",
+			"Name": "xtdi",
+			"BaseReading": "0",
+			"ContactResistanceLimit": "999",
+			"OpensMask": "false",
+			"ShortsMask": "false",
+			"ContactResistanceMask": "false"
+			},
+			{
+			"Channel": "2090",
+			"Name": "xtdo",
+			"BaseReading": "0",
+			"ContactResistanceLimit": "999",
+			"OpensMask": "false",
+			"ShortsMask": "false",
+			"ContactResistanceMask": "false"
+			},
+			{
+			"Channel": "2107",
+			"Name": "xtms",
+			"BaseReading": "0",
+			"ContactResistanceLimit": "999",
+			"OpensMask": "false",
+			"ShortsMask": "false",
+			"ContactResistanceMask": "false"
+			},
+			{
+			"Channel": "2083",
+			"Name": "xtrst_b",
+			"BaseReading": "0",
+			"ContactResistanceLimit": "999",
+			"OpensMask": "false",
+			"ShortsMask": "false",
+			"ContactResistanceMask": "false"
+			},
+			{
+			"Channel": "9073",
+			"Name": "xwrite",
+			"BaseReading": "0",
+			"ContactResistanceLimit": "999",
+			"OpensMask": "false",
+			"ShortsMask": "false",
+			"ContactResistanceMask": "false"
+			},
+			{
+			"Channel": "9100",
+			"Name": "xredun_dpin",
+			"BaseReading": "0",
+			"ContactResistanceLimit": "999",
+			"OpensMask": "false",
+			"ShortsMask": "false",
+			"ContactResistanceMask": "false"
+			},
+			{
+			"Channel": "8045",
+			"Name": "xxadd0_dpin",
+			"BaseReading": "0",
+			"ContactResistanceLimit": "999",
+			"OpensMask": "false",
+			"ShortsMask": "false",
+			"ContactResistanceMask": "false"
+			},
+			{
+			"Channel": "8011",
+			"Name": "xxadd1_dpin",
+			"BaseReading": "0",
+			"ContactResistanceLimit": "999",
+			"OpensMask": "false",
+			"ShortsMask": "false",
+			"ContactResistanceMask": "false"
+			},
+			{
+			"Channel": "8001",
+			"Name": "xxadd10_dpin",
+			"BaseReading": "0",
+			"ContactResistanceLimit": "999",
+			"OpensMask": "false",
+			"ShortsMask": "false",
+			"ContactResistanceMask": "false"
+			},
+			{
+			"Channel": "8052",
+			"Name": "xxadd11_dpin",
+			"BaseReading": "0",
+			"ContactResistanceLimit": "999",
+			"OpensMask": "false",
+			"ShortsMask": "false",
+			"ContactResistanceMask": "false"
+			},
+			{
+			"Channel": "8023",
+			"Name": "xxadd12_dpin",
+			"BaseReading": "0",
+			"ContactResistanceLimit": "999",
+			"OpensMask": "false",
+			"ShortsMask": "false",
+			"ContactResistanceMask": "false"
+			},
+			{
+			"Channel": "8054",
+			"Name": "xxadd13_dpin",
+			"BaseReading": "0",
+			"ContactResistanceLimit": "999",
+			"OpensMask": "false",
+			"ShortsMask": "false",
+			"ContactResistanceMask": "false"
+			},
+			{
+			"Channel": "8047",
+			"Name": "xxadd14_dpin",
+			"BaseReading": "0",
+			"ContactResistanceLimit": "999",
+			"OpensMask": "false",
+			"ShortsMask": "false",
+			"ContactResistanceMask": "false"
+			},
+			{
+			"Channel": "8008",
+			"Name": "xxadd15_dpin",
+			"BaseReading": "0",
+			"ContactResistanceLimit": "999",
+			"OpensMask": "false",
+			"ShortsMask": "false",
+			"ContactResistanceMask": "false"
+			},
+			{
+			"Channel": "8019",
+			"Name": "xxadd2_dpin",
+			"BaseReading": "0",
+			"ContactResistanceLimit": "999",
+			"OpensMask": "false",
+			"ShortsMask": "false",
+			"ContactResistanceMask": "false"
+			},
+			{
+			"Channel": "8017",
+			"Name": "xxadd3_dpin",
+			"BaseReading": "0",
+			"ContactResistanceLimit": "999",
+			"OpensMask": "false",
+			"ShortsMask": "false",
+			"ContactResistanceMask": "false"
+			},
+			{
+			"Channel": "8048",
+			"Name": "xxadd4_dpin",
+			"BaseReading": "0",
+			"ContactResistanceLimit": "999",
+			"OpensMask": "false",
+			"ShortsMask": "false",
+			"ContactResistanceMask": "false"
+			},
+			{
+			"Channel": "8049",
+			"Name": "xxadd5_dpin",
+			"BaseReading": "0",
+			"ContactResistanceLimit": "999",
+			"OpensMask": "false",
+			"ShortsMask": "false",
+			"ContactResistanceMask": "false"
+			},
+			{
+			"Channel": "8010",
+			"Name": "xxadd6_dpin",
+			"BaseReading": "0",
+			"ContactResistanceLimit": "999",
+			"OpensMask": "false",
+			"ShortsMask": "false",
+			"ContactResistanceMask": "false"
+			},
+			{
+			"Channel": "8018",
+			"Name": "xxadd7_dpin",
+			"BaseReading": "0",
+			"ContactResistanceLimit": "999",
+			"OpensMask": "false",
+			"ShortsMask": "false",
+			"ContactResistanceMask": "false"
+			},
+			{
+			"Channel": "8055",
+			"Name": "xxadd8_dpin",
+			"BaseReading": "0",
+			"ContactResistanceLimit": "999",
+			"OpensMask": "false",
+			"ShortsMask": "false",
+			"ContactResistanceMask": "false"
+			},
+			{
+			"Channel": "8015",
+			"Name": "xxadd9_dpin",
+			"BaseReading": "0",
+			"ContactResistanceLimit": "999",
+			"OpensMask": "false",
+			"ShortsMask": "false",
+			"ContactResistanceMask": "false"
+			},
+			{
+			"Channel": "8016",
+			"Name": "xyadd0_dpin",
+			"BaseReading": "0",
+			"ContactResistanceLimit": "999",
+			"OpensMask": "false",
+			"ShortsMask": "false",
+			"ContactResistanceMask": "false"
+			},
+			{
+			"Channel": "8000",
+			"Name": "xyadd1_dpin",
+			"BaseReading": "0",
+			"ContactResistanceLimit": "999",
+			"OpensMask": "false",
+			"ShortsMask": "false",
+			"ContactResistanceMask": "false"
+			},
+			{
+			"Channel": "8009",
+			"Name": "xyadd2_dpin",
+			"BaseReading": "0",
+			"ContactResistanceLimit": "999",
+			"OpensMask": "false",
+			"ShortsMask": "false",
+			"ContactResistanceMask": "false"
+			},
+			{
+			"Channel": "8038",
+			"Name": "xyadd3_dpin",
+			"BaseReading": "0",
+			"ContactResistanceLimit": "999",
+			"OpensMask": "false",
+			"ShortsMask": "false",
+			"ContactResistanceMask": "false"
+			},
+			{
+			"Channel": "9017",
+			"Name": "xzadd0_dpin",
+			"BaseReading": "0",
+			"ContactResistanceLimit": "999",
+			"OpensMask": "false",
+			"ShortsMask": "false",
+			"ContactResistanceMask": "false"
+			},
+			{
+			"Channel": "9102",
+			"Name": "xzadd1_dpin",
+			"BaseReading": "0",
+			"ContactResistanceLimit": "999",
+			"OpensMask": "false",
+			"ShortsMask": "false",
+			"ContactResistanceMask": "false"
+			},
+			{
+			"Channel": "9046",
+			"Name": "xzadd2_dpin",
+			"BaseReading": "0",
+			"ContactResistanceLimit": "999",
+			"OpensMask": "false",
+			"ShortsMask": "false",
+			"ContactResistanceMask": "false"
+			},
+			{
+			"Channel": "9019",
+			"Name": "xzadd3_dpin",
+			"BaseReading": "0",
+			"ContactResistanceLimit": "999",
+			"OpensMask": "false",
+			"ShortsMask": "false",
+			"ContactResistanceMask": "false"
+			},
+			{
+			"Channel": "9101",
+			"Name": "xzadd4_dpin",
+			"BaseReading": "0",
+			"ContactResistanceLimit": "999",
+			"OpensMask": "false",
+			"ShortsMask": "false",
+			"ContactResistanceMask": "false"
+			},
+			{
+			"Channel": "9078",
+			"Name": "xzadd5_dpin",
+			"BaseReading": "0",
+			"ContactResistanceLimit": "999",
+			"OpensMask": "false",
+			"ShortsMask": "false",
+			"ContactResistanceMask": "false"
+			},
+			{
+			"Channel": "2069",
+			"Name": "xzadd6_dpin",
+			"BaseReading": "0",
+			"ContactResistanceLimit": "999",
+			"OpensMask": "false",
+			"ShortsMask": "false",
+			"ContactResistanceMask": "false"
+			},
+			{
+			"Channel": "2037",
+			"Name": "xlyagcoladd0_dpin",
+			"BaseReading": "0",
+			"ContactResistanceLimit": "999",
+			"OpensMask": "false",
+			"ShortsMask": "false",
+			"ContactResistanceMask": "false"
+			},
+			{
+			"Channel": "2024",
+			"Name": "xlyagcoladd1_dpin",
+			"BaseReading": "0",
+			"ContactResistanceLimit": "999",
+			"OpensMask": "false",
+			"ShortsMask": "false",
+			"ContactResistanceMask": "false"
+			},
+			{
+			"Channel": "2071",
+			"Name": "xlyagcoladd2_dpin",
+			"BaseReading": "0",
+			"ContactResistanceLimit": "999",
+			"OpensMask": "false",
+			"ShortsMask": "false",
+			"ContactResistanceMask": "false"
+			},
+			{
+			"Channel": "2079",
+			"Name": "xlyagcoladd3_dpin",
+			"BaseReading": "0",
+			"ContactResistanceLimit": "999",
+			"OpensMask": "false",
+			"ShortsMask": "false",
+			"ContactResistanceMask": "false"
+			},
+			{
+			"Channel": "2044",
+			"Name": "xlyagcoladd4_dpin",
+			"BaseReading": "0",
+			"ContactResistanceLimit": "999",
+			"OpensMask": "false",
+			"ShortsMask": "false",
+			"ContactResistanceMask": "false"
+			},
+			{
+			"Channel": "2088",
+			"Name": "xlyamode0_dpin",
+			"BaseReading": "0",
+			"ContactResistanceLimit": "999",
+			"OpensMask": "false",
+			"ShortsMask": "false",
+			"ContactResistanceMask": "false"
+			},
+			{
+			"Channel": "2045",
+			"Name": "xlyamode1_dpin",
+			"BaseReading": "0",
+			"ContactResistanceLimit": "999",
+			"OpensMask": "false",
+			"ShortsMask": "false",
+			"ContactResistanceMask": "false"
+			},
+			{
+			"Channel": "7037",
+			"Name": "xlyamode2_dpin",
+			"BaseReading": "0",
+			"ContactResistanceLimit": "999",
+			"OpensMask": "false",
+			"ShortsMask": "false",
+			"ContactResistanceMask": "false"
+			}
+		],
+		"PinGroups": [
+			{
+			"Name": "all_cres",
+			"ShortsLimit": -0.1,
+			"OpensLimit": -1.5
+			}
+		]
+	}
+  ]
+}

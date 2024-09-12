@@ -1,0 +1,34 @@
+Version 6.0;
+
+####################################################
+# Test Program PList File
+# New PList syntax for TOS 3.x. (Version 5.0)
+#####################################################
+	
+	############## GT2 plists ####################
+	
+	PList chainru126_GT2_loopback_plist
+	{
+	Pat hdmt_regular_reset_seq_chainru;
+    Pat hdmt_chainru126_all_pats_die_loopback;
+	}
+	
+	PList chainru126_GT2_chain_plist
+	{
+	Pat hdmt_regular_reset_seq_chainru;
+    Pat hdmt_chainru126_all_pats_die_chain;
+	}
+	
+	PList chainru126_GT2_capture_1_plist
+	{
+	Pat hdmt_regular_reset_seq_chainru;
+	Pat hdmt_chainru_setaddress_RU3_noreset_capture;
+	}
+	
+	PList chainru126_GT2_capture_2_plist
+	{
+	Pat hdmt_regular_reset_seq_chainru;
+	Pat hdmt_chainru_setaddress_RU9_noreset_capture;
+	}
+	
+	

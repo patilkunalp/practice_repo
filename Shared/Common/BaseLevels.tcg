@@ -1,0 +1,327 @@
+Version 1.0;
+Import "x802a_sram_Base.usrv";
+
+SpecificationSet pwrdn_lvl_PARAMS (cat0)
+{
+}
+TestConditionGroup pwrdn_lvl_TCG
+{
+	SpecificationSet = pwrdn_lvl_PARAMS;
+	Level = __main__::pwrdn_lvl;
+}
+TestCondition pwrdn_lvl_cat0
+{
+	TestConditionGroup  = pwrdn_lvl_TCG;
+	Selector = cat0;
+}
+
+SpecificationSet PwrOn_0V_lvl_PARAMS (cat0)
+{
+}
+TestConditionGroup PwrOn_0V_lvl_TCG
+{
+	SpecificationSet = PwrOn_0V_lvl_PARAMS;
+	Level = __main__::PwrOn_0V_lvl;
+}
+TestCondition PwrOn_0V_lvl_cat0
+{
+	TestConditionGroup  = PwrOn_0V_lvl_TCG;
+	Selector = cat0;
+}
+
+SpecificationSet TiuValidationDpin_level_spec (cat0)
+{
+	
+}
+TestConditionGroup TiuValidationDpin_level_TCG
+{
+	SpecificationSet = TiuValidationDpin_level_spec;
+	Level = __main__::TiuValidationDpin_level;
+}
+
+TestCondition TiuValidationDpin_level_cat0
+{
+	TestConditionGroup  = TiuValidationDpin_level_TCG;
+	Selector = cat0;
+}
+
+SpecificationSet TIUvalidationDPs_lvl_TiuDPSVal (cat0)
+{
+}
+TestConditionGroup TIUvalidationDPs_lvl_TCG
+{
+	SpecificationSet = TIUvalidationDPs_lvl_TiuDPSVal;
+	Level = __main__::TIUvalidationDPs_lvl;
+}
+TestCondition TIUvalidationDPs_lvl_cat0
+{
+	TestConditionGroup  = TIUvalidationDPs_lvl_TCG;
+	Selector = cat0;
+}
+SpecificationSet ezalvl_TC (cat0)
+{
+}
+TestConditionGroup ezalvl_TCG
+{
+	SpecificationSet = ezalvl_TC;
+	Level = __main__::ezalvl;
+}
+TestCondition ezalvl_ezalvl_TC
+{
+	TestConditionGroup  = ezalvl_TCG;
+	Selector = cat0;
+}
+
+SpecificationSet creslvl_TC (cat0)
+{
+}
+TestConditionGroup creslvl_TCG
+{
+	SpecificationSet = creslvl_TC;
+	Level = __main__::creslvl;
+}
+TestCondition creslvl_creslvl_TC
+{
+	TestConditionGroup  = creslvl_TCG;
+	Selector = cat0;
+}
+SpecificationSet cont_all_powersupply (force_50mV, force_100mV, force_200mV,force_900mV)
+{
+	Voltage cont_vforce = 50mV,100mV,200mV,900mV;
+}
+TestConditionGroup vccio_HC_cont_lvl_TCG
+{
+	SpecificationSet = cont_all_powersupply;
+	Level = __main__::vccio_HC_cont_lvl;
+}
+TestConditionGroup vcc1_HC_cont_lvl_TCG
+{
+	SpecificationSet = cont_all_powersupply;
+	Level = __main__::vcc1_HC_cont_lvl;
+}
+TestConditionGroup vcc2_HC_cont_lvl_TCG
+{
+	SpecificationSet = cont_all_powersupply;
+	Level = __main__::vcc2_HC_cont_lvl;
+}
+TestConditionGroup vcc3_HC_cont_lvl_TCG
+{
+	SpecificationSet = cont_all_powersupply;
+	Level = __main__::vcc3_HC_cont_lvl;
+}
+
+TestCondition vccio_HC_cont_lvl_force_50mV
+{
+	TestConditionGroup  = vccio_HC_cont_lvl_TCG;
+	Selector = force_50mV;
+}
+TestCondition vcc1_HC_cont_lvl_force_50mV
+{
+	TestConditionGroup  = vcc1_HC_cont_lvl_TCG;
+	Selector = force_50mV;
+}
+TestCondition vcc2_HC_cont_lvl_force_50mV
+{
+	TestConditionGroup  = vcc2_HC_cont_lvl_TCG;
+	Selector = force_50mV;
+}
+TestCondition vcc3_HC_cont_lvl_force_50mV
+{
+	TestConditionGroup  = vcc3_HC_cont_lvl_TCG;
+	Selector = force_50mV;
+}
+
+SpecificationSet sram_shops_PARAMS (UD_selector,LD_selector)
+{
+	Current force_current = 0.01A,-0.01A;
+}
+TestConditionGroup sram_shops_TCG
+{
+	SpecificationSet = sram_shops_PARAMS;
+	Level = __main__::sram_shops_lvl;
+}
+TestCondition sram_shops_UD_selector
+{
+	TestConditionGroup  = sram_shops_TCG;
+	Selector = UD_selector;
+}
+TestCondition sram_shops_LD_selector
+{
+	TestConditionGroup  = sram_shops_TCG;
+	Selector = LD_selector;
+}
+
+SpecificationSet lya_pins_shops_lvl_PARAMS (UD_selector,LD_selector)
+{
+	Current force_current = 0.01A,-0.01A;
+}
+TestConditionGroup lya_pins_shops_lvl_TCG
+{
+	SpecificationSet = lya_pins_shops_lvl_PARAMS;
+	Level = __main__::lya_pins_shops_lvl;
+}
+TestCondition lya_pins_shops_UD_selector
+{
+	TestConditionGroup  = lya_pins_shops_lvl_TCG;
+	Selector = UD_selector;
+}
+TestCondition lya_pins_shops_LD_selector
+{
+	TestConditionGroup  = lya_pins_shops_lvl_TCG;
+	Selector = LD_selector;
+}
+
+SpecificationSet edm_pins_shops_lvl_PARAMS (UD_selector,LD_selector)
+{
+	Current force_current = 0.005A,-0.001A;
+}
+TestConditionGroup edm_pins_shops_lvl_TCG
+{
+	SpecificationSet = edm_pins_shops_lvl_PARAMS;
+	Level = __main__::edm_pins_shops_lvl;
+}
+TestCondition edm_pins_shops_UD_selector
+{
+	TestConditionGroup  = edm_pins_shops_lvl_TCG;
+	Selector = UD_selector;
+}
+TestCondition edm_pins_shops_LD_selector
+{
+	TestConditionGroup  = edm_pins_shops_lvl_TCG;
+	Selector = LD_selector;
+}
+SpecificationSet sram_shops_dpin_level_SHOPS (UD_selector,LD_selector)
+{
+	Current force_current = 0.005A,-0.005A;
+}
+TestConditionGroup sram_shops_dpin_level_TCG
+{
+	SpecificationSet = sram_shops_dpin_level_SHOPS;
+	Level = __main__::sram_shops_dpin_level;	
+}
+TestCondition sram_shops_dpin_level_LD_selector
+{
+	TestConditionGroup  = sram_shops_dpin_level_TCG;
+	Selector = LD_selector;
+}
+
+SpecificationSet main_ltype_PARAMS (main_nom_lcat)
+{
+	Voltage vccio_value = vccio_nom;
+	Voltage vcc1_value = vccio_nom;
+	Voltage vcc2_value = vcc_nom;
+	Voltage vcc3_value = vcc_nom;
+	Voltage vvref = vccio_value/2;
+	Voltage vvox = vvref;
+	Voltage vvih = vccio_value;
+	Voltage vvil = 0.0V;
+}	
+TestConditionGroup main_ltype_TCG
+{
+	SpecificationSet = main_ltype_PARAMS;
+	Level = __main__::main_ltype;
+}
+TestCondition main_ltype_main_nom_lcat
+{
+	TestConditionGroup  = main_ltype_TCG;
+	Selector = main_nom_lcat;
+}
+
+SpecificationSet logic_ltype_PARAMS (logic_nom_lcat)
+{
+	Voltage vccio_value = vccio_nom;
+	Voltage vcc1_value = vccio_nom;
+	Voltage vcc2_value = vcc_nom;
+	Voltage vcc3_value = vcc_nom;
+	Voltage vvref = vccio_value/2;
+	Voltage vvox = vvref;
+	Voltage vvox_logic_tdo = 2.0V;
+	Voltage vvih = vccio_value;
+	Voltage vvil = 0.0V;
+}	
+TestConditionGroup logic_ltype_TCG
+{
+	SpecificationSet = logic_ltype_PARAMS;
+	Level = __main__::logic_ltype;
+}
+TestCondition logic_ltyp_logic_nom_lcat
+{
+	TestConditionGroup  = logic_ltype_TCG;
+	Selector = logic_nom_lcat;
+}
+
+SpecificationSet LYA_ltype_PARAMS (lya_nom_lcat)
+{
+	Voltage vccio_value = vccio_nom;
+	Voltage vcc1_value = vccio_nom;
+	Voltage vcc2_value = vcc_nom;
+	Voltage vcc3_value = vcc_nom;
+	Voltage vvref = vccio_value/2;
+	Voltage vvox = vvref;
+	Voltage vvih = vccio_value;
+	Voltage vvil = 0.0V;
+}	
+TestConditionGroup LYA_ltype_TCG
+{
+	SpecificationSet = LYA_ltype_PARAMS;
+	Level = __main__::LYA_ltype;
+}
+TestCondition LYA_ltype_lya_nom_lcat
+{
+	TestConditionGroup  = LYA_ltype_TCG;
+	Selector = lya_nom_lcat;
+}
+
+SpecificationSet LYA_BL_meas_ltype_PARAMS (cat0)
+{
+}
+TestConditionGroup LYA_BL_meas_ltype_TCG
+{
+	SpecificationSet = LYA_BL_meas_ltype_PARAMS;
+	Level = __main__::LYA_BL_meas_ltype;
+}
+TestCondition LYA_BL_meas_ltype_cat0
+{
+	TestConditionGroup  = LYA_BL_meas_ltype_TCG;
+	Selector = cat0;
+}
+SpecificationSet LYA_BLb_meas_ltype_PARAMS (cat0)
+{
+}
+TestConditionGroup LYA_BLb_meas_ltype_TCG
+{
+	SpecificationSet = LYA_BLb_meas_ltype_PARAMS;
+	Level = __main__::LYA_BLb_meas_ltype;
+}
+TestCondition LYA_BLb_meas_ltype_cat0
+{
+	TestConditionGroup  = LYA_BLb_meas_ltype_TCG;
+	Selector = cat0;
+}
+SpecificationSet LYA_PC_meas_ltype_PARAMS (cat0)
+{
+}
+TestConditionGroup LYA_PC_meas_ltype_TCG
+{
+	SpecificationSet = LYA_PC_meas_ltype_PARAMS;
+	Level = __main__::LYA_PC_meas_ltype;
+}
+TestCondition LYA_PC_meas_ltype_cat0
+{
+	TestConditionGroup  = LYA_PC_meas_ltype_TCG;
+	Selector = cat0;
+}
+SpecificationSet LYA_PCb_meas_ltype_PARAMS (cat0)
+{
+}
+TestConditionGroup LYA_PCb_meas_ltype_TCG
+{
+	SpecificationSet = LYA_PCb_meas_ltype_PARAMS;
+	Level = __main__::LYA_PCb_meas_ltype;
+}
+TestCondition LYA_PCb_meas_ltype_cat0
+{
+	TestConditionGroup  = LYA_PCb_meas_ltype_TCG;
+	Selector = cat0;
+}
+

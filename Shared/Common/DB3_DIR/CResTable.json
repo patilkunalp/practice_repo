@@ -1,0 +1,539 @@
+{
+  "CRESTable": [
+    {
+      "Pin": "xclock",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xclkmode1",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xclkmode0",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xreset",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xredun",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xstopclock",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xcntrrst",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xread",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xwrite",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xxadd15",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xxadd14",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xxadd13",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xxadd12",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xxadd11",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xxadd10",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xxadd9",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xxadd8",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xxadd7",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xxadd6",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xxadd5",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xxadd4",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xxadd3",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xxadd2",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xxadd1",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xxadd0",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xyadd3",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xyadd2",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xyadd1",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xyadd0",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xzadd6",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xzadd5",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xzadd4",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xzadd3",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xzadd2",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xzadd1",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xzadd0",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xdatain",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xdefaultir_b",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xshtoffen_b",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xtms",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xtrst_b",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xtck",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xtdi",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xlyamode2",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xlyamode1",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xlyamode0",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xstreq",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xddutyouten",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xreservedin0",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xreservedio0",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xreservedio1",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xreservedio2",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xreservedout",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xcoltrlen",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xstkyreset",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xlyagcoladd0",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xlyagcoladd1",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xlyagcoladd2",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xlyagcoladd3",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xlyagcoladd4",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xdataout31",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xdataout30",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xdataout29",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xdataout28",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xdataout27",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xdataout26",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xdataout25",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xdataout24",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xdataout23",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xdataout22",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xdataout21",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xdataout20",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xdataout19",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xdataout18",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xdataout17",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xdataout16",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xdataout15",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xdataout14",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xdataout13",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xdataout12",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xdataout11",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xdataout10",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xdataout9",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xdataout8",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xdataout7",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xdataout6",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xdataout5",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xdataout4",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xdataout3",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xdataout2",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xdataout1",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xdataout0",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xtdo",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xstrun",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xstokl",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xgridclkmon",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xddr_sramen",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xactreset",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xddr_esden",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xddr_scmode1",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xddr_scmode0",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xddr_tdi",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xddr_update",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xddr_tdo",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xddr_sca",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xddr_scb",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    },
+    {
+      "Pin": "xddr_capture",
+      "TargetResistance": "0",
+      "Tolerance": "999"
+    }
+  ]
+}

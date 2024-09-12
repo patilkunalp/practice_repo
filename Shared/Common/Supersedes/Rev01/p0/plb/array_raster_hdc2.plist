@@ -1,0 +1,23 @@
+Version 6.0;
+
+PList hdc2_nr_bf_plist [DefaultPListPinMask apg_dataout_pins]
+{              
+    Pat regular_reset_seq_redun0;
+	Pat unmasking_hdc2_zid_setup;
+	Pat rdwr_assist_hdc2_nr;
+	Pat nr_marchcm_cb_fx_2c_zid11;
+	Pat inverted_onebit_2c_zid11;
+}
+PList hdc2_nr_precond_plist
+{              
+    Pat regular_reset_seq_redun0;
+    Pat rdwr_assist_hdc2_nr;
+}
+PList hdc2_nr_raster_left_plist [DefaultPListPinMask xstokl,HDC2_masked_right]
+{              
+	Pat nr_marchcm_cb_fx_2c_setz;
+}
+PList hdc2_nr_raster_right_plist [DefaultPListPinMask xstokl,HDC2_masked_left]
+{              
+	Pat nr_marchcm_cb_fx_2c_setz;
+}

@@ -1,0 +1,54 @@
+#-------------------------------------------------------------------------------
+[Program Identification]
+#-------------------------------------------------------------------------------
+<Program Family>    X78C
+<Subfamily>         X78C_TP
+<Base TP Name>      
+<TP Revision>       GitHub 09/29/2023_14:05:10 54785a5c3540556af9f28e44aef36d3441ac75cc Merge branch 'TP/rev0p5' into XSRAM_STARTUP/rev0p5
+<TP Git Repo URL>   https://github.com/intel-restricted/applications.manufacturing.ate-test.torch.tdxchip.78c.x78c-pilot
+<Alt TP Name 1>     x78ci782s8x03afs
+
+
+#-------------------------------------------------------------------------------
+[Environment settings]
+#-------------------------------------------------------------------------------
+<Evergreen Rev>     -
+<Prime Rev>         12.x.x-prerelease10-tos4_ppr3_er1
+
+<Fuse File Rev>     -
+
+<Pattern Revs>      | Pattern Module             | Revision                 | Dependent modules             
+                     #-----------------------------------------------------------------------------------------------------------
+                      SRAM_CHAINRU180_X78          Rev0p5p0                   XSRAM_CHAINRU180_X78
+                      SRAM_STARTUP                 Rev0p5p0                   XSRAM_HDC_D3, XSRAM_STARTUP
+
+
+
+
+#-------------------------------------------------------------------------------
+[Component Revisions]
+#-------------------------------------------------------------------------------
+<Shared>            | Name                               | Owner      | Commit Timestamp / SHA                                       | Commit State    | Comment
+                     #-----------------------------------------------------------------------------------------------------------
+                      Common                               GitHub       09/29/2023_14:05:10 54785a5c3540556af9f28e44aef36d3441ac75cc   -                 Merge branch 'TP/rev0p5' into XSRAM_STARTUP/rev0p5
+
+<TP Modules>        | Name                               | Owner           | Commit Timestamp / SHA                                       | Commit State    | Comment
+                     #-----------------------------------------------------------------------------------------------------------
+                      XCHIP_BASE                           Jemar Sampang     09/26/2023_14:56:10 fd01e5e6e50b67a5a7bc5f903cd6924ce1f31a1b   -                 Fixed error to XCHIP_BASE and XSRAM_STARTUP due to basefile update from Asif
+                      XSRAM_CHAINRU180_X78                 Jemar Sampang     09/21/2023_16:04:29 fa245fce47fa7d0ca525dc9cfaf62f087654a799   -                 Added Globalflowfork in the flow
+                      XSRAM_HDC_D3                         Yunus, Mohammad   09/26/2023_12:02:54 223ebffecb6d0569e4923426726a591536d4c92c   -                 adding changes for prehvqk_nr_hdc_d3 module
+                      XSRAM_STARTUP                        GitHub            09/29/2023_14:05:10 54785a5c3540556af9f28e44aef36d3441ac75cc   -                 Merge branch 'TP/rev0p5' into XSRAM_STARTUP/rev0p5
+
+
+
+
+#-------------------------------------------------------------------------------
+[TP Flow Structure]
+#-------------------------------------------------------------------------------
+<Regular Flows>     | INIT                           | MAIN                          
+                      XCHIP_BASE_INIT                  XSRAM_STARTUP_MAIN            
+                      -                                XSRAM_CHAINRU180_X78_PREHVQK  
+                      -                                XSRAM_HDC_D3_PREHVQK          
+
+<Special Flows>     | LOTENDFLOW                     | LOTSTARTFLOW                   | TESTPLANSTARTFLOW              | TESTPLANENDFLOW               
+                      XCHIP_BASE_LOTENDFLOW            XCHIP_BASE_LOTSTARTFLOW          XCHIP_BASE_TESTPLANSTARTFLOW     XCHIP_BASE_TESTPLANENDFLOW    

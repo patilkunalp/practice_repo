@@ -1,0 +1,39 @@
+{
+  "class": [
+    {
+      "UserVariable": "BYPASSVars.BYPASS_Sortonly",
+      "Value": "1",
+      "Operations": ".*"
+    },
+    {
+      "UserVariable": "BYPASSVars.BYPASS_classonly",
+      "Value": "-1",
+      "Operations": ".*"
+    },
+    {
+      "UserVariable": "_UserVars.TPG_class_qa_switch",
+      "Value": "1",
+      "Operations": ".*"
+    },
+    {
+      "UserVariable": "_UserVars.TPG_class_qa_switch",
+      "Value": "0",
+      "Operations": "619.*"
+    },
+    {
+      "UserVariable": "_UserVars.GL_SRAM_INTEL_PATH",
+      "Value": "I:\\",
+      "Operations": ".*"
+    },
+    {
+      "UserVariable": "_UserVars.TPGL_raster_backup_path",
+      "Value": "K:\\astra_temp\\R",
+      "Operations": ".*"
+    },
+    {
+      "UserVariable": "_UserVars.EPROM_TDCounter",
+      "Value": "0",
+      "Operations": ".*"
+    }
+  ]
+}

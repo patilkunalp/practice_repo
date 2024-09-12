@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestLibraryInterfaces xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://vtsm.intel.com/2009/TestLibraryInterfaces file:///C:/Intel/hdmt/hdmtOS_3.9.0.1_Release/TOSRelease/bin/release/TestLibraryInterfaces.xsd" xmlns="http://vtsm.intel.com/2009/TestLibraryInterfaces">
+  <TestLibrary name="PrimeTestInstance">
+    <TestClass name="CacheRaster" MetaData="dll=CacheRaster" />
+    <Imports>
+      <FileName>TestMethodBase.xml</FileName>
+      <FileName>CacheRasterCommonParams.xml</FileName>
+    </Imports>
+    <PublicBases>
+      <BaseName>TestMethodBase</BaseName>
+    </PublicBases>
+    <Parameters>
+      <Parameter name="TableName" descriptions="Name of the binning table of the JSON file">
+        <Type>
+          <Tester>String</Tester>
+          <TestProgram>String</TestProgram>
+        </Type>
+        <AlwaysRequired />
+      </Parameter>
+      <Parameter name="ConfigFile" descriptions="Config file path for JSON file">
+        <Type>
+          <Tester>String</Tester>
+          <TestProgram>File</TestProgram>
+        </Type>
+        <AlwaysRequired />
+      </Parameter>
+		<Parameter name="AffectedBitBaseNum" descriptions="Affected bit base number used for logging total defect count to SMART">
+        <Type>
+          <Tester>Integer</Tester>
+          <TestProgram>Integer</TestProgram>
+        </Type>
+        <Optional />
+		<Default>-1</Default>
+      </Parameter> 
+		<Parameter name="EnablePerRUITUFFlog" descriptions="If enabled, logs affected bit and other high-level fail data to ITUFF file">
+        <Type>
+          <Tester>String</Tester>
+          <TestProgram>String</TestProgram>
+        </Type>
+        <Choices>
+          <Choice>Enable</Choice>
+          <Choice>Disable</Choice>
+        </Choices>
+        <Default>Enable</Default>
+        <Optional />
+      </Parameter>
+		<Parameter name="LYA" descriptions="LYA Enable Parameter - disable to skip LYA collection">
+        <Type>
+          <Tester>String</Tester>
+          <TestProgram>String</TestProgram>
+        </Type>
+        <Choices>
+          <Choice>Enable</Choice>
+          <Choice>Disable</Choice>
+        </Choices>
+        <Default>Enable</Default>
+        <Optional />
+      </Parameter>
+		<Parameter name="LYASamplingParamTable" descriptions="Table holding LYA Sampling quotas">
+        <Type>
+          <Tester>String</Tester>
+          <TestProgram>String</TestProgram>
+        </Type>
+        <Optional />
+      </Parameter>
+      <Parameter name="ExecutionMode" descriptions="Mode parameter">
+        <Type>
+          <Tester>String</Tester>
+          <TestProgram>String</TestProgram>
+        </Type>
+        <Choices>
+          <Choice>Raster</Choice>
+          <Choice>GoodBit</Choice>
+          <Choice>Simulation</Choice>
+        </Choices>
+        <Default>Raster</Default>
+        <Optional />
+      </Parameter>
+      <Parameter name="SimulationModeSeed" descriptions="SimulationModeSeed Parameter">
+        <Type>
+          <Tester>Integer</Tester>
+          <TestProgram>Integer</TestProgram>
+        </Type>
+        <Default>0</Default>
+        <Optional />
+      </Parameter>
+      <Parameter name="NumberOfSimulationDefects" descriptions="Number of simulation defects to generate">
+        <Type>
+          <Tester>Integer</Tester>
+          <TestProgram>Integer</TestProgram>
+        </Type>
+        <Default>1000</Default>
+        <Optional />
+      </Parameter>
+      <Parameter name="SimulationDefectFile" descriptions="Simulation defect file">
+        <Type>
+          <Tester>String</Tester>
+          <TestProgram>File</TestProgram>
+        </Type>
+        <Optional />
+      </Parameter>
+      <Parameter name="ReductionMode" descriptions="Reduction Mode">
+        <Type>
+          <Tester>String</Tester>
+          <TestProgram>String</TestProgram>
+        </Type>
+        <Choices>
+          <Choice>Raw</Choice>
+          <Choice>FullDensity</Choice>
+        </Choices>
+        <Default>FullDensity</Default>
+        <Optional />
+      </Parameter>
+    </Parameters>
+    <ExitPorts>
+      <ExitPort>
+        <PortNumber>1</PortNumber>
+        <PortType>Pass</PortType>
+        <PortDescriptions>Pass!</PortDescriptions>
+      </ExitPort>
+      <ExitPort>
+        <PortNumber>0</PortNumber>
+        <PortType>Fail</PortType>
+        <PortDescriptions>Fail!</PortDescriptions>
+      </ExitPort>
+      <ExitPort>
+        <PortNumber>-1</PortNumber>
+        <PortType>Error</PortType>
+        <PortDescriptions>PORT FAIL FOR SW ERROR CONDITION</PortDescriptions>
+      </ExitPort>
+      <ExitPort>
+        <PortNumber>-2</PortNumber>
+        <PortType>Fail</PortType>
+        <PortDescriptions>PORT FAIL FOR HW ALARM CONDITION</PortDescriptions>
+      </ExitPort>
+    </ExitPorts>
+  </TestLibrary>
+</TestLibraryInterfaces>
