@@ -12,12 +12,12 @@
 			</PORRoot>-->		
 
 		  <!--The ENGRoot section is used to declare engineering plists used by the module.
-			  IP attribute can be used for ENGRoot: <ENGRoot IP="" Path="">--> 
-		  <ENGRoot Path="H:/dev/x78c/hdmxpats/x78c/XSRAM_STARTUP/Rev0p5/p0/plb">
+			  IP attribute can be used for ENGRoot: <ENGRoot IP="" Path="">-->
+			<!--<ENGRoot Path="H:/dev/x78c/hdmxpats/x78c/XSRAM_STARTUP/Rev0p5/p0/plb">
 			<PlistFiles>
                     <PlistFile>sicc_pinleakage_monitor.plist</PlistFile>
 			</PlistFiles>
-		  </ENGRoot>
+		  </ENGRoot>-->
 	
 		</Patterns>
 	
