@@ -19,6 +19,11 @@ CSharpTest FlowTimer starttimer_total
 	TimerName = "TT_TOTAL_FULL_FLOW" ; #USER TODO: define value
 	mode = "Start";
 }
+CSharpTest FlowTimer endtimer_total
+{
+	TimerName = "TT_TOTAL_FULL_FLOW" ; #USER TODO: define value
+	mode = "Stop";
+}
 CSharpTest FlowTimer starttimer_total_startup
 {
 	TimerName = "TT_TOTAL_STARTUP" ; #USER TODO: define value
@@ -503,10 +508,21 @@ Flow XSRAM_STARTUP_MAIN
 		Result -2 { Property PassFail = "Fail"; SetBin b99010001_fail_FAIL_DPS_ALARM; Return -2; }
 		Result -1 { Property PassFail = "Fail"; SetBin b98010001_fail_FAIL_SYSTEM_SOFTWARE; Return -1; }
 		Result 0 { Property PassFail = "Fail";
-			GoTo initialize_shops_cont; }
+			GoTo endtimer_total; }
 		Result 1 { Property PassFail = "Pass";
-			GoTo initialize_shops_cont; }
+			GoTo endtimer_total; }
 		Result 2 { Property PassFail = "Pass";
-			GoTo initialize_shops_cont; }
+			GoTo endtimer_total; }
+	}
+	FlowItem endtimer_total endtimer_total
+	{
+		Result -2 { Property PassFail = "Fail"; SetBin b99010001_fail_FAIL_DPS_ALARM; Return -2; }
+		Result -1 { Property PassFail = "Fail"; SetBin b98010001_fail_FAIL_SYSTEM_SOFTWARE; Return -1; }
+		Result 0 { Property PassFail = "Fail";
+			Return 0; }
+		Result 1 { Property PassFail = "Pass";
+			Return 1; }
+		Result 2 { Property PassFail = "Pass";
+			Return 0; }
 	}
 }

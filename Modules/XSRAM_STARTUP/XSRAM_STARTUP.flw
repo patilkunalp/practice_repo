@@ -21,9 +21,10 @@
   <FlowItem name="XSRAM_STARTUP::initialize_shops_cont.initialize_globals" X="25" Y="25" />
   <FlowItem name="XSRAM_STARTUP::initialize_shops_cont.initialize_ICC_results" X="25" Y="25" />
   <FlowItem name="XSRAM_STARTUP::XSRAM_STARTUP_MAIN.starttimer_total" X="25" Y="25" />
-  <FlowItem name="XSRAM_STARTUP::XSRAM_STARTUP_MAIN.starttimer_total_startup" X="35" Y="45" />
-  <FlowItem name="XSRAM_STARTUP::XSRAM_STARTUP_MAIN.initialize_shops_cont" X="45" Y="65" />
-  <FlowItem name="XSRAM_STARTUP::XSRAM_STARTUP_MAIN.endtimer_total_startup" X="55" Y="85" />
+  <FlowItem name="XSRAM_STARTUP::XSRAM_STARTUP_MAIN.starttimer_total_startup" X="245" Y="25" />
+  <FlowItem name="XSRAM_STARTUP::XSRAM_STARTUP_MAIN.initialize_shops_cont" X="96" Y="333" />
+  <FlowItem name="XSRAM_STARTUP::XSRAM_STARTUP_MAIN.endtimer_total_startup" X="327" Y="442" />
   <FlowItem name="XSRAM_STARTUP::shops_comp.starttimer_shops" X="25" Y="25" />
   <FlowItem name="XSRAM_STARTUP::shops_comp.endtimer_shops" X="25" Y="25" />
+  <FlowItem name="XSRAM_STARTUP::XSRAM_STARTUP_MAIN.endtimer_total" X="502" Y="253" />
 </HDMTFlowItemCoor>
