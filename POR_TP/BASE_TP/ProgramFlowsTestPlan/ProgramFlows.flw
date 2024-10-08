@@ -8,7 +8,7 @@
   <FlowItem name="Flows::LOTSTARTFLOW.XCHIP_BASE_LOTSTARTFLOW" X="25" Y="25" />
   <FlowItem name="Flows::TESTPLANSTARTFLOW.XCHIP_BASE_TESTPLANSTARTFLOW" X="25" Y="25" />
   <FlowItem name="Flows::TESTPLANENDFLOW.XCHIP_BASE_TESTPLANENDFLOW" X="25" Y="25" />
-  <FlowItem name="Flows::MAIN.XCHIP_BASE_POWERDOWN" X="480" Y="265" />
+  <FlowItem name="Flows::MAIN.XCHIP_BASE_POWERDOWN" X="671" Y="303" />
   <FlowItem name="Flows::DUTCHANGEFLOW.XCHIP_BASE_DUTCHANGEFLOW" X="25" Y="25" />
-  <FlowItem name="Flows::MAIN.XSRAM_TPRF_MAIN" X="279" Y="169" />
+  <FlowItem name="Flows::MAIN.XSRAM_SRAMIO_MAIN" X="266" Y="114" />
 </HDMTFlowItemCoor>

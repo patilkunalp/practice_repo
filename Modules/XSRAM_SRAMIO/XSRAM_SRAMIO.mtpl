@@ -1,0 +1,53 @@
+Version 1.0;
+
+ProgramStyle = Modular;
+
+TestPlan XSRAM_SRAMIO;
+
+
+Counters
+{
+	n90300005_fail_CRES_0,
+	p99300001_pass_CRES_1,
+	n90300001_fail_CRES_2,
+	n90300002_fail_CRES_3,
+	n90300004_fail_CRES_5,
+	n90300003_fail_CRES_4
+}
+CSharpTest FlowTimer starttimer_sramio
+{
+	TimerName = "TT_TOTAL_SRAMIO_FLOW" ; #USER TODO: define value
+	mode = "Start";
+}
+CSharpTest FlowTimer endtimer_sramio
+{
+	TimerName = "TT_TOTAL_SRAMIO_FLOW" ; #USER TODO: define value
+	mode = "Stop";
+}
+
+Flow XSRAM_SRAMIO_MAIN
+{
+	FlowItem starttimer_sramio starttimer_sramio
+	{
+		Result -2 { Property PassFail = "Fail"; SetBin b99010001_fail_FAIL_DPS_ALARM; Return-2;}
+		Result -1 { Property PassFail = "Fail"; SetBin b98010001_fail_FAIL_SYSTEM_SOFTWARE;  Return-1;}
+		Result 0 { Property PassFail = "Fail";
+			GoTo endtimer_sramio; }
+		Result 1 { Property PassFail = "Pass";
+			GoTo endtimer_sramio; }
+		Result 2 { Property PassFail = "Pass";
+			GoTo endtimer_sramio; }
+	}
+	
+	FlowItem endtimer_sramio endtimer_sramio
+	{
+		Result -2 { Property PassFail = "Fail"; SetBin b99010001_fail_FAIL_DPS_ALARM; Return-2;}
+		Result -1 { Property PassFail = "Fail"; SetBin b98010001_fail_FAIL_SYSTEM_SOFTWARE; Return-1;}
+		Result 0 { Property PassFail = "Fail";
+			Return 0; }
+		Result 1 { Property PassFail = "Pass";
+			Return 1; }
+		Result 2 { Property PassFail = "Pass";
+			Return 0; }
+	}
+}

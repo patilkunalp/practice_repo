@@ -11,6 +11,15 @@ Flow MAIN
 		Result -2 { Property PassFail = "Fail"; GoTo XCHIP_BASE_POWERDOWN; }		
 		Result -1 { Property PassFail = "Fail"; GoTo XCHIP_BASE_POWERDOWN; }		
 		Result 0 { Property PassFail = "Fail"; GoTo XCHIP_BASE_POWERDOWN; }		
+		Result 1 { Property PassFail = "Pass"; GoTo XSRAM_SRAMIO_MAIN; }
+	}
+
+	FlowItem XSRAM_SRAMIO_MAIN XSRAM_STARTUP::XSRAM_SRAMIO_MAIN
+	{
+		Result -2 { Property PassFail = "Fail"; GoTo XCHIP_BASE_POWERDOWN; }		
+		Result -1 { Property PassFail = "Fail"; GoTo XCHIP_BASE_POWERDOWN; }		
+		Result 0 { Property PassFail = "Fail"; GoTo XCHIP_BASE_POWERDOWN; }	
+		Result 1 { Property PassFail = "Pass"; GoTo XCHIP_BASE_POWERDOWN; }
 	}
 	
 	FlowItem XCHIP_BASE_POWERDOWN XCHIP_BASE::XCHIP_BASE_POWERDOWN

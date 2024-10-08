@@ -2,17 +2,17 @@
 <!--File is auto-generated, any manual edits can be overwritten.-->
 <!DOCTYPE HDMTFlowItemCoor []>
 <HDMTFlowItemCoor>
-  <FlowItem name="XCHIP_BASE::XCHIP_BASE_INIT.PrimeInitializeLibrary" X="25" Y="25" />
-  <FlowItem name="XCHIP_BASE::XCHIP_BASE_INIT.XIU_Check" X="35" Y="45" />
-  <FlowItem name="XCHIP_BASE::XCHIP_BASE_INIT.Powerdown_test" X="45" Y="65" />
-  <FlowItem name="XCHIP_BASE::XCHIP_BASE_INIT.PrimeInitializeServices" X="55" Y="85" />
-  <FlowItem name="XCHIP_BASE::XCHIP_BASE_INIT.PrimeInitializeInstances" X="65" Y="105" />
-  <FlowItem name="XCHIP_BASE::XCHIP_BASE_INIT.PrimeTiuIdenty" X="75" Y="125" />
-  <FlowItem name="XCHIP_BASE::XCHIP_BASE_INIT.FlowControlStart_Class" X="85" Y="145" />
-  <FlowItem name="XCHIP_BASE::XCHIP_BASE_INIT.FlowControlStart_Sort" X="95" Y="165" />
-  <FlowItem name="XCHIP_BASE::XCHIP_BASE_INIT.SwitchFlow" X="105" Y="185" />
-  <FlowItem name="XCHIP_BASE::XCHIP_BASE_INIT.TiuPowerSupplyCont" X="115" Y="205" />
-  <FlowItem name="XCHIP_BASE::XCHIP_BASE_INIT.TiuIOLeakage" X="125" Y="225" />
+  <FlowItem name="XCHIP_BASE::XCHIP_BASE_INIT.PrimeInitializeLibrary" X="12" Y="-158" />
+  <FlowItem name="XCHIP_BASE::XCHIP_BASE_INIT.XIU_Check" X="61" Y="214" />
+  <FlowItem name="XCHIP_BASE::XCHIP_BASE_INIT.Powerdown_test" X="490" Y="315" />
+  <FlowItem name="XCHIP_BASE::XCHIP_BASE_INIT.PrimeInitializeServices" X="344" Y="77" />
+  <FlowItem name="XCHIP_BASE::XCHIP_BASE_INIT.PrimeInitializeInstances" X="110" Y="286" />
+  <FlowItem name="XCHIP_BASE::XCHIP_BASE_INIT.PrimeTiuIdenty" X="441" Y="60" />
+  <FlowItem name="XCHIP_BASE::XCHIP_BASE_INIT.FlowControlStart_Class" X="92" Y="535" />
+  <FlowItem name="XCHIP_BASE::XCHIP_BASE_INIT.FlowControlStart_Sort" X="539" Y="70" />
+  <FlowItem name="XCHIP_BASE::XCHIP_BASE_INIT.SwitchFlow" X="382" Y="700" />
+  <FlowItem name="XCHIP_BASE::XCHIP_BASE_INIT.TiuPowerSupplyCont" X="551" Y="517" />
+  <FlowItem name="XCHIP_BASE::XCHIP_BASE_INIT.TiuIOLeakage" X="660" Y="258" />
   <FlowItem name="XCHIP_BASE::XCHIP_BASE_LOTENDFLOW.SramEndLot" X="25" Y="25" />
   <FlowItem name="XCHIP_BASE::XCHIP_BASE_LOTSTARTFLOW.StartDatalog" X="25" Y="25" />
   <FlowItem name="XCHIP_BASE::XCHIP_BASE_MAIN.Sample_Shops" X="25" Y="25" />
